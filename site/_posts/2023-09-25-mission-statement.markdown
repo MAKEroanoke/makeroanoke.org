@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mission Statement"
-date:   2023-09-25 19:56:08 -0400
+date:   2023-09-25 12:00:00 -0400
 categories: identity
 ---
 

@@ -42,7 +42,8 @@ minima:
   skin: dark
 plugins:
   - jekyll-remote-theme
-show_excerpts: false
+show_excerpts: true
+
 
 remote_theme: jekyll/minima@2863624
 

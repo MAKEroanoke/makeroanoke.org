@@ -33,8 +33,7 @@ header_pages:
   - todo.markdown
 
 defaults:
-  -
-    values:
+  - values:
       mermaid: false
 
 # Build settings
@@ -43,6 +42,7 @@ minima:
   skin: dark
 plugins:
   - jekyll-remote-theme
+show_excerpts: false
 
 remote_theme: jekyll/minima@2863624
 

@@ -18,51 +18,81 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+header_pages:
+  - about.markdown
+
+show_excerpts: true
+
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+
+lang: en-US
 title: MAKE Roanoke
 email: itdoesntexistyet@makeroanoke.org
 description: >- # this means to ignore newlines until "baseurl:"
   We want you make things.  In Roanoke, VA.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: # the optional subpath of your site, e.g. "/blog"
 url: "https://makeroanoke.org" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
-
-
-header_pages:
-  - about.markdown
-  - todo.markdown
-
-defaults:
-  - values:
-      mermaid: false
+author:
+  name: aaronm
+twitter_username:
+github_username:
+logo: # path of site logo, e.g. "/assets/images/logo.png"
+search: true # true, false (default)
+search_full_content: false # true, false (default)
+search_provider: lunr # lunr (default), algolia
+algolia:
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 
 # Build settings
-#theme: minima
-minima:
-  skin: dark
-plugins:
+markdown: kramdown
+plugins: # previsously gems
   - jekyll-remote-theme
-show_excerpts: true
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
 
-
-remote_theme: jekyll/minima@2863624
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
 
 # Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - values:
+      mermaid: false
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true

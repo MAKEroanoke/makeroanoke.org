@@ -44,4 +44,3 @@ There are many benefits to using a makerspace, including:
 * Collaborative environment
 * Sense of community
 * Affordable access to resources
-

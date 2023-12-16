@@ -29,7 +29,7 @@ lang: en-US
 title: MAKE Roanoke
 email: itdoesntexistyet@makeroanoke.org
 description: >- # this means to ignore newlines until "baseurl:"
-  We want you make things.  In Roanoke, VA.
+  A maker initiative in Roanoke, Virginia.
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: "https://makeroanoke.org" # the base hostname & protocol for your site, e.g. http://example.com
 author:

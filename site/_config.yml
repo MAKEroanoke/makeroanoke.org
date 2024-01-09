@@ -27,7 +27,7 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 lang: en-US
 title: MAKE Roanoke
-email: itdoesntexistyet@makeroanoke.org
+email: makeroanoke@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A maker initiative in Roanoke, Virginia.
 baseurl: # the optional subpath of your site, e.g. "/blog"

@@ -12,9 +12,9 @@ it's about to hit your Instagram feed full force.
 
 We're not your average workshop gurus or dusty craft club. We're a ragtag bunch
 of tinkerers, builders, and dreamers who believe that everyone has a maker
-within, begging to break free. Our haven? MAKE Roanoke, a vibrant playground
-where 3D printers hum symphonies of innovation, laser cutters sculpt light into
-reality, and wood shavings dance like confetti beneath eager hands.
+within, begging to break free. Our dream? MAKE Roanoke, will be a  vibrant
+playground where 3D printers hum symphonies of innovation, laser cutters sculpt
+light into reality, and wood shavings dance like confetti beneath eager hands.
 
 But it's not just about the tools, mind you. It's about the spark that ignites
 when like-minded souls collide, sharing expertise, laughter, and maybe even a

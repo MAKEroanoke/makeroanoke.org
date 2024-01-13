@@ -35,8 +35,10 @@ and dreamin' big!
 See you soon, Roanoke makers!
 
 P.S. We're still pinching ourselves over the amazing response from you all on
-Instagram, RISE, and Reddit. You're the fuel that ignites our maker spirit, and
-we couldn't be more grateful for your support!
+[Instagram](https://www.instagram.com/make_roanoke/),
+[RISE](https://roanokeinfosec.com/), and [Reddit](https://reddit.com/r/roanoke).
+You're the fuel that ignites our maker spirit, and we couldn't be more grateful
+for your support!
 
 Let's make magic happen, Roanoke!
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Calling all Roanoke makers! Let's spark the flame together at our first public meeting!"
-date:   2024-01-08 19:56:08 -0400
-categories: instagram
+date:   2024-01-12 23:42:08 -0400
+categories: membership
 ---
 
 Hey there, Roanoke! We're bursting with excitement about the incredible response

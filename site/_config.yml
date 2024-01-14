@@ -65,8 +65,11 @@ sass:
 paginate: 10
 paginate_path: /page:num/
 
-collections_dir: .
+collections_dir: content
 collections:
+  posts:
+    output: true
+    permalink: /posts/:slug
   events:
     output: true
     permalink: /events/:slug
@@ -94,6 +97,9 @@ exclude:
   - vendor/ruby/
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
+
+include:
+  - events
 
 # Front Matter Defaults
 defaults:

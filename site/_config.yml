@@ -65,6 +65,12 @@ sass:
 paginate: 10
 paginate_path: /page:num/
 
+collections_dir: .
+collections:
+  events:
+    output: true
+    permalink: /events/:slug
+
 # Exclude from processing.
 exclude:
   - .asset-cache

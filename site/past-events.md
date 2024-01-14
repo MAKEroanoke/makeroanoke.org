@@ -4,8 +4,7 @@ title: Archived Events
 permalink: /past-events/
 ---
 
-{% assign upcoming_events = site.events | where_exp: "event", "event.event_date < site.time" %} 
-{% for event in upcoming_events %}
+{% for event in site.events %}
   <h1><a href="{{ event.url }}">{{ event.title }}</a></h1>
   <p class="author">
     {% if event.event_date %}

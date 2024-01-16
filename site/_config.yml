@@ -69,10 +69,10 @@ collections_dir: content
 collections:
   posts:
     output: true
-    permalink: /posts/:slug
+    permalink: /posts/:year/:month/:day/:title
   events:
     output: true
-    permalink: /events/:slug
+    permalink: /events/:year/:month/:day/:title
 
 # Exclude from processing.
 exclude:

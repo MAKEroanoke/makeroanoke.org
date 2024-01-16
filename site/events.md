@@ -6,7 +6,9 @@ permalink: /events/
 
 [Click here to see past events](/past-events/)
 
-{% for event in site.events %}
+{% assign current_events = site.events | where_exp: "event", "event.date >= site.time" %}
+
+{% for event in current_events %}
   <h1><a href="{{ event.url }}">{{ event.title }}</a></h1>
   <p class="author">
     {% if event.event_date %}

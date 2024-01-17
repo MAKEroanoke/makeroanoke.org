@@ -1,0 +1,64 @@
+// CSS for Page Headers including Logo
+
+$logo-width:   216px;
+$logo-height:   80px;
+$logo-border:    0px;
+$logo-margin:    0px;
+$logo-padding:   10px;
+
+$logo-block-height:  $logo-height + 2*($logo-border + $logo-margin + $logo-padding);
+$logo-block-width:   $logo-width  + 2*($logo-border + $logo-margin + $logo-padding);
+
+.header
+{
+    border-color: black;
+    border-style: groove;
+    border-width: $logo-border;
+
+    background-color: aqua;
+    min-height:       $logo-block-height;
+    margin:           $logo-margin;
+    width:            100%;
+}
+
+.logo
+{
+    border-color: red;
+    border-style: solid;
+    border-width: $logo-border;
+
+    float:      left;
+    margin:     $logo-margin;
+    padding:    $logo-padding;
+
+    min-height: $logo-block-height;
+    min-width:  $logo-block-width;
+}
+
+.heading
+{
+    border-color: green;
+    border-style: solid;
+    border-width: $logo-border;
+
+    color:        navy;
+    #display:        inline-block;
+
+    margin-top:     $logo-margin;
+    margin-bottom:  $logo-margin;
+    margin-left:    auto;
+    margin-right:   auto;
+
+    padding:        $logo-padding;
+
+    text-align:     center;
+    vertical-align: middle;
+
+    min-height:     $logo-block-height;
+    width:          fit-content;
+}
+
+.clearFloatLeft
+{
+    clear: left;
+}

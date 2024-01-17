@@ -57,6 +57,10 @@ plugins: # previsously gems
 feed:
   path: atom.xml
 
+# SASS/SCSS settings
+sass:
+  sass_dir:  _sass
+
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/

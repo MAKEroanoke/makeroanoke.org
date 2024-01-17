@@ -1,0 +1,34 @@
+<!--
+    Frontmatter Variables:
+        heading:    String to use as title in header division
+        subHeading: String to use as subtitle in header division
+
+    Site Variables:
+        url:        URL to website (to provide a link to go home)
+-->
+
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/header.css">
+
+<div class="header">
+    <div class="logo inlineBox" style="height: 80px; width: 216px;">
+        <a href="{{ site.url }}">
+        <img src="/assets/images/MAKE_Roanoke_Logo.png"
+             alt="MAKE Roanoke Logo"
+             width="216"
+             height="80"
+        />
+        </a>
+    </div>
+    
+    <div class="heading inlineBox">
+        {% if page.heading != nil %}
+            <h1> {{ page.heading }} </h1>
+            {% if page.subHeading != nil %}
+                <h2> {{ page.subHeading }}</h2>
+            {% endif %}
+        {% else %}
+            <h1> MAKE Roanoke </h1>
+        {% endif %}
+    </div>
+</div>
+<div class="clearFloatLeft"></div>

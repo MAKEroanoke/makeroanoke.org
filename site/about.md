@@ -4,8 +4,6 @@ title: About Us
 permalink: /about/
 ---
 
-## About Us
-
 MAKE Roanoke is a non-profit organization dedicated to establishing a community
 makerspace in Roanoke, VA.  MAKE Roanoke is run by volunteers.  We are currently
 in the process of acquiring space to set up workshops for MAKE Roanoke members.

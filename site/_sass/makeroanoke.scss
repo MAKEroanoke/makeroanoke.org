@@ -1,0 +1,19 @@
+// MAKE Roanoke CSS overrides for Basically Basic Theme CSS decisions
+//
+// Logo Overrides
+//      Basically Basic in file _global.scss selector: .site-logo forces
+//      the logo image to be turned into a round image using border-radius.
+//      This distorts the MAKE Roanoke logo.  The following is a CSS
+//      override of those settings (cascading).  This override also changes
+//      the size of the logo image.
+
+$logo-width:   216px;
+$logo-height:   80px;
+
+.site-logo
+{
+    height: $logo-height;
+    width: $logo-width;
+    border-radius: 0%;
+}
+

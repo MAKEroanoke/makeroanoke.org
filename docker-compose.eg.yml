@@ -1,0 +1,11 @@
+---
+version: "3.8"
+services: 
+  jekyll: 
+    image: "bretfisher/jekyll-serve:alpine"
+    command: "bundle exec jekyll serve --force_polling -H 0.0.0.0 -P 4000 --livereload $@"
+    ports:
+      - 4000:4000
+      - 35729:35729
+    volumes:
+      - './site:/site'

@@ -101,6 +101,7 @@ exclude:
 include:
   - content
 future: true
+timezone: America/New_York
 
 # Front Matter Defaults
 defaults:

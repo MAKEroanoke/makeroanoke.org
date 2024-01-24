@@ -1,0 +1,9 @@
+#!/bin/sh
+#_chromium=${$_CHROMIUM:-"$(which chromium)"}
+# set CHROME_USER_DATA_DIR to persistent profile (with separate theme)
+# or:   --user-data-dir=$CHROME_USER_DATA_DIR
+
+cr_window_name=makeroanoke
+url=${1:-"http://localhost:4000"}
+#$_chromium --window-name=$cr_window_name
+nohup chromium --window-name=$cr_window_name $url 2>&1 >/dev/null &

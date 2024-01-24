@@ -72,7 +72,7 @@ collections:
     permalink: /posts/:year/:month/:day/:title
   events:
     output: true
-    permalink: /events/:year/:month/:day/:title
+    permalink: /event/:year/:month/:day/:title
 
 # Exclude from processing.
 exclude:
@@ -99,7 +99,8 @@ exclude:
   - /example # ignore Basically Basic dev site
 
 include:
-  - events
+  - content
+future: true
 
 # Front Matter Defaults
 defaults:

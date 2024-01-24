@@ -3,32 +3,86 @@ Variables pass to this file:
   menuName: The name of the menu to be rendered.
   tag:      HTML Tag to surround Menu name.  Default: false (No Tags)
   displayName: Boolean.  Whether to display menu name or not. Default: True
+  cnt:         Integer.  Nesting Level.  Should not be used by code outside
+               of this file.  Fixes bug with infinite loops.
+               Default: 10
 {%- endcomment -%}
 
-{%- if include.menuName == blank -%}
-    {%- assign include.menuName = site.data.mr-menus.primary -%}
+{%- comment -%}
+<span> Entering render-menu </span>
+    For some unknown reason, if we do not limit the number of times this
+    file includes itself, we get an infinite recursion loop that crashes
+    the generation of static pages.
+
+    include.cnt is used to limit the number of levels of recursion that
+    can occur.  No reason to set to 10.  Just assuming that we will never
+    see more than 10 levels of submenus.
+{%- endcomment -%}
+{%- if include.cnt == nil -%}
+    {%- assign cnt = 25 -%}
+{%- else -%}
+    {%- assign cnt = include.cnt | minus: 1 -%}
 {%- endif -%}
 
-{%- assign menu = site.data.mr-menus[include.menuName] -%}
+<span> RenderMenu(menu: {{include.menuName}}, tag: {{include.tag}}, cnt: {{cnt}}), menuName: {{ mName }} </span><br/>
+
+{%- comment -%}
+If the menuName is not present or is an empty string, it is assumed to
+be the Primary Menu.
+
+If the menuName is "primary", "secondary", "footer" then substitute 
+the real menu name that has been assigned to the placement menu variable.
+{%- endcomment -%}
+
+{%- if include.menuName == nil or include.menuName == blank or include.menuName == "primary" -%}
+    {%- assign mName = site.data.mr-menus.primary -%}
+    <span> Reassign menuName to primary menu </span><br/>
+{%- elsif include.menuName == "secondary" -%}
+    {%- assign mName = site.data.mr-menus.secondary -%}
+    <span> Reassign menuName to secondary menu </span><br/>
+{%- elsif include.menuName == "footer" -%}
+    {%- assign mName = site.data.mr-menus.footer -%}
+    <span> Reassign menuName to footer menu </span><br/>
+{%- else -%}
+    <span> Using include.menuName {{ include.menuName }} {{ mName }}</span><br/>
+    {%- assign mName = include.menuName -%}
+    <span> New menuName: {{ mName }}</span><br/>
+{%- endif -%}
+
+<span> In RenderMenu({{ include.menuName }} ==> {{mName}})</span><br/>
+{%- comment -%}
+{%- endcomment -%}
+{%- assign menu = site.data.mr-menus[mName] -%}
 {%- assign tag  = include.tag | default: "span" -%}
-{%- assign flag = include.displayName -%}
-{%- if include.tag == blank -%}
+{%- if include.displayName == nil -%}
+    {%- assign flag = false -%}
+{%- else -%}
+    {%- assign flag = include.displayName -%}
+{%- endif -%}
+
+{%- comment -%}
+{%- endcomment -%}
+{%- if include.tag == nil and include.tag == blank -%}
     {%- assign useTags = false -%}
 {%- else -%}
     {%- assign useTags = true -%}
 {%- endif -%}
 
-{% if flag %}
-    {%  if include.tag %}
-    <{{ tag }}>{{ menu.name }}</ {{ tag }}>
-    {% else %}
+{%- comment -%}
+{%- endcomment -%}
+{%- if flag -%}
+    {%-  if include.tag != nil and include.tag != blank -%}
+    <{{ tag }}>{{ menu.name }}</{{ tag }}>
+    {%- else -%}
     {{ menu.name }}
-    {% endif %}
-{% endif %}
+    {%- endif -%}
+{%- endif -%}
 
+{%- comment -%}
+{%- endcomment -%}
 <ul>
-{% for item in menu.list %}
-    <li>
+{%-for item in menu.list -%}
+    <li class="menu-item">
         {%- assign pathSize = item.path | size -%}
     
         {%- if pathSize > 0 -%}
@@ -36,9 +90,14 @@ Variables pass to this file:
         {%- else -%}
             {{ item.name }}
         {%- endif -%}
-        {% if item.menu != blank %}
-            {% include render-menu.html menuName=item.menu  displayName=false %}
-        {% endif %}
+        {%- if item.menu != nil and item.menu != blank and item.menu != "primary" -%}
+            {%- comment -%}
+            The cnt variable ( set to include.cnt - 1 ) limits the number of levels that this
+            file can recursively include itself.
+            {%- endcomment -%}
+            <span>Calling RenderMenu({{ item.menu }})</span><br/>
+                {%- include render-menu.html menuName=item.menu  displayName=false cnt=cnt -%}
+        {%- endif -%}
     </li>
-{% endfor %}
+{%- endfor -%}
 </ul>

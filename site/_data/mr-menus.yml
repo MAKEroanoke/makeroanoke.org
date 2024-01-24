@@ -11,15 +11,41 @@
 ##   list  -- List of Menu Items
 ##
 
-primary:  main-menu
+##
+## MAKE Roanoke Menus supports three placement menus that can be 
+## displayed on each page: primary, secondary, footer.
+##
+## The primary menu is the menu displayed at the top of each page
+## usually just under the header section or in a side bar.
+##
+## The secondary menu is not yet implemented and its location is TBD.
+##
+## The footer menu is displayed in the footer section of a page.
+##
+## Each of these placement menus are references to other real menus defined 
+## in this YAML page.  They are set to the name of other real menus.  Note,
+## the same real menu can be assigned to one or more of the placement menus.
+##
+primary:    main-menu
+secondary:  
+footer:     main-menu
 
+##
+## The variable menus is an array of real menu names.  Each time a new real
+## menu is defined, its name needs to be added to this list.
+##
 menus:
   - main-menu
   - guild-halls
 
+###
+### Real Menu Definitions
+###
+
 ## Defining Main Menu
 main-menu:
   name:  "Main Menu"
+  toolTip: "This is the primary menu of the MAKE Roanoke website."
   list:
     - Home:
       name: "Home"
@@ -65,3 +91,7 @@ dummy:
     - Who Am I:
       name: "Who am I?"
       path: "/about"
+
+###
+### End of Real Menu Definitions
+###

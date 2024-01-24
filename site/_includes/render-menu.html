@@ -1,0 +1,44 @@
+{%- comment -%}
+Variables pass to this file:
+  menuName: The name of the menu to be rendered.
+  tag:      HTML Tag to surround Menu name.  Default: false (No Tags)
+  displayName: Boolean.  Whether to display menu name or not. Default: True
+{%- endcomment -%}
+
+{%- if include.menuName == blank -%}
+    {%- assign include.menuName = site.data.mr-menus.primary -%}
+{%- endif -%}
+
+{%- assign menu = site.data.mr-menus[include.menuName] -%}
+{%- assign tag  = include.tag | default: "span" -%}
+{%- assign flag = include.displayName -%}
+{%- if include.tag == blank -%}
+    {%- assign useTags = false -%}
+{%- else -%}
+    {%- assign useTags = true -%}
+{%- endif -%}
+
+{% if flag %}
+    {%  if include.tag %}
+    <{{ tag }}>{{ menu.name }}</ {{ tag }}>
+    {% else %}
+    {{ menu.name }}
+    {% endif %}
+{% endif %}
+
+<ul>
+{% for item in menu.list %}
+    <li>
+        {%- assign pathSize = item.path | size -%}
+    
+        {%- if pathSize > 0 -%}
+             <a href="{{ item.path }}">{{ item.name }}</a>
+        {%- else -%}
+            {{ item.name }}
+        {%- endif -%}
+        {% if item.menu != blank %}
+            {% include render-menu.html menuName=item.menu  displayName=false %}
+        {% endif %}
+    </li>
+{% endfor %}
+</ul>

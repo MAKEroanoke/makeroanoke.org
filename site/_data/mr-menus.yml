@@ -1,0 +1,67 @@
+---
+## MAKE Roanoke Menus
+##
+## Menu Item fields:
+##   name  -- Name to display on Menu Item
+##   path  -- URL of page represented by Menu Item
+##   menu  -- Name of sub-menu
+##
+## Menu fields:
+##   name  -- Name of Menu
+##   list  -- List of Menu Items
+##
+
+primary:  main-menu
+
+menus:
+  - main-menu
+  - guild-halls
+
+## Defining Main Menu
+main-menu:
+  name:  "Main Menu"
+  list:
+    - Home:
+      name: "Home"
+      path: "/"
+    - Guild Halls:
+      name: "Guild Halls"
+      path: "/guild-halls"
+      menu: "guild-halls"
+    - About Us:
+      name: "About Us"
+      path: "/about"
+    - Makerspace:
+      name: "What is a Makerspace"
+      path: "/makerspace"
+
+# Defining Guild Hall Menu
+guild-halls:
+  name: "Guild Halls"
+  list: 
+    - Wood Shop:
+      name: "Wood Shop"
+      path: "/woodshop"
+    - Metal Shop:
+      name: "Metal Shop"
+      path: "/metalshop"
+    - Fabric Shop:
+      name: "Fabric Shop"
+      path: "/fabricshop"
+    - Printing Shop:
+      name: "3D Printing"
+      path: "/3dprintingshop"
+    - Dummy Submenu:
+      name: "Dummy Stuff"
+      menu: "dummy"
+
+# Dummy Menu for testing third level sub menu.
+dummy:
+  name: "Dummy Menu"
+  list:
+    - My Maker:
+      name: "Make Me"
+      path: "/makerspace"
+    - Who Am I:
+      name: "Who am I?"
+      path: "/about"

@@ -21,6 +21,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  TZ: "America/New_York"
+
 jobs:
   # Build job
   build:

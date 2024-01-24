@@ -1,5 +1,9 @@
 # Theme Skin
-skin: soft # default, night, plum, sea, soft, steel
+skin: default # default, night, plum, sea, soft, steel
+
+site_nav:
+  # this specifies the icon class when used on a dark surface.
+  icon_color: icon-dark
 
 # Theme Text
 t:

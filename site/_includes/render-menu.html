@@ -1,66 +1,54 @@
 {%- comment -%}
 Variables pass to this file:
-  menuName: The name of the menu to be rendered.
+  menuName: The name of the menu to be rendered. Default: "primary"
   tag:      HTML Tag to surround Menu name.  Default: false (No Tags)
-  displayName: Boolean.  Whether to display menu name or not. Default: True
-  cnt:         Integer.  Nesting Level.  Should not be used by code outside
-               of this file.  Fixes bug with infinite loops.
-               Default: 10
+  displayName: Boolean.  Whether to display menu name or not. Default: false
+
+NOTE: The variable mName was originally labeled menuName.  For reasons that
+are still unclear, menuName would not change when assigned a new value.
+This resulted in it always being the same menu and causing an infinite
+recursive loop to occur.  The followiing error message occurred when
+generating static files:
+Liquid Exception: Liquid error (/site/_includes/render-menu.html line 97): Nesting too deep included in menus.html
+If this error occurs in the future (file name may change), then there is a problem with the mr-menus.yml file.
 {%- endcomment -%}
 
 {%- comment -%}
-<span> Entering render-menu </span>
-    For some unknown reason, if we do not limit the number of times this
-    file includes itself, we get an infinite recursion loop that crashes
-    the generation of static pages.
-
-    include.cnt is used to limit the number of levels of recursion that
-    can occur.  No reason to set to 10.  Just assuming that we will never
-    see more than 10 levels of submenus.
-{%- endcomment -%}
-{%- if include.cnt == nil -%}
-    {%- assign cnt = 25 -%}
-{%- else -%}
-    {%- assign cnt = include.cnt | minus: 1 -%}
-{%- endif -%}
-
-<span> RenderMenu(menu: {{include.menuName}}, tag: {{include.tag}}, cnt: {{cnt}}), menuName: {{ mName }} </span><br/>
-
-{%- comment -%}
-If the menuName is not present or is an empty string, it is assumed to
+If the include.menuName is not present or is an empty string, it is assigned to
 be the Primary Menu.
 
-If the menuName is "primary", "secondary", "footer" then substitute 
+If the include.menuName is "primary", "secondary", "footer" then substitute 
 the real menu name that has been assigned to the placement menu variable.
 {%- endcomment -%}
-
 {%- if include.menuName == nil or include.menuName == blank or include.menuName == "primary" -%}
     {%- assign mName = site.data.mr-menus.primary -%}
-    <span> Reassign menuName to primary menu </span><br/>
 {%- elsif include.menuName == "secondary" -%}
     {%- assign mName = site.data.mr-menus.secondary -%}
-    <span> Reassign menuName to secondary menu </span><br/>
 {%- elsif include.menuName == "footer" -%}
     {%- assign mName = site.data.mr-menus.footer -%}
-    <span> Reassign menuName to footer menu </span><br/>
 {%- else -%}
-    <span> Using include.menuName {{ include.menuName }} {{ mName }}</span><br/>
     {%- assign mName = include.menuName -%}
-    <span> New menuName: {{ mName }}</span><br/>
 {%- endif -%}
 
-<span> In RenderMenu({{ include.menuName }} ==> {{mName}})</span><br/>
 {%- comment -%}
+    Obtain the actual menu object to use based on the menu name from 
+    the mr-menus.yml file.  Then determine whether or not the menu name
+    is to be displayed.  Normally for generating menus, the name should
+    not be displayed.  It is possible to display the menu name before
+    the list of menu items for debugging and testing purposes.
 {%- endcomment -%}
 {%- assign menu = site.data.mr-menus[mName] -%}
 {%- assign tag  = include.tag | default: "span" -%}
 {%- if include.displayName == nil -%}
-    {%- assign flag = false -%}
+    {%- assign displayFlag = false -%}
 {%- else -%}
-    {%- assign flag = include.displayName -%}
+    {%- assign displayFlag = include.displayName -%}
 {%- endif -%}
 
 {%- comment -%}
+    The include.tag parameter allows the caller to specify what HTML tag to
+    use when displaying the menu name.  If no tag name is passed, do not
+    place any HTML tag around the menu name.  (assuming it is being displayed)
 {%- endcomment -%}
 {%- if include.tag == nil and include.tag == blank -%}
     {%- assign useTags = false -%}
@@ -69,8 +57,9 @@ the real menu name that has been assigned to the placement menu variable.
 {%- endif -%}
 
 {%- comment -%}
+    Here is where we actually write the menu name to the static HTML file.
 {%- endcomment -%}
-{%- if flag -%}
+{%- if displayFlag -%}
     {%-  if include.tag != nil and include.tag != blank -%}
     <{{ tag }}>{{ menu.name }}</{{ tag }}>
     {%- else -%}
@@ -79,6 +68,10 @@ the real menu name that has been assigned to the placement menu variable.
 {%- endif -%}
 
 {%- comment -%}
+    Loop through the menu.list which contains the menu items for this menu.
+    If menuItem.path is assigned, place the menu item menuItem.name in an anchor tag <a></a> 
+    If menuItem.menu is assigned, recursively call this file again to place a submenu
+    in the list of menu items.
 {%- endcomment -%}
 <ul>
 {%-for item in menu.list -%}
@@ -90,13 +83,8 @@ the real menu name that has been assigned to the placement menu variable.
         {%- else -%}
             {{ item.name }}
         {%- endif -%}
-        {%- if item.menu != nil and item.menu != blank and item.menu != "primary" -%}
-            {%- comment -%}
-            The cnt variable ( set to include.cnt - 1 ) limits the number of levels that this
-            file can recursively include itself.
-            {%- endcomment -%}
-            <span>Calling RenderMenu({{ item.menu }})</span><br/>
-                {%- include render-menu.html menuName=item.menu  displayName=false cnt=cnt -%}
+        {%- if item.menu != nil and item.menu != blank -%}
+            {%- include render-menu.html menuName=item.menu  displayName=false cnt=cnt -%}
         {%- endif -%}
     </li>
 {%- endfor -%}

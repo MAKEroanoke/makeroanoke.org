@@ -73,15 +73,16 @@ the real menu name that has been assigned to the placement menu variable.
     If menuItem.menu is assigned, recursively call this file again to place a submenu
     in the list of menu items.
 {%- endcomment -%}
-<ul>
+
+<ul class="menu">
 {%-for item in menu.list -%}
     <li class="menu-item">
         {%- assign pathSize = item.path | size -%}
     
         {%- if pathSize > 0 -%}
-             <a href="{{ item.path }}">{{ item.name }}</a>
+             <a href="{{ item.path }}" itemprop="url"><span itemprop="name">{{ item.name }}</span></a>
         {%- else -%}
-            {{ item.name }}
+            <span itemprop="name">{{ item.name }}</span>
         {%- endif -%}
         {%- if item.menu != nil and item.menu != blank -%}
             {%- include render-menu.html menuName=item.menu  displayName=false cnt=cnt -%}
@@ -89,3 +90,4 @@ the real menu name that has been assigned to the placement menu variable.
     </li>
 {%- endfor -%}
 </ul>
+

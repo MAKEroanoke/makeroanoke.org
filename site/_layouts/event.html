@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% include page-intro.html %}
+
+<main id="main" class="event-content" aria-label="Content">
+
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+      </div>
+      {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+      {% endif %}
+
+      <h3>← Back to <a href="/events/">events</a></h3>
+    </article>
+  </div>
+</main>

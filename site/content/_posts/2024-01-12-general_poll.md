@@ -3,6 +3,7 @@ layout: post
 title:  "Calling all Roanoke makers! Let's spark the flame together at our first public meeting!"
 date:   2024-01-12 23:42:08 -0400
 categories: membership
+permalink: /membership/2024/01/13/general_poll.html
 ---
 
 Hey there, Roanoke! We're bursting with excitement about the incredible response

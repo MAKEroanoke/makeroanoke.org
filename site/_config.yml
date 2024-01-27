@@ -65,6 +65,15 @@ sass:
 paginate: 10
 paginate_path: /page:num/
 
+collections_dir: content
+collections:
+  posts:
+    output: true
+    permalink: /posts/:year/:month/:day/:title
+  events:
+    output: true
+    permalink: /event/:year/:month/:day/:title
+
 # Exclude from processing.
 exclude:
   - .asset-cache
@@ -88,6 +97,11 @@ exclude:
   - vendor/ruby/
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
+
+include:
+  - content
+future: true
+timezone: America/New_York
 
 # Front Matter Defaults
 defaults:

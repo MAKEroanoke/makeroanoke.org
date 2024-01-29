@@ -6,3 +6,4 @@ vendor
 .DS_Store
 docker-compose.yml
 .env
+node_modules

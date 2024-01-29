@@ -112,3 +112,20 @@ configuration.
 The `prettier` and `eslint` extensions are particularly helpfu, but may require running `npm install -g $pkg`. They mainly make pull requests much smaller and and simpler, especially for javascript. Extremely helpful, but if these tools aren't working in your environment, it's not worthwhile in this project.
 
 Combining them may require [prettier-eslint](https://www.npmjs.com/package/prettier-eslint). It would be simpler to just disable eslint, especially if you're not writing javascript.
+
+#### Prettier
+
+To use prettier to format HTML with Liquid outside of VSCode, you'll need to run
+`npm install --save-dev @shopify/prettier-plugin-liquid` and set the following
+in `.prettierrc`.
+
+```yaml
+# -*- mode: yaml -*-
+---
+plugins:
+  - "@shopify/prettier-plugin-liquid"
+overrides:
+  - files: "*.html"
+    options:
+      parser: "liquid-html"
+```

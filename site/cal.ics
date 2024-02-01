@@ -1,0 +1,21 @@
+---
+# vim: ff=dos
+layout: null
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MAKE Roanoke//Jekyll Hacks//EN {% assign current_events = site.events | where_exp: "event", "event.date >= site.time" %} {% for event in current_events limit:3 %}
+X-WR-TIMEZONE:America/New_York
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:{{ event.event_date | date: "%Y%m%d" }}-{{event.title | slugify}}@makeroanoke.org
+ORGANIZER;CN="Information":MAILTO:info@makeroanoke.org
+LOCATION: {{event.location}}
+SUMMARY:{{ event.title | remove: ',' | remove: ';' }}
+DESCRIPTION:https://makeroanoke.org{{ event.url }}
+CLASS:PUBLIC
+DTSTART;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{event.event_time_start | remove: ':'}}00
+DTEND;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{event.event_time_end | remove: ':'}}00
+DTSTAMP;TZID=America/New_York:{{ event.event_date | date: "%Y%m%d" }}T{{event.event_time_start | remove: ':'}}00
+END:VEVENT{% endfor %}
+END:VCALENDAR

@@ -1,9 +1,9 @@
 ---
 layout: event
 title: "2024 Maker Faire Lynchburg"
-event_date: 2024-03-26
-event_time_start: 11:00
-event_time_end: 16:00
+event_date: 2024-03-24
+event_time_start: "11:00"
+event_time_end: "16:00"
 location: 2500 Rivermont Avenue in Lynchburg, Virginia
 categories: community
 ---

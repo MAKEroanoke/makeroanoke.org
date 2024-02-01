@@ -34,7 +34,7 @@ space for learning, sharing, and supporting each other as we bring our unique
 ideas to life.
 
 We are excited to share with you the latest news of MAKE Roanoke, and are
-excited to see what you bring to the table!
+excited to see what you've made!
 
 So, dust off your projects, grab your curiosity, and join us for an evening of
 making, connecting, and igniting the Roanoke innovation scene!

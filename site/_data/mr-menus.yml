@@ -91,6 +91,11 @@ dummy:
     - Who Am I:
       name: "Who am I?"
       path: "/about"
+    - Mystery:
+      name: "Mystery"
+    - Why:
+      name: "Why am I here?"
+      path: "/makerspace"
 
 ###
 ### End of Real Menu Definitions

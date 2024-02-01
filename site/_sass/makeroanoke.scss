@@ -17,7 +17,11 @@ $logo-height:   80px;
     border-radius: 0%;
 }
 
+// Additions to Basically Basic Theme menu system to allow submenus to be
+// displayed indented from the parent menu.
 .menu > li
 {
     margin-left:  1em;
 }
+
+@use "menus";

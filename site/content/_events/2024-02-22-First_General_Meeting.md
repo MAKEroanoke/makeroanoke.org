@@ -19,9 +19,8 @@ launch our community of passionate makers.  This is your chance to:
 * **Get inside info:** Hear directly from the MAKE Roanoke founders about our
   exciting plans and what the future holds for this vibrant initiative.
 
-* **Connect with your tribe:** Introduce yourself, share your current projects,
-  and discover the incredible talents and diverse interests of your fellow
-  makers.
+* **Show us what you got:** Introduce yourself and share your current project to
+  the new MAKE Roanoke Community.
 
 * **Be inspired:** Meet other interesting MAKERs, spark ideas, and ignite your
   imagination with the possibilities of a collaborative maker community.
@@ -33,6 +32,9 @@ Whether you're a seasoned pro with a workshop full of gadgets or just starting
 out with a glue gun and boundless enthusiasm, everyone is welcome!  This is a
 space for learning, sharing, and supporting each other as we bring our unique
 ideas to life.
+
+We are excited to share with you the latest news of MAKE Roanoke, and are
+excited to see what you bring to the table!
 
 So, dust off your projects, grab your curiosity, and join us for an evening of
 making, connecting, and igniting the Roanoke innovation scene!

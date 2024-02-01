@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Public Meeting"
+title:  "First Public Meeting: February 22, 2024"
 date:   2024-01-31
 location: South County Library - https://maps.app.goo.gl/wRVtCgkj5tPcuC4a7
 categories: community

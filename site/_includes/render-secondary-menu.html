@@ -16,7 +16,7 @@ NOTE: The variable mName was originally labeled menuName.  For reasons that
       This resulted in it always being the same menu and causing an infinite
       recursive loop to occur.  The followiing error message occurred when
       generating static files:
-      
+
 Liquid Exception: Liquid error (/site/_includes/render-menu.html line 97): Nesting too deep included in menus.html
 If this error occurs in the future (file name may change), then there is a problem with the mr-menus.yml file.
 {%- endcomment -%}
@@ -99,10 +99,12 @@ the real menu name that has been assigned to the placement menu variable.
         {%- if pathSize > 0 -%}
              <a href="{{ item.path }}" itemprop="url"><span itemprop="name">{{ item.name }}</span></a>
         {%- else -%}
-            <span itemprop="name">  {{ item.name }}  </span>
+            <span itemprop="name">{{ item.name }}</span>
         {%- endif -%}
         {%- if item.menu != nil and item.menu != blank -%}
-            {%- include render-secondary-menu.html menuName=item.menu  displayName=false submenu=true -%}
+            <nav class="vmenu">
+            {%- include render-secondary-menu.html menuName=item.menu  displayName=false -%}
+            </nav>
         {%- endif -%}
     </li>
 {%- endfor -%}

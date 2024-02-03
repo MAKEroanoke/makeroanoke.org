@@ -99,7 +99,9 @@ the real menu name that has been assigned to the placement menu variable.
             <span itemprop="name">  {{ item.name }}  </span>
         {%- endif -%}
         {%- if item.menu != nil and item.menu != blank -%}
+            <nav class="vmenu">
             {%- include render-secondary-menu.html menuName=item.menu  displayName=false submenu=true -%}
+            </nav>
         {%- endif -%}
     </li>
 {%- endfor -%}

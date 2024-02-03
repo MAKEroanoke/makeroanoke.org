@@ -24,4 +24,6 @@ $logo-height:   80px;
     margin-left:  1em;
 }
 
-@use "menus";
+// Should be using @use instead of @import since @import is deprecated 
+// but @use does not yet seem to be supported in Jekyll Liquid.
+@import "menus";

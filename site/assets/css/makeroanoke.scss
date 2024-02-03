@@ -5,4 +5,7 @@
 // used in the static website by importing the SCSS file from our _sass 
 // folder.
 
-@use "makeroanoke";
+
+// Should be using @use instead of @import since @import is deprecated 
+// but @use does not yet seem to be supported in Jekyll.
+@import "makeroanoke";

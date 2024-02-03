@@ -29,6 +29,7 @@
     $menu-item-normal-background-color:   cornsilk;
     $menu-item-hover-background-color:    cornsilk;
     $menu-item-border-color:              gray;
+    $menu-item-z-index:                   150;
 
 	/*
 	 * Variables that should be calc() of other variables.  Since this does
@@ -132,7 +133,7 @@ ul.hmenu
 	margin:              0px;
 	top:                 $menu-item-height;
 	left:                $menu-item-negative-border-width;
-	z-index:             5;
+	z-index:             $menu-item-z-index;
 }
 
 /* Control position of first Submenu (which is vertical) and makes block visible */
@@ -203,11 +204,15 @@ ul.hmenu
  * the first level <ul> is absolute.
  */
 
-nav .vmenu
+nav.vmenu
 {
 	position:             relative;
     line-height:          normal;
     white-space:          nowrap;
+
+    /* CSS to negate Theme */
+    overflow-x:           visible;
+    z-index:              $menu-item-z-index;
 }
 
 /* Make submenu <nav> absolute so that the <ul> block can be a flex block. */
@@ -295,7 +300,7 @@ nav .vmenu
     display:             none;
 	position:            absolute;
 	padding-bottom:      0px;
-	z-index:             5;
+	z-index:             $menu-item-z-index;
 	border-collapse:     separate;
 	margin-top:          0px;
 	left:                $menu-item-width;

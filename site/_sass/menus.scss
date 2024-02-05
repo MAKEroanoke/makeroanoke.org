@@ -18,7 +18,12 @@
  */
 
 /* Global Variables used by .hmenu and .vmenu */
-//.hmenu, .vmenu{
+/* 
+ * NOTE.  As pure CSS, the selectors variables under ".hmenu, .vmenu {} work.
+ * It does not work as SASS/SCSS so the selectors are commented out and the
+ * variables are global variables.
+ */
+//.hmenu, .vmenu
 //{
 	$menu-item-border-width:              4px;
 	$menu-item-font-size:                 1em;

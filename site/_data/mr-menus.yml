@@ -44,7 +44,25 @@ menus:
 
 ## Defining Main Menu
 main-menu:
-  name:  "Main Menu"
+  name: "Main Menu"
+  list:
+    - Home:
+      name: "Home"
+      path: "/"
+    - Events:
+      name: "Events"
+      path: "/events"
+    - Makerspace:
+      name: "Makerspace"
+      path: "/makerspace"
+    - AboutUs:
+      name: "About Us"
+      path: "/about"
+
+
+## Example on how to add submenus to menu 
+mock-main-menu:
+  name:  "Main Example Menu"
   toolTip: "This is the primary menu of the MAKE Roanoke website."
   list:
     - Home:

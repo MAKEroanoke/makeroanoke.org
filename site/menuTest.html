@@ -1,0 +1,24 @@
+--- 
+--- 
+<!DOCTYPE html>
+<!--
+    Test page for working on menus.
+-->
+<html lang=>
+    {% include head.html %}
+<body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' '}}{% endif %} {{ page.title | slugify }}">
+    <header>
+        This is the header section.
+    </header>
+    {% include nav-primary.html %}
+    <p>&nbsp;</p>
+    {% include nav-secondary.html %}
+
+    <main>
+        This is the main content of the page.
+    </main>
+    <footer>
+        This is the footer section
+    </footer>
+</body>
+</html>

@@ -1,0 +1,109 @@
+{%- comment -%}
+Render Primary Menu 
+
+Variables pass to this file:
+    menuName:    The name of the menu to be rendered. Default: "primary"
+    tag:         HTML Tag to surround Menu name.  Default: false (No Tags)
+    displayName: Boolean.  Whether to display menu name or not. Default: false
+    submenu:     Boolean.  True if this menu is a submenu.  Default: false
+
+NOTE: The variable mName was originally labeled menuName.  For reasons that
+are still unclear, menuName would not change when assigned a new value.
+This resulted in it always being the same menu and causing an infinite
+recursive loop to occur.  The followiing error message occurred when
+generating static files:
+Liquid Exception: Liquid error (/site/_includes/render-menu.html line 97): Nesting too deep included in menus.html
+If this error occurs in the future (file name may change), then there is a problem with the mr-menus.yml file.
+{%- endcomment -%}
+
+{%- comment -%}
+If the include.menuName is not present or is an empty string, it is assigned to
+be the Primary Menu.
+
+If the include.menuName is "primary", "secondary", "footer" then substitute 
+the real menu name that has been assigned to the placement menu variable.
+{%- endcomment -%}
+{%- if include.menuName == nil or include.menuName == blank or include.menuName == "primary" -%}
+    {%- assign mName = site.data.mr-menus.primary -%}
+{%- elsif include.menuName == "secondary" -%}
+    {%- assign mName = site.data.mr-menus.secondary -%}
+{%- elsif include.menuName == "footer" -%}
+    {%- assign mName = site.data.mr-menus.footer -%}
+{%- else -%}
+    {%- assign mName = include.menuName -%}
+{%- endif -%}
+
+{%- comment -%}
+    Obtain the actual menu object to use based on the menu name from 
+    the mr-menus.yml file.  Then determine whether or not the menu name
+    is to be displayed.  Normally for generating menus, the name should
+    not be displayed.  It is possible to display the menu name before
+    the list of menu items for debugging and testing purposes.
+{%- endcomment -%}
+{%- assign menu = site.data.mr-menus[mName] -%}
+{%- assign tag  = include.tag | default: "span" -%}
+{%- if include.displayName == nil -%}
+    {%- assign displayFlag = false -%}
+{%- else -%}
+    {%- assign displayFlag = include.displayName -%}
+{%- endif -%}
+{%- if include.submenu == nil -%}
+    {%- assign submenuFlag = false -%}
+{%- else -%}
+    {%- assign submenuFlag = include.submenu -%}
+{%- endif -%}
+
+{%- comment -%}
+    The include.tag parameter allows the caller to specify what HTML tag to
+    use when displaying the menu name.  If no tag name is passed, do not
+    place any HTML tag around the menu name.  (assuming it is being displayed)
+{%- endcomment -%}
+{%- if include.tag == nil and include.tag == blank -%}
+    {%- assign useTags = false -%}
+{%- else -%}
+    {%- assign useTags = true -%}
+{%- endif -%}
+
+{%- comment -%}
+    Here is where we actually write the menu name to the static HTML file.
+{%- endcomment -%}
+{%- if displayFlag -%}
+    {%-  if include.tag != nil and include.tag != blank -%}
+    <{{ tag }}>{{ menu.name }}</{{ tag }}>
+    {%- else -%}
+    {{ menu.name }}
+    {%- endif -%}
+{%- endif -%}
+
+{%- comment -%}
+    Loop through the menu.list which contains the menu items for this menu.
+    If menuItem.path is assigned, place the menu item menuItem.name in an anchor tag <a></a> 
+    If menuItem.menu is assigned, recursively call this file again to place a submenu
+    in the list of menu items.
+{%- endcomment -%}
+
+{%- assign classes = "hmenu" -%}
+{%- if submenuFlag -%}
+    {%- assign classes = "vmenu" -%}
+{%- else -%}
+    {%- assign classes = "hmenu" -%}
+{%- endif -%}
+<ul class='{{ classes }}'>
+{%-for item in menu.list -%}
+    <li class='{{ classes }}'>
+        {%- assign pathSize = item.path | size -%}
+    
+        {%- if pathSize > 0 -%}
+             <a href="{{ item.path }}" itemprop="url"><span itemprop="name">{{ item.name }}</span></a>
+        {%- else -%}
+            <span itemprop="name">  {{ item.name }}  </span>
+        {%- endif -%}
+        {%- if item.menu != nil and item.menu != blank -%}
+            <nav class="vmenu">
+            {%- include render-secondary-menu.html menuName=item.menu  displayName=false submenu=true -%}
+            </nav>
+        {%- endif -%}
+    </li>
+{%- endfor -%}
+</ul>
+

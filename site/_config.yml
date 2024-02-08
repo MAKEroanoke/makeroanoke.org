@@ -101,6 +101,8 @@ exclude:
 
 include:
   - content
+  - about
+  
 future: true
 timezone: America/New_York
 

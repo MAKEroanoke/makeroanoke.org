@@ -112,10 +112,10 @@ about-menu:
       path:  "/about/"
     - Makerspace:
       name:  "Makerspace"
-      path:  "/makerspace/"
+      path:  "/about/makerspace/"
     - Location:
       name:  "Location"
-      path:  "/location/"
+      path:  "/about/location/"
     - Contact Us:
       name:  "Contact Us"
 

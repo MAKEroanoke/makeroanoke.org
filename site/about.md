@@ -2,6 +2,7 @@
 layout: page
 title: About Us
 permalink: /about/
+secondary-menu:  about-menu
 ---
 
 MAKE Roanoke is a non-profit organization dedicated to establishing a community

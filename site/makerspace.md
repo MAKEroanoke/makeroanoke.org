@@ -2,6 +2,7 @@
 layout: page
 title: What is a Makerspace?
 permalink: /makerspace/
+secondary-menu:  about-menu
 ---
 
 A makerspace is a community-oriented workspace where people can come together to

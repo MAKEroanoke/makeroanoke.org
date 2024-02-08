@@ -36,7 +36,9 @@ footer:     main-menu
 ##
 menus:
   - main-menu
+  - mock-main-menu
   - guild-halls
+  - about-menu
 
 ###
 ### Real Menu Definitions
@@ -52,12 +54,10 @@ main-menu:
     - Events:
       name: "Events"
       path: "/events"
-    - Makerspace:
-      name: "Makerspace"
-      path: "/makerspace"
     - AboutUs:
       name: "About Us"
       path: "/about"
+      menu: "about-menu"
 
 
 ## Example on how to add submenus to menu 
@@ -75,6 +75,7 @@ mock-main-menu:
     - About Us:
       name: "About Us"
       path: "/about"
+      menu: "about-menu"
     - Makerspace:
       name: "What is a Makerspace"
       path: "/makerspace"
@@ -98,6 +99,25 @@ guild-halls:
     - Dummy Submenu:
       name: "Dummy Stuff"
       menu: "dummy"
+
+#
+# Defining the About Us Menu
+#
+
+about-menu:
+  name:  "About Us"
+  list:
+    - About Us:
+      name:  "About Us"
+      path:  "/about/"
+    - Makerspace:
+      name:  "Makerspace"
+      path:  "/makerspace/"
+    - Location:
+      name:  "Location"
+      path:  "/location/"
+    - Contact Us:
+      name:  "Contact Us"
 
 # Dummy Menu for testing third level sub menu.
 dummy:

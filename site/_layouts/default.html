@@ -10,29 +10,40 @@
   {% include head.html %}
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
-
+    <!-- 
+        #body -- The division that contains our entire page in three rows
+                 This grid contains our major sections:
+                 Header: across the whole top
+                 Left Sidebar: middle row, left side
+                 Right Sidebar: middle row, right side
+                 Main: middle row, center
+                 Footer: across the whole bottom
+     -->
+    <div id="body">
     <!-- Do we want to keep skip-links.html which is placed at the very top of the webpage -->
     {% include skip-links.html %}
 
     <!-- Header Division -->
-    <header>
-        {% include masthead.html %}
+    <header id="header">
+    {% include masthead.html %}
     </header>
 
     <!-- Left Sidebar -->
     <aside side="left">
+        {%- if page.secondary-menu -%}
+        <nav class="vmenu" 
+             itemscope itemtype="http://schema.org/SiteNavigationElement" 
+             aria-label="Secondary navigation">
+            {%- include render-secondary-menu.html  dummy="Dummy Value" menuName=page.secondary-menu areYouSeeingThis="No" -%}
+        </nav>
+        {%- endif -%}
+        <article class="contact-list">
         {% include contact-list.html %}
+        </article>
     </aside>
 
     <!-- Right Sidebar-->
-    <aside side="right>">
-        {%- if page.secondary-menu -%}
-        <nav id="secondaryNav" class="vmenu" 
-             itemscope itemtype="http://schema.org/SiteNavigationElement" 
-             aria-label="Secondary navigation">
-            {%- include render-secondary-menu.html menuName="{{page.secondary-menu}}" -%}
-        </nav>
-        {%- endif -%}
+    <aside side="right">
     </aside>
 
     <!-- Content Division -->
@@ -83,6 +94,7 @@
     </div>
     -->
 
+    </div>
     {% include scripts.html %}
 
   </body>

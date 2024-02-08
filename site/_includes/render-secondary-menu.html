@@ -5,11 +5,6 @@ Variables pass to this file:
     menuName:    The name of the menu to be rendered. Default: "primary"
     tag:         HTML Tag to surround Menu name.  Default: false (No Tags)
     displayName: Boolean.  Whether to display menu name or not. Default: false
-    submenu:     Boolean.  True if this menu is a submenu.  Default: false
-
-NOTE: The secondary (or vertical) menu is not passed a submenu flag since
-      all submenus are vertical menus so no changing of class selector is
-      necessary.
 
 NOTE: The variable mName was originally labeled menuName.  For reasons that
       are still unclear, menuName would not change when assigned a new value.
@@ -25,13 +20,11 @@ If this error occurs in the future (file name may change), then there is a probl
 If the include.menuName is not present or is an empty string, it is assigned to
 be the Primary Menu.
 
-If the include.menuName is "primary", "secondary", "footer" then substitute 
+If the include.menuName is "primary" or "footer" then substitute 
 the real menu name that has been assigned to the placement menu variable.
 {%- endcomment -%}
 {%- if include.menuName == nil or include.menuName == blank or include.menuName == "primary" -%}
     {%- assign mName = site.data.mr-menus.primary -%}
-{%- elsif include.menuName == "secondary" -%}
-    {%- assign mName = site.data.mr-menus.secondary -%}
 {%- elsif include.menuName == "footer" -%}
     {%- assign mName = site.data.mr-menus.footer -%}
 {%- else -%}
@@ -51,11 +44,6 @@ the real menu name that has been assigned to the placement menu variable.
     {%- assign displayFlag = false -%}
 {%- else -%}
     {%- assign displayFlag = include.displayName -%}
-{%- endif -%}
-{%- if include.submenu == nil -%}
-    {%- assign submenuFlag = false -%}
-{%- else -%}
-    {%- assign submenuFlag = include.submenu -%}
 {%- endif -%}
 
 {%- comment -%}
@@ -88,9 +76,6 @@ the real menu name that has been assigned to the placement menu variable.
 {%- endcomment -%}
 
 {%- assign classes = "vmenu" -%}
-{%- if submenuFlag -%}
-    {%- capture classes -%}{{ classes }} {{ "submenu"}}{%- endcapture -%}
-{%- endif -%}
 <ul class='{{ classes }}'>
 {%-for item in menu.list -%}
     <li class='{{ classes }}'>

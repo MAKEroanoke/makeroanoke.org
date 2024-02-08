@@ -1,6 +1,11 @@
+{%- comment -%}
+ This block of code defines the header section at the top of a webpage.
+  It assumes that the <header class="header"></header> tags are supplied
+  by the calling code. 
+ {%- endcomment -%}
+
 {% assign site_logo = site.logo | relative_url %}
 
-<header id="masthead">
   <div class="inner">
     <div class="title-area">
       {% if page.url == '/' %}
@@ -13,8 +18,8 @@
       {% else %}
         <p class="site-title">
           <a href="{{ '/' | relative_url }}">
-            {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo">{% endif %}
-            <span>{{ site.tag | escape }}</span>
+            {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo" />{% endif %}
+            {%- if site.tagline -%}<span>{{ site.tagline | escape }}</span>{%- endif -%}
           </a>
         </p>
       {% endif %}
@@ -23,4 +28,11 @@
   <nav class="hmenu">
     {%- include render-primary-menu.html menuName="primary" -%}
   </nav>
-</header>
+
+  {% if page.image %}
+  {% assign intro_image = page.image.path | default: page.image | relative_url | escape %}
+  <div class="intro-image">
+    <img src="{{ intro_image }}" alt="{{ page.title }}">
+  </div>
+{% endif %}
+

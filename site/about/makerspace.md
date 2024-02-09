@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What is a Makerspace?
-permalink: /makerspace/
+permalink: /about/makerspace/
 secondary-menu:  about-menu
 ---
 

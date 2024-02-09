@@ -4,6 +4,9 @@
 ## Menu Item fields:
 ##   name  -- Name to display on Menu Item
 ##   path  -- URL of page represented by Menu Item
+##   item  -- Flag for processing.
+##            Default:  Process normally
+##            same -- Same as parent menu item (for submenus only), do not display
 ##   menu  -- Name of sub-menu
 ##
 ## Menu fields:
@@ -54,6 +57,9 @@ main-menu:
     - Events:
       name: "Events"
       path: "/events"
+    - Posts:
+      name:  "Posts"
+      path:  "/post-posts"
     - AboutUs:
       name: "About Us"
       path: "/about"
@@ -110,6 +116,7 @@ about-menu:
     - About Us:
       name:  "About Us"
       path:  "/about/"
+      item:  "same"
     - Makerspace:
       name:  "Makerspace"
       path:  "/about/makerspace/"

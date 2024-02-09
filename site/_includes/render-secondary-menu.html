@@ -5,6 +5,9 @@ Variables pass to this file:
     menuName:    The name of the menu to be rendered. Default: "primary"
     tag:         HTML Tag to surround Menu name.  Default: false (No Tags)
     displayName: Boolean.  Whether to display menu name or not. Default: false
+    submenu:     If present, this is a submenu, use the menu item.
+                 Use menu-item.item = "same", to suppress displaying 
+                 the same menu-item as the parent.
 
 NOTE: The variable mName was originally labeled menuName.  For reasons that
       are still unclear, menuName would not change when assigned a new value.
@@ -78,20 +81,25 @@ the real menu name that has been assigned to the placement menu variable.
 {%- assign classes = "vmenu" -%}
 <ul class='{{ classes }}'>
 {%-for item in menu.list -%}
-    <li class='{{ classes }}'>
-        {%- assign pathSize = item.path | size -%}
+    {%- comment -%}
+    Display menu item unless this is a submenu AND item.item is "same". 
+    {%- endcomment -%}
+    {%- unless item.item == "same"  and include.submenu != nil -%}
+        <li class='{{ classes }}'>
+            {%- assign pathSize = item.path | size -%}
     
-        {%- if pathSize > 0 -%}
-             <a href="{{ item.path }}" itemprop="url"><span itemprop="name">{{ item.name }}</span></a>
-        {%- else -%}
-            <span itemprop="name">{{ item.name }}</span>
-        {%- endif -%}
-        {%- if item.menu != nil and item.menu != blank -%}
-            <nav class="vmenu">
-            {%- include render-secondary-menu.html menuName=item.menu  displayName=false -%}
-            </nav>
-        {%- endif -%}
-    </li>
+            {%- if pathSize > 0 -%}
+                 <a href="{{ item.path }}" itemprop="url"><span itemprop="name">{{ item.name }}</span></a>
+            {%- else -%}
+             <span itemprop="name">{{ item.name }}</span>
+            {%- endif -%}
+            {%- if item.menu != nil and item.menu != blank -%}
+             <nav class="vmenu">
+                 {%- include render-secondary-menu.html menuName=item.menu  displayName=false  submenu=true -%}
+             </nav>
+             {%- endif -%}
+        </li>
+    {%- endunless -%}
 {%- endfor -%}
 </ul>
 

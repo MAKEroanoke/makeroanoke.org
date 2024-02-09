@@ -1,12 +1,13 @@
 ---
+title:  MAKE Roanoke Posts
 layout: default
+permalink:  /post-posts/
 ---
 
 {% include page-intro.html %}
 
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
-    <div>{{ content }}</div>
     
     {% if site.posts.size > 0 %}
       <div>

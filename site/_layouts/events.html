@@ -1,0 +1,41 @@
+---
+layout: page
+title: Upcoming Events
+permalink: /events.html
+---
+
+<p><a href="/past-events/">Archived Events</a></p>
+
+{%- assign current_events = site.events | where_exp: "event", "event.date >= site.time" -%}
+
+{%- assign number_of_events = current_events | size -%}
+
+{%- if number_of_events > 0 -%}
+<section class="event-card-list">
+{%- for event in current_events -%}
+  <article class="event-card">
+    <header class="event-card-header">
+      <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
+      {%- if event.image.thumbnail -%}
+        {%- assign entry_image = post.image.thumbnail | relative_url | escape -%}
+        <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
+      {%- endif -%}
+    </header>
+    <div class="author event-card-date">
+      {%- if event.event_date -%}
+        <span class="icon">{%- include icon-calendar.svg -%}</span> 
+        <time class="entry-time" datetime="{{ event.event_date | date_to_xmlschema }}">
+          {{ event.event_date | date: "%B %-d, %Y" }}
+        </time>
+      {%- endif -%}
+    </div>
+    <div class="event-card-excerpt">
+      {{ event.excerpt }}
+      <a href="{{ event.url }}">... read more</a>
+    </div>
+  </article>
+{% endfor %}
+</section>
+{%- endif -%}
+
+

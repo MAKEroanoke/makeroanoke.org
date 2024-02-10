@@ -7,3 +7,5 @@ vendor
 docker-compose.yml
 .env
 node_modules
+.code-workspace
+ 

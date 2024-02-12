@@ -17,6 +17,8 @@
  * associated with.
  */
 
+ 
+
 /* Global Variables used by .hmenu and .vmenu */
 /* 
  * NOTE.  As pure CSS, the selectors variables under ".hmenu, .vmenu {} work.
@@ -57,6 +59,45 @@
 	$menu-item-width:                  calc(100% + #{$menu-item-border-width});
 //}
 
+
+/*
+ * Changes in CSS when screen size switches between
+ * Mobile phone size and larger.
+ *
+ */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+ .mobile-only
+ {
+	display:             none;
+ }
+
+ .mobile-never
+ {
+	display:             inherit;
+ }
+
+ @media  (width < $mobile-width)
+ {
+	.mobile-only
+	{
+		display:         block;
+	}
+
+	.mobile-never
+	{
+		display:         none;
+	}
+ }
+
+ 
 /*
  * Class Selector: .hmenu
  *
@@ -73,6 +114,50 @@ nav.hmenu
 	width:               100%;
     line-height:         normal;
     white-space:         nowrap;
+}
+
+#primary-menu
+{
+	display: none;
+
+	@media (width >= $mobile-width)
+	{
+		display:  block;
+	}
+}
+
+#primary-mobile-menu
+{
+	display:  none;
+
+	position:          absolute;
+
+	background-color:  white;
+	padding:           1rem;
+	
+	right:             0;
+	top:               0;
+
+	z-index:           10100;
+
+}
+
+#primary-mobile-menu .inner
+{
+	display:            flex;
+	flex-basis:         content;
+	flex-direction:     column;
+	gap:                 2rem;
+}
+
+#header
+{
+	position:    relative;
+}
+
+.fit-content
+{
+	width:               fit-content;
 }
 
 /* Applies to <ul> inside outermost <nav> division */

@@ -1,0 +1,19 @@
+/*
+ * Header -- CSS/SCSS for page header.
+ */
+
+ .page-header-title
+ {
+    display:               flex;
+    flex-direction:        row;
+    align-items:           baseline;
+    gap:                   1rem;
+    padding-inline-start:  2rem;
+
+    @media (width < $mobile-width)
+    {
+        flex-direction:    column;
+    }
+ }
+
+ 

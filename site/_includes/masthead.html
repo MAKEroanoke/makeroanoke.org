@@ -6,27 +6,38 @@
 
 {% assign site_logo = site.logo | relative_url %}
 
+
   <div class="inner">
-    <div class="title-area">
-      {% if page.url == '/' %}
+    <div class="page-header-title">
+      <section class="page-header-logo/">
         <h1 class="site-title">
           <a href="{{ '/' | relative_url }}">
             {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo">{% endif %}
-            <span>{{ site.tagline | escape }}</span>
           </a>
         </h1>
-      {% else %}
-        <p class="site-title">
-          <a href="{{ '/' | relative_url }}">
-            {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo" />{% endif %}
-            {%- if site.tagline -%}<span>{{ site.tagline | escape }}</span>{%- endif -%}
-          </a>
-        </p>
-      {% endif %}
-    </div>
-  </div>
-  <nav class="hmenu">
+      </section>
+
+      <section class="page-header-tagline">
+        {%- if site.tagline -%}
+        <h2><span>{{ site.tagline | escape }}</span></h2>
+        {%- endif -%}
+      </section>
+    </div>  <!-- page-header-title -->
+  </div>    <!-- inner -->
+
+  <nav id="primary-menu" class="hmenu mobile-never">
     {%- include render-primary-menu.html menuName="primary" -%}
+  </nav>
+
+  <nav id="primary-mobile-menu" class="vmenu mobile-only fit-content">
+    <div class="inner">
+      <section class="fit-content" onclick="hideMobileMenu()">
+        <span class="material-symbols-outlined">close</span>
+      </section>
+      <section class="fit-content">
+        {%- include render-secondary-menu.html menuName="primary" -%}
+      </section>
+    </div>
   </nav>
 
   {% if page.image %}
@@ -36,3 +47,17 @@
   </div>
 {% endif %}
 
+
+<script>
+  function showMobileMenu()
+  {
+    var menu = document.getElementById("primary-mobile-menu");
+    menu.style.display = "block";
+  }
+
+  function hideMobileMenu()
+  {
+    var menu = document.getElementById("primary-mobile-menu");
+    menu.style.display = "none";
+  }
+</script>

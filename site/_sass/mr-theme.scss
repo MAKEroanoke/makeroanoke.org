@@ -3,6 +3,8 @@
  * this file to change a lot during development.
  */
 
+ $mobile-width:    500px;
+
  #body
  {
     display:                 grid;
@@ -14,13 +16,22 @@
 
     grid-column-gap:          1rem;
     grid-row-gap:             1rem;
+
+    @media (width < $mobile-width)
+    {
+      grid-template-columns:  1fr 1fr;
+      grid-template-areas:    "header header"
+                              "left-sidebar left-sidebar"
+                              "right-sidbar right-sidebar"
+                              "main main"
+                              "footer footer";
+    }
  }
 
  aside[side="left"]
  {
     grid-area:           left-sidebar;
 
-    Xborder:              1px solid red;
     display:             block;
     margin-block-end:    1rem;
     margin-block-start:  1rem;
@@ -43,7 +54,6 @@
  {
     grid-area:           right-sidebar;
 
-    Xborder:   1px solid navy;
     display:  block;
     margin-block-end:    1rem;
     margin-block-start:  1rem;
@@ -54,7 +64,6 @@
  {
     grid-area:            header;
  
-    Xborder:   5px solid green;
     width:    100%;
  }
 
@@ -67,14 +76,15 @@
  {
     grid-area:           main;
 
-    Xbackground-color:    orange;
+    @media (width < $mobile-width)
+    {
+      width:             100%;
+    }
  }
 
  footer
  {
     grid-area:     footer;
-
-    Xborder:   1px solid black;
 
     background-color:   lavender;
     color:              black;
@@ -87,7 +97,7 @@
    display:             block;
    font-weight:         bold;
    margin-left:         auto;
-   margin-right:        auto;
+   margin-right:        auto;@import "page-header";
    text-align:          center;
  }
 
@@ -110,3 +120,4 @@
  }
 
  @import   "cards";
+ @import   "page-header";

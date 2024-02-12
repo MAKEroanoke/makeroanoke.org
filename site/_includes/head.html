@@ -42,7 +42,11 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family={% for font in site.data.theme.google_fonts %}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}"
     >
+
   {% endif %}
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 
   {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' %}
     {% comment %}

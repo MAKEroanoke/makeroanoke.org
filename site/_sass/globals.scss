@@ -15,4 +15,27 @@
   /* The width at which the layout switches to/from Mobile Mode */
   $mobile-width:    500px;
 
-  
+  /*
+   * Colors.
+   *
+   * This is a good place for all the site colors to be defined
+   * so that overall color look can be done in one place.
+   */
+
+   $menu-item-normal-color:              black;
+   $menu-item-hover-color:               red;
+   $menu-item-normal-background-color:   cornsilk;
+   $menu-item-hover-background-color:    cornsilk;
+   $menu-item-border-color:              gray;
+
+   $menu-mobile-background-color:        white;
+
+   $post-card-background-color:          #fefaec;
+   $post-card-mobile-background-color:   white;
+   $post-card-title-color:               black;
+   $post-card-date-background-color:     lavender;
+
+   $event-card-background-color:         $post-card-background-color;
+   $event-card-title-color:              $post-card-title-color;
+   $event-card-date-background-color:    $post-card-date-background-color;
+

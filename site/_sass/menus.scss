@@ -31,11 +31,6 @@
 	$menu-item-font-size:                 1em;
 	$menu-item-horizontal-padding:        1em;
 	$menu-item-vertical-padding:          calc(#{$menu-item-font-size} / 4);
-    $menu-item-normal-color:              black;
-    $menu-item-hover-color:               red;
-    $menu-item-normal-background-color:   cornsilk;
-    $menu-item-hover-background-color:    cornsilk;
-    $menu-item-border-color:              gray;
     $menu-item-z-index:                   150;
 
 	/*
@@ -132,7 +127,7 @@ nav.hmenu
 
 	position:          absolute;
 
-	background-color:  white;
+	background-color:  $menu-mobile-background-color;
 	padding:           1rem;
 	
 	right:             0;

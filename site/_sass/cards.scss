@@ -29,7 +29,25 @@
     min-width:              50%;
    }
 
+   @media (width < 800px)
+   {
+    grid-template-columns:  1fr;
+    grid-template-areas:    "header"
+                            "date"
+                            "excerpt";
+
+    border-inline:          auto;
+   }
  }
+
+ @container .post-card ( width < 500px)
+ {
+  grid-template-columns:  1fr;
+  grid-template-areas:    "header"
+                          "date"
+                          "excerpt";
+ }
+
 
  .post-card-header
  {
@@ -90,6 +108,17 @@
     width:                  95%;
     min-width:              50%;
    }
+
+   @media (width < 800px)
+   {
+    grid-template-columns:  1fr;
+    grid-template-areas:    "header"
+                            "date"
+                            "excerpt";
+
+    border-inline:          auto;
+   }
+
  }
 
  .event-card-header

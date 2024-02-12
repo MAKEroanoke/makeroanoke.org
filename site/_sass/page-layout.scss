@@ -1,0 +1,157 @@
+/*
+ * MR Theme page layout.
+ * 
+ * CSS for the actual layout of each page:
+ *
+ * Not in mobile mode:
+ *
+ *   +-------------------------------+
+ *   |            Header             |
+ *   +---------+-----------+---------+
+ *   | Left    |  Content  | Right   |
+ *   | Sidebar |           | Sidebar |
+ *   +---------+-----------+---------+
+ *   |            Footer             |
+ *   +-------------------------------+
+ *
+ * Mobile Mode:
+ *
+ *   +---------------+
+ *   |    Header     |
+ *   +---------------+
+ *   | Left  Sidebar |
+ *   +---------------+
+ *   | Right Sidebar |
+ *   +---------------+
+ *   |   Content     |
+ *   +---------------+
+ *   |   Footer      |
+ *   +---------------+
+ *
+ */
+
+/*
+ * The container with the ID="body"
+ */
+ #body
+ {
+    display:                 grid;
+    grid-template-columns:   1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas:      "header header header header header"
+                              "left-sidebar  main main main right-sidebar"
+                              "footer footer footer footer footer";
+
+    grid-column-gap:          1rem;
+    grid-row-gap:             1rem;
+
+    @media (width < $mobile-width)
+    {
+      grid-template-columns:  1fr 1fr;
+      grid-template-areas:    "header header"
+                              "left-sidebar left-sidebar"
+                              "right-sidbar right-sidebar"
+                              "main main"
+                              "footer footer";
+    }
+ }
+
+ aside[side="left"]
+ {
+    grid-area:           left-sidebar;
+
+    display:             block;
+    margin-block-end:    1rem;
+    margin-block-start:  1rem;
+    padding-top:         1rem;
+ }
+
+ aside .vmenu
+ {
+    margin-bottom:       2rem;
+ }
+
+ aside article.contact-list
+ {
+    margin-left:         auto;
+    margin-right:        auto;
+    width:               fit-content;
+ }
+
+ aside[side="right"]
+ {
+    grid-area:           right-sidebar;
+
+    display:  block;
+    margin-block-end:    1rem;
+    margin-block-start:  1rem;
+    padding-top:         1rem;
+ }
+
+ #header
+ {
+    grid-area:            header;
+ 
+    width:    100%;
+ }
+
+ .intro-image
+ {
+    margin-top:    1rem;
+ }
+
+ #content
+ {
+    grid-area:           main;
+
+    @media (width < $mobile-width)
+    {
+      width:             100%;
+    }
+ }
+
+ footer
+ {
+    grid-area:     footer;
+
+    background-color:   lavender;
+    color:              black;
+    font-size:          small;
+    padding-top:        1rem;
+    padding-block:      0.5rem;
+ }
+
+ footer .copyright
+ {
+   display:             block;
+   font-weight:         bold;
+   margin-left:         auto;
+   margin-right:        auto;@import "page-header";
+   text-align:          center;
+ }
+
+ footer .full-width
+ {
+   width:               100%;
+ }
+
+ footer .theme
+ {
+   width:           fit-content;
+   float:           left;
+   padding-inline:  1rem;
+ }
+
+ footer .engine
+ {
+   width:           fit-content;
+   float:           right;
+   padding-inline:  1rem;
+ }
+
+ footer .right-align
+ {
+   display:             inline-block;
+   text-align:          right;
+   width:               49%;
+ }

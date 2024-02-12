@@ -90,6 +90,7 @@
     color:              black;
     font-size:          small;
     padding-top:        1rem;
+    padding-block:      0.5rem;
  }
 
  footer .copyright
@@ -104,6 +105,20 @@
  footer .full-width
  {
    width:               100%;
+ }
+
+ footer .theme
+ {
+   width:           fit-content;
+   float:           left;
+   padding-inline:  1rem;
+ }
+
+ footer .engine
+ {
+   width:           fit-content;
+   float:           right;
+   padding-inline:  1rem;
  }
 
  footer .left-align

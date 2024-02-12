@@ -22,6 +22,12 @@
    * so that overall color look can be done in one place.
    */
 
+   /*
+    * TODO: Find where this background color is actually defined
+    * so that we can use the variabe it is defined as here.
+    */
+   $page-normal-background-color:        #fefaec;
+
    $menu-item-normal-color:              black;
    $menu-item-hover-color:               red;
    $menu-item-normal-background-color:   cornsilk;
@@ -30,7 +36,7 @@
 
    $menu-mobile-background-color:        white;
 
-   $post-card-background-color:          #fefaec;
+   $post-card-background-color:          $page-normal-background-color;
    $post-card-mobile-background-color:   white;
    $post-card-title-color:               black;
    $post-card-date-background-color:     lavender;

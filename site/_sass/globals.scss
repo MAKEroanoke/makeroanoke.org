@@ -23,10 +23,10 @@
    */
 
    /*
-    * TODO: Find where this background color is actually defined
-    * so that we can use the variabe it is defined as here.
+    * $background-color is defined in the Basically Basic file
+    * _sass/basically-basic/themes/_soft.scss
     */
-   $page-normal-background-color:        #fefaec;
+   $page-normal-background-color:        $background-color;
 
    $menu-item-normal-color:              black;
    $menu-item-hover-color:               red;

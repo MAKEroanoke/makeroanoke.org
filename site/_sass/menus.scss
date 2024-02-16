@@ -300,14 +300,6 @@ nav.vmenu
     z-index:              $menu-item-z-index;
 }
 
-/* Make submenu <nav> absolute so that the <ul> block can be a flex block. */
-.vmenu li > nav
-{
-	display:              none;
-	position:             absolute;
-	left:                 100%;
-	top:                  $menu-item-negative-border-width;
-}
 
 /* 
  * Make the first level ,ul> of a submenu a flex container.
@@ -390,6 +382,16 @@ nav.vmenu
 	margin-top:          0px;
 	left:                $menu-item-width;
 	top:                 $menu-item-negative-border-width;
+	width:               fit-content;
+	height:              fit-content;
+}
+
+.vmenu li > nav[mXside="left"]
+{
+	left:                 $menu-item-negative-border-width;
+
+	transform-origin:     right top;
+	transform:            translateX( -100% );
 }
 
 /* Define the Flex Container of a submenu */
@@ -410,4 +412,9 @@ nav.vmenu
 {
 	text-decoration:     none;
     color:               $menu-item-normal-color;
+}
+
+.button-cursor
+{
+	cursor:              pointer;
 }

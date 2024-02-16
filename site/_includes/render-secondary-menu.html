@@ -5,7 +5,12 @@ Variables pass to this file:
     menuName:    The name of the menu to be rendered. Default: "primary"
     tag:         HTML Tag to surround Menu name.  Default: false (No Tags)
     displayName: Boolean.  Whether to display menu name or not. Default: false
-    submenu:     If present, this is a submenu, use the menu item.
+    submenu:     If present, this is a submenu.  This attribute has two legal
+                 values: left, right.  Default is right.
+                 The value is used to decide which side of the parent menu 
+                 the submenu is placed.  When this attribute is present
+                 use the menu item to determine whether to display all of
+                 the menu items or not.
                  Use menu-item.item = "same", to suppress displaying 
                  the same menu-item as the parent.
 
@@ -78,14 +83,26 @@ the real menu name that has been assigned to the placement menu variable.
     in the list of menu items.
 {%- endcomment -%}
 
-{%- assign classes = "vmenu" -%}
-<ul class='{{ classes }}'>
+{%- if include.submenu != nill and include.submenu == "left" -%}
+    {%- capture attributes -%}mside="left"{%- endcapture -%}
+{%- else -%}
+    {%- capture attributes -%}mside="left"{%- endcapture -%}
+{%- endif -%}
+
+{%- assign  classes = "vmenu" -%}
+
+<ul class="{{ classes }}">
 {%-for item in menu.list -%}
     {%- comment -%}
     Display menu item unless this is a submenu AND item.item is "same". 
     {%- endcomment -%}
     {%- unless item.item == "same"  and include.submenu != nil -%}
-        <li class='{{ classes }}'>
+        {%- if item.menu != nil and item.menu != blank -%}
+            {%- assign mouseOver = 'onmouseover="shiftLeftOfParent(this);"' -%}
+        {%- else -%}
+            {%- assign mouseOver = "" -%}
+        {%- endif -%}
+        <li class="{{ classes }}" {{ mouseOver }} >
             {%- assign pathSize = item.path | size -%}
     
             {%- if pathSize > 0 -%}
@@ -94,7 +111,7 @@ the real menu name that has been assigned to the placement menu variable.
              <span itemprop="name">{{ item.name }}</span>
             {%- endif -%}
             {%- if item.menu != nil and item.menu != blank -%}
-             <nav class="vmenu">
+             <nav  {{ attributes }} class="{{ classes }}" ">
                  {%- include render-secondary-menu.html menuName=item.menu  displayName=false  submenu=true -%}
              </nav>
              {%- endif -%}

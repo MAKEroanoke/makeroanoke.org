@@ -31,7 +31,7 @@
 
   <nav id="primary-mobile-menu" class="vmenu mobile-only fit-content">
     <div class="inner">
-      <section class="fit-content" onclick="hideMobileMenu()">
+      <section class="fit-content button-cursor" onclick="hideMobileMenu()">
         <span class="material-symbols-outlined">close</span>
       </section>
       <section class="fit-content">
@@ -59,5 +59,105 @@
   {
     var menu = document.getElementById("primary-mobile-menu");
     menu.style.display = "none";
+  }
+
+  window.addEventListener("DOMContentLoaded", onceLoaded );
+
+  function onceLoaded()
+  {
+    console.log("page loaded");
+  }
+
+  function getElementWidth(element)
+  {
+    var style   = window.getComputedStyle(element);
+    var width   = parseFloat(style.width); //element.offsetWidth;
+
+    var margin  = parseFloat(style.marginLeft) + parseFloat(style.marginRight);
+    var border  = parseFloat(style.borderRightWidth);
+
+    if ( isNaN(width) ) 
+    {
+      width = 0;
+    }
+
+    if ( isNaN(border) )
+    {
+      border = 0;
+    }
+
+    if ( isNaN(margin) )
+    {
+      margin = 0;
+    }
+
+    var totalWidth = width + margin + border; // + border - padding;
+
+    //console.log("Element[", element.tagName, "] Width: ", totalWidth, "px");
+    //console.log("[", width, ", ", margin, ", ", border, ", ", padding, "]");
+
+    return totalWidth;
+  }
+
+  function getWidth(parent)
+  {
+    var maxWidth = getElementWidth(parent);
+    var childWidth = 0;
+
+   
+
+    for (const child of parent.children)
+    {
+      childWidth = getWidth(child);
+
+      if ( childWidth > maxWidth )
+      {
+        maxWidth = childWidth;
+      }
+    }
+
+    return maxWidth;
+  }
+
+  function shiftLeftOfParent(myElement)
+  {
+    var children = myElement.children;
+
+    //console.log("Calling shiftLeftOfParent()");
+
+    for (const child of myElement.children)
+    {
+      if ( child.tagName != "NAV" )
+      {
+        continue;
+      }
+
+      //console.log("Mside: ", child.getAttribute("mside"));
+      if ( child.hasAttribute("mside") )
+      {
+        var whichSide = child.getAttribute("mside");
+        var style     = window.getComputedStyle(child);
+
+        var border    = parseFloat(style.borderRightWidth);
+        if ( isNaN(border) )
+        {
+          border = 0;
+        }
+
+        var childWidth = getWidth(child) + parseFloat(window.getComputedStyle(child).borderRightWidth);
+
+        //console.log(" Width: ", childWidth);
+        if ( whichSide == "left" )
+        {
+          shiftPx = -1 * childWidth;
+          newLeft = shiftPx.toString().concat("px");
+          //( myElement.style.borderLeftWidth + child.style.width) ;
+
+          //console.log("Offset: ", newLeft);
+
+          child.style.left = newLeft;
+        }
+      }
+    }
   }
 </script>

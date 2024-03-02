@@ -1,0 +1,333 @@
+/*
+ * Menu CSS/SASS for MAKE Roanoke Website.
+ *
+ * This set of CSS overrides the theme menu CSS in order to provide submenus.
+ * Menus can be horizontal or vertical.  All submenus are vertical only.
+ *
+ * Class Selectors:
+ *   .hmenu  -- Horizontal Menu
+ *   .vmenu  -- Vertical Menu or Submenu
+ *   .fmenu  -- Footer Menu (not implemented yet.  Use .hmenu)
+ *
+ * Menus are defined in HTML as Unordered Lists <ul class="hmenu or vmenu">.
+ * Each menu <ul> is placed inside a <nav class="hmenu or vmenu"> division.
+ * Note, the <nav> class must match the <ul> class and be either hmenu or vmenu.
+ *
+ * A submenu is placed inside the <li></li> tag for the menu item that it is
+ * associated with.
+ */
+
+/* Global Variables used by .hmenu and .vmenu */
+/* 
+ * NOTE.  As pure CSS, the selectors variables under ".hmenu, .vmenu {} work.
+ * It does not work as SASS/SCSS so the selectors are commented out and the
+ * variables are global variables.
+ */
+//.hmenu, .vmenu
+//{
+	$menu-item-border-width:              4px;
+	$menu-item-font-size:                 1em;
+	$menu-item-horizontal-padding:        1em;
+	$menu-item-vertical-padding:          calc(#{$menu-item-font-size} / 4);
+    $menu-item-normal-color:              black;
+    $menu-item-hover-color:               red;
+    $menu-item-normal-background-color:   cornsilk;
+    $menu-item-hover-background-color:    cornsilk;
+    $menu-item-border-color:              gray;
+    $menu-item-z-index:                   150;
+
+	/*
+	 * Variables that should be calc() of other variables.  Since this does
+	 * not appear to work, we must do the calculations manually.
+	 *
+	 * negative border width == - border width (For positioning to outside of border)
+	 * padding height        == 2 * vertical padding
+	 * border height         == 2 * border width
+	 * menu item height      == font size + padding height + border height
+     *                       == font size + 2 * (padding padding + border width)
+	 * menu item top         == 0 - border width (for vmenu)
+	 * menu item width       == 100% + 1 * border width
+	 */
+
+	$menu-item-negative-border-width:  calc(-1 * #{$menu-item-border-width});
+    $menu-item-padding-height:         calc( 2 * #{$menu-item-vertical-padding});
+	$menu-item-border-height:          calc( 3 * #{$menu-item-border-width});
+	$menu-item-height:                 calc( #{$menu-item-font-size} + #{$menu-item-padding-height} + #{$menu-item-border-height} - 1px);
+	$menu-item-top:                    #{$menu-item-negative-border-width};
+	$menu-item-width:                  calc(100% + #{$menu-item-border-width});
+//}
+
+/*
+ * Class Selector: .hmenu
+ *
+ * Horizontal Menus.
+ */
+
+/* Applies to outermost <nav> division. */
+/* Assumes one flex item (<ul>)          */
+nav.hmenu
+{
+	display:             block;
+    position:            relative;
+	margin:              0;
+	width:               100%;
+    line-height:         normal;
+    white-space:         nowrap;
+}
+
+/* Applies to <ul> inside outermost <nav> division */
+ul.hmenu
+{
+	align-content:        center;
+	align-items:          center;
+    margin:               0px;
+	display:              flex;
+	flex-direction:       row;
+	flex-wrap:            wrap;
+	font-family:          Arial, Helvetica, sans-serif;
+	font-size:            $menu-item-font-size;
+	gap:                  0px;
+	justify-content:      center;
+	list-style:           none;
+	padding-inline-start: 0;
+	text-align:           center;
+	text-decoration:      none;
+	width:                auto;
+}
+
+/* Applies to <li> tags within the outermost <nav> <ul> tags */
+.hmenu > li
+{
+	display:             block;
+	border:               $menu-item-border-width outset $menu-item-border-color;
+	margin:               0;
+	padding-top:          $menu-item-vertical-padding;
+	padding-bottom:       $menu-item-vertical-padding;
+	padding-inline:       $menu-item-horizontal-padding;
+	position:             relative;
+	
+	color:                $menu-item-normal-color;
+	background-color:     $menu-item-normal-background-color;
+}
+
+/* Make sure that anchor links are a different color when the mouse is not hovering */
+.hmenu li > a
+{
+    color:                $menu-item-normal-color;
+}
+
+/* Flip the border (to look pressed) and font color to highlight */
+.hmenu li:hover
+{
+	border:              $menu-item-border-width inset $menu-item-border-color;
+    background-color:    $menu-item-hover-background-color;
+}
+
+/* Make sure that anchor tag <a> is using the same color used by li:hover */
+.hmenu > li:hover > a
+{
+	color:               $menu-item-hover-color;
+}
+
+/* Applies to first level submenus and makes submenu invisible */
+.hmenu li > nav
+{
+    display:             none;
+	position:            absolute;
+	border:              0px;
+	margin:              0px;
+	top:                 $menu-item-height;
+	left:                $menu-item-negative-border-width;
+	z-index:             $menu-item-z-index;
+}
+
+/* Control position of first Submenu (which is vertical) and makes block visible */
+.hmenu > li:hover > nav
+{
+	display:             block;
+	border:              0px;
+	margin:              0px;
+	padding:             0px;
+}
+
+/* Flips the border when first level Submenu item has mouse focus */
+/* TODO: Is this necessary, or is it covered by ".hmenu > li:hover > nav */
+.hmenu li:hover > nav li:hover
+{
+	border:              $menu-item-border-width inset $menu-item-border-color;
+	display:             block;
+}
+
+/* Defining Flex Container for vertical submenu */
+/* TODO: Is this necessary, or is it covered by ".vmenu ul" */
+.hmenu > li > nav > ul
+{
+	display:              flex;
+	position:             relative;
+	flex-grow:            1;
+	flex-shrink:          1;
+	flex-basis:           initial;
+	flex-direction:       column;
+	gap:                  0px;
+	padding-inline-start: 0;
+	width:                auto;
+	margin-left:          auto;
+	margin-right:         auto;
+	left:                 0px;
+	top:                  $menu-item-top;
+}
+
+/* Make menu item appear as button sticking out.  Normal condition when */
+/* mouse focus is not over this <li> block.                             */
+.hmenu ul li
+{
+	border:               $menu-item-border-width outset $menu-item-border-color;
+}
+
+/* Change appearance of menu item to look like a pressed button */
+.hmenu ul li:hover
+{
+    background-color:     $menu-item-hover-background-color;
+}
+
+/* Remove underline from all anchor links */
+.hmenu a
+{
+	text-decoration:     none;
+    color:               $menu-item-normal-color;
+}
+
+/*
+ * Class Selector: .vmenu
+ *
+ * Vertical Menu
+ *
+ * Vertical Menus are also Horizontal Submenus.
+ *
+ * Note, in horizontal menus, the <nav> block is absolute.
+ * while for vertical menus, the <nav> block is relative and 
+ * the first level <ul> is absolute.
+ */
+
+nav.vmenu
+{
+	position:             relative;
+    line-height:          normal;
+    white-space:          nowrap;
+
+    /* CSS to negate Theme */
+    overflow-x:           visible;
+    z-index:              $menu-item-z-index;
+}
+
+/* Make submenu <nav> absolute so that the <ul> block can be a flex block. */
+.vmenu li > nav
+{
+	display:              none;
+	position:             absolute;
+	left:                 100%;
+	top:                  $menu-item-negative-border-width;
+}
+
+/* 
+ * Make the first level ,ul> of a submenu a flex container.
+ * Make sure each flex item (the <li> blocks) stretch to the
+ * full width of the flex container so each menu item is the
+ * same width.
+ */
+.vmenu ul
+{
+	align-content:        center;
+	align-items:          stretch;
+	display:              flex;
+	border:               0px;
+	flex-direction:       column;
+	flex-wrap:            wrap;
+	font-family:          Arial, Helvetica, sans-serif;
+	font-size:            $menu-item-font-size;
+	gap:                  0px;
+	justify-content:      center;
+	list-style:           none;
+	margin:               0px;
+	text-decoration:      none;
+	text-align:           center;
+	padding-inline-start: 0;
+	padding:              0;
+	position:             relative;
+	width:                auto;
+}
+
+/* 
+ * Define the Normal appearance of a menu item that looks
+ * a button that sticks out.
+ */
+.vmenu li
+{
+	display:             block;
+	border:              $menu-item-border-width outset $menu-item-border-color;
+	margin:              0;
+	padding-top:         $menu-item-vertical-padding;
+	padding-bottom:      $menu-item-vertical-padding;
+	padding-left:        $menu-item-horizontal-padding;
+	padding-right:       $menu-item-horizontal-padding;
+    position:            relative;
+	width:               auto;
+	
+	color:               $menu-item-normal-color;
+	background-color:    $menu-item-normal-background-color;
+}
+
+/*
+ * Flip menu item appearance when mouse is over it so that
+ * it looks like a button that is pressed.
+ */
+.vmenu li:hover
+{
+	border:             $menu-item-border-width inset $menu-item-border-color;
+    background-color:   $menu-item-hover-background-color;
+}
+
+/* Make the Submenu visible when mouse is over its parent menu item */
+.vmenu li:hover > nav
+{
+	display:             block;
+}
+
+/* Make sure that anchor link is the same text color as the hovered menu item */
+.vmenu li:hover > a
+{
+	color:               $menu-item-hover-color;
+}
+
+/* Define the absolute block to contain a submenu */
+.vmenu li > nav
+{
+    display:             none;
+	position:            absolute;
+	padding-bottom:      0px;
+	z-index:             $menu-item-z-index;
+	border-collapse:     separate;
+	margin-top:          0px;
+	left:                $menu-item-width;
+	top:                 $menu-item-negative-border-width;
+}
+
+/* Define the Flex Container of a submenu */
+.vmenu li > nav > ul
+{
+	display:              flex;
+	position:             absolute;
+	flex-direction:       column;
+	gap:                  0px;
+	padding-inline-start: 0;
+	margin-top:           0px;
+	
+}
+
+
+/* Remove underline from anchor links. */
+.vmenu a
+{
+	text-decoration:     none;
+    color:               $menu-item-normal-color;
+}

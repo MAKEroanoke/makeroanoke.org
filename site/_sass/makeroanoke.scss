@@ -25,3 +25,13 @@ $logo-height:   80px;
     padding: 1rem 1rem;
 }
 
+// Additions to Basically Basic Theme menu system to allow submenus to be
+// displayed indented from the parent menu.
+.menu > li
+{
+    margin-left:  1em;
+}
+
+// Should be using @use instead of @import since @import is deprecated 
+// but @use does not yet seem to be supported in Jekyll Liquid.
+@import "menus";

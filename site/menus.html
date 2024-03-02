@@ -1,0 +1,29 @@
+---
+layout:  page
+---
+
+
+<section>
+    <h1>Primary Menu: {{ site.data.mr-menus.primary}}</h1>
+
+    <h2>Menu List</h2>
+    {% assign menuNames = site.data.mr-menus.menus %}
+    <ul>
+    {% for menuName in menuNames %}
+        <li>{{ menuName }}</li>
+    {% endfor %}
+    </ul>
+    <ul>
+        <li>Primary:  {{ site.data.mr-menus.primary }}</li>
+    </ul>
+
+    {% for menuName in menuNames %}
+        <section id="Menu List">
+        {% include render-menu.html menuName=menuName tag="h3" %}
+        </section>
+        <hr/>
+    {% endfor %}
+
+    <hr/>
+   
+</section>

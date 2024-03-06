@@ -23,11 +23,6 @@
   {% endif %}
 
   <li>
-    {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' %}
-      <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" title="Atom Feed">
-        <span class="icon icon--rss {{ dark_icon }}">{% include icon-rss.svg %}</span>
-        <span class="label">{{ site.data.theme.t.subscribe | default: 'Subscribe' }}</span>
-      </a>
-    {% endif %}
+      {% include icon-link.html username='make_roanoke' %} 
   </li>
 </ul>

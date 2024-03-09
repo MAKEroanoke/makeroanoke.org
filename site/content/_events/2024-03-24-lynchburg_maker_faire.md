@@ -26,4 +26,6 @@ boundless creativity of the maker community.
 
 We can't wait to see you there! Let's make something awesome together!
 
+Even if you can't physically make it, if there is something you have made recently that you feel exemplifies the City of Roanoke well and you would like to have it showcased with us, please reach out to us by email or Discord.
+
 More details at the [Organizer Website](https://lynchburg.makerfaire.com/)

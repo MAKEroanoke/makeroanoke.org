@@ -30,16 +30,19 @@ website hosting, etc) but will start to increase rapidly as we expand into class
 offerings, more community events, and eventually our full makerspace.  A growing
 membership will help us convince potential landlords, corporate partners, and
 government officials for assistance in funding and contracts in order to open
-our space.  Who is running for the board?  Nominations are ongoing and a formal
-announcement of candidates along with bios will be sent out in 1 week.
+our space.  
+
+## Who is running for the board?  
+Nominations are ongoing and a formal announcement of candidates along with bios
+will be sent out in 1 week.
 
 ## What other votes are upcoming?
 The governance committee is working on a few amendments to our current bylaws.
 We plan to bring these to a membership vote at the May community meeting.
 
-What if I don't want to pay $10/month now, but want to become a member once the
-space is opened?  You are still welcome at any and all events that MAKE Roanoke
-has to offer. At this point in time, membership is completely optional.
+## What if I don't want to pay $10/month now, but want to become a member once the space is opened?  
+You are still welcome at any and all events that MAKE Roanoke has to offer. At
+this point in time, membership is completely optional.
 
 ## Can I run for the board?
 Any member in good standing is eligible to run for the board. If you would like

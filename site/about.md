@@ -44,7 +44,7 @@ If you would like to be an initial supporter of MAKE Roanoke at $10 per month, s
         });
       },
       onApprove: function(data, actions) {
-        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+        //alert(data.subscriptionID); // You can add optional success message for the subscriber here
       }
   }).render('#paypal-button-container-P-4AY37020GX411563JMYQGVBA'); // Renders the PayPal button
 </script>

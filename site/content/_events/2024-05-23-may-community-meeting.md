@@ -16,7 +16,7 @@ excerpt_separator: <!--more-->
 <!--more-->
 
 Hey Roanoke makers! Mark your calendars for **Thursday, May 23rd** because MAKE
-Roanoke is hosting a community meeting at the **Vinton Library** from **6:00 PM 
+Roanoke is hosting a community meeting at the **[Vinton Library](https://maps.app.goo.gl/bzzZ2FWPaRaGiPMD7)** from **6:00 PM 
 to 8:00 PM**. 
 
 This is your chance to connect with fellow creators, share ideas, and learn the

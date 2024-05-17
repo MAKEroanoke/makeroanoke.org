@@ -23,6 +23,14 @@ following:
  * Events to promote education and collaboration between members and the greater
    Roanoke community.
 
+## Bylaws
+
+MAKE Roanoke operates under a set of Bylaws which outline the organization's
+structure, governance, and procedures.  These Bylaws ensure the fair and
+effective operation of MAKE Roanoke for the benefit of its members and the maker
+community.  You can review our current [Bylaws by clicking on this link.](/assets/documents/Proposed Bylaws.pdf)
+
+
 ## Super Secret Signup Station
 
 If you would like to be an initial supporter of MAKE Roanoke at $10 per month, sign up here:

@@ -1,7 +1,7 @@
 ---
 layout: event
 title: June Virtual Community Meeting
-event_date: 2024-06-11
+event_date: 2024-06-10
 event_time_start: "18:00"
 event_time_end: "20:00"
 location: https://meet.google.com/ckf-jaic-knt
@@ -26,7 +26,7 @@ This is a fantastic opportunity to connect with other makers and learn new ideas
 from the comfort of your own home.
 
 **Save the Date:**
-* **Date:** June 11th
+* **Date:** June 10th
 * **Time:** 6:00 PM
 * **Location:** Google Meet [meet.google.com/ckf-jaic-knt](https://meet.google.com/ckf-jaic-knt)
 

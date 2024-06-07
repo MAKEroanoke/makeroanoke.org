@@ -1,0 +1,4 @@
+<a href="https://discord.com/invite/{{ include.username }}">
+  <span class="icon icon--discord {{ include.styles }}">{% include icon-discord.svg %}</span>
+  <span class="label">{{ include.label | default: include.username }}</span>
+</a>

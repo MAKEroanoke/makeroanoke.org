@@ -28,7 +28,7 @@ following:
 MAKE Roanoke operates under a set of Bylaws which outline the organization's
 structure, governance, and procedures.  These Bylaws ensure the fair and
 effective operation of MAKE Roanoke for the benefit of its members and the maker
-community.  You can review our current [Bylaws by clicking on this link.](/assets/documents/Proposed Bylaws.pdf)
+community.  You can review our current [Bylaws by clicking on this link.](/assets/documents/Bylaws.pdf)
 
 
 ## Super Secret Signup Station

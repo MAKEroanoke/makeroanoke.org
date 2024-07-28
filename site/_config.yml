@@ -36,7 +36,7 @@ author:
   name: aaronm
 twitter_username:
 github_username:
-logo: "/assets/images/MAKE_Roanoke_Logo.png" # path of site logo, e.g. "/assets/images/logo.png"
+logo: "/assets/images/WhiteMakeRoanokeShadow.png" # path of site logo, e.g. "/assets/images/logo.png"
 search: true # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: lunr # lunr (default), algolia

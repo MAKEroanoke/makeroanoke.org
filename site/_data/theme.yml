@@ -1,5 +1,5 @@
 # Theme Skin
-skin: default # default, night, plum, sea, soft, steel
+skin: makeroanoke # default, night, plum, sea, soft, steel
 
 site_nav:
   # this specifies the icon class when used on a dark surface.

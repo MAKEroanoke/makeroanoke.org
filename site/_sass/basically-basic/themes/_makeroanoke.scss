@@ -1,0 +1,59 @@
+/* ==========================================================================
+   MAKE Roanoke theme skin
+   ========================================================================== */
+
+/* Old Colors
+ * $base-color: mix(#625772, #a9eee6, 75%) !default;
+ * $text-color: #625772 !default;
+ * $accent-color: #e85482 !default;
+ * $background-color: #fefaec !default;
+ * $code-background-color: #fff !default;
+ * $border-color: rgba($text-color, 0.5) !default;
+ * $overlay-color: #fff !default;
+ */
+
+/* New Colors
+ * Dark blue: #0a1c45
+ * Orange: #ff751a
+ * Medium Blue: #0b5bf7
+ * Light blue: #2bc7e2
+ * Purple: #bb2ec1
+ * Green: #7fe14a
+ * White: #ffffff
+  */
+
+$mk_dark_blue: #0a1c45;
+$mk_orange: #ff751a;
+$mk_medium_blue: #0b5bf7;
+$mk_light_blue: #2bc7e2;
+$mk_purple: #bb2ec1;
+$mk_green: #7fe14a;
+$mk_white: #ffffff;
+
+$suggested_menu_background: #063694;
+$suggested_sidebar_text: #ff944d;
+
+/* Option 1
+ * $base-color: mix($mk_dark_blue, $mk_orange, 25%) !default;
+ * $text-color: $mk_white !default;
+ * $accent-color: $mk_orange !default;
+ * $background-color: mix($mk_dark_blue, $mk_medium_blue, 50%) !default;
+ * $code-background-color: #888888 !default;
+ * $sidebar-background-color: $mk_dark_blue !default;
+ * $border-color: $mk_orange !default;
+ * // $border-color: rgba($text-color, 0.5) !default;
+ * $overlay-color: $mk_medium_blue !default;
+ */
+
+/* Option 2 */
+$base-color: $mk_purple !default;
+$text-color: $mk_white !default;
+$accent-color: $mk_orange !default;
+$background-color: $mk_dark_blue !default;
+$code-background-color: #888888 !default;
+$sidebar-background-color: $suggested_menu_background;
+$border-color: $mk_orange !default;
+// $border-color: rgba($text-color, 0.5) !default;
+$overlay-color: $mk_medium_blue !default;
+$sidebar-text-color: $suggested_sidebar_text;
+$sidebar-accent-color: mix($mk_orange, $mk_dark_blue, 80%) !default;

@@ -27,7 +27,7 @@ We have some awesome Backer Rewards available to thank you for supporting this c
 
 ## The Need for a Makerspace in Roanoke, VA
 
-#### Roanoke has a thriving creative community, but does not have an adequate location for these individuals to meet and create together. Our makerspace will provide access to tools, training, and community to help artists, engineers, and hobbyists bring their ideas to life. Specifically, our makerspace focuses on:
+Roanoke has a thriving creative community, but does not have an adequate location for these individuals to meet and create together. Our makerspace will provide access to tools, training, and community to help artists, engineers, and hobbyists bring their ideas to life. Specifically, our makerspace focuses on:
 ### Promoting Equity through Access
 #### Our makerspace will provide access to space and equipment via a monthly membership structure, with discounts for students and low income individuals. This is especially important for those who may not have the space or funds to purchase these tools on their own. Our goal is to democratize access to creative outlets by sharing space, equipment and knowledge.
 

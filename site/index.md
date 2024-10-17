@@ -1,7 +1,7 @@
 ---
 title: ""
 #sub_title: "Establishing a Makerspace in Roanoke, VA."
-image: /assets/images/BannerBackground_1600x400.png
+image: /assets/images/20241017_kickstarter_website_banner.png
 layout: home
 #introduction: | 
 #

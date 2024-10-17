@@ -13,7 +13,6 @@ layout: home
 ![](/assets/images/Kickstarter.png)
 MAKE Roanoke has already raised nearly $10,000 from individual contributions, membership dues, class fees and more. We’re currently negotiating a lease for a location in the heart of Roanoke. We've also received some generous donations of equipment, but we need YOUR HELP to cross the finish line!
 
-![https://meetup.com/make-roanoke](/assets/images/20241017_launch_party.png)
 
 ## Campaign Overview
 

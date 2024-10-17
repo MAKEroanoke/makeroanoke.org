@@ -21,8 +21,9 @@ We are launching this Kickstarter campaign on October 24th to fund equipment pur
 * Electronics Equipment:  Oscilloscope, power supply, soldering irons and accessories
 * Fabric Arts: 2 basic sewing machines, 1 embroidery machine, 1 industrial/heavy duty sewing machine, and basic sewing, knitting/crocheting and crafting materials
 
-#### Any money we raise beyond our initial goal will help us purchase more equipment to expand the capability of these shop areas.  You can view our complete Wishlist here!
-#### We have some awesome Backer Rewards available to thank you for supporting this campaign, including swag to show your support and unique items crafted by makers from our community. There’s even a lifetime membership up for grabs!
+Any money we raise beyond our initial goal will help us purchase more equipment to expand the capability of these shop areas.  You can view our complete Wishlist here!
+
+We have some awesome Backer Rewards available to thank you for supporting this campaign, including swag to show your support and unique items crafted by makers from our community. There’s even a lifetime membership up for grabs!
 
 ## The Need for a Makerspace in Roanoke, VA
 

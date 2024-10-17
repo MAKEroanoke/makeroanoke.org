@@ -32,18 +32,22 @@ Roanoke has a thriving creative community, but does not have an adequate locatio
 Our makerspace will provide access to space and equipment via a monthly membership structure, with discounts for students and low income individuals. This is especially important for those who may not have the space or funds to purchase these tools on their own. Our goal is to democratize access to creative outlets by sharing space, equipment and knowledge.
 
 ### Opportunities for Skill Development
-#### MAKE Roanoke gives the opportunity for individuals to enhance their skills and knowledge in various fields, from woodworking to coding and everything in between. It's a haven for creativity where people can tinker, experiment, and learn. 
-### Promoting Entrepreneurship
-#### Makerspaces are not just for hobbyists – they also provide an important space for budding entrepreneurs. Many Etsy shops and the like build their wares using tools like the ones we will have at MAKE Roanoke, and by providing access to said tools we are lowering the cost for someone to start their own business.
+MAKE Roanoke gives the opportunity for individuals to enhance their skills and knowledge in various fields, from woodworking to coding and everything in between. It's a haven for creativity where people can tinker, experiment, and learn.
 
-#### Our community demonstrates a clear demand for these benefits – our Discord has over 150 members, and we already have over 30 makers paying membership dues prior to the space opening! Our monthly classes are well-attended and have done a great job of teaching new skills to our community members and advancing our mission!
+### Promoting Entrepreneurship
+
+Makerspaces are not just for hobbyists – they also provide an important space for budding entrepreneurs. Many Etsy shops and the like build their wares using tools like the ones we will have at MAKE Roanoke, and by providing access to said tools we are lowering the cost for someone to start their own business.
+
+Our community demonstrates a clear demand for these benefits – our Discord has over 150 members, and we already have over 30 makers paying membership dues prior to the space opening! Our monthly classes are well-attended and have done a great job of teaching new skills to our community members and advancing our mission!
 
 ## More About Us
-#### MAKE Roanoke is a 501(c)(3) non-profit community of makers dedicated to establishing a makerspace in Roanoke, VA. We are fully run by volunteers. 
+
+MAKE Roanoke is a 501(c)(3) non-profit community of makers dedicated to establishing a makerspace in Roanoke, VA. We are fully run by volunteers. 
 
 
 ### Mission Statement
-#### MAKE Roanoke exists to promote knowledge, skill, and creativity in science, technology, crafts, and the arts. We strive to foster these values in an inclusive and safe environment. To these ends, MAKE Roanoke shall provide the following:
+
+MAKE Roanoke exists to promote knowledge, skill, and creativity in science, technology, crafts, and the arts. We strive to foster these values in an inclusive and safe environment. To these ends, MAKE Roanoke shall provide the following:
 
 
 * An inclusive and collegial social framework for members to inspire and collaborate with others of similar interests;

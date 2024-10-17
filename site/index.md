@@ -62,8 +62,8 @@ Snag that tote bag you’ve been eyeing and help us bring this space to Roanoke!
 
 ### Become a Member
 
-#### Sign up for a membership by clicking here. Membership currently costs $10 and grants voting rights in the organization. Once we open, the membership price will increase but will also include 24/7 access to the space and discounts on class fees. 
+Sign up for a membership by clicking here. Membership currently costs $10 and grants voting rights in the organization. Once we open, the membership price will increase but will also include 24/7 access to the space and discounts on class fees. 
 
 ### Sharing on Social Media and Networking
 
-#### Spread the word on social media, share our Kickstarter campaign with your friends and family, and help us reach a wider audience. Every share, like, and comment makes a difference in building our community!
+Spread the word on social media, share our Kickstarter campaign with your friends and family, and help us reach a wider audience. Every share, like, and comment makes a difference in building our community!

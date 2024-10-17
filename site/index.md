@@ -1,6 +1,6 @@
 ---
-alt_title: "MAKE Roanoke is launching a Kickstarter campaign to open a Makerspace in Roanoke, VA"
-#sub_title: "Establishing a Makerspace in Roanoke, VA."
+title: ""
+sub_title: "Establishing a Makerspace in Roanoke, VA."
 image: /assets/images/BannerBackground_1600x400.png
 layout: home
 #introduction: | 
@@ -8,6 +8,8 @@ layout: home
 #  You've found the site for MAKE Roanoke. We are a non-profit building
 #  a makerspace in Roanoke, VA.
 ---
+
+### MAKE Roanoke is launching a Kickstarter campaign to open a Makerspace in Roanoke, VA
 
 MAKE Roanoke has already raised nearly $10,000 from individual contributions, membership dues, class fees and more. We’re currently negotiating a lease for a location in the heart of Roanoke. We've also received some generous donations of equipment, but we need YOUR HELP to cross the finish line!
 

@@ -56,7 +56,7 @@ MAKE Roanoke exists to promote knowledge, skill, and creativity in science, tech
 
 ## Ways to Get Involved and Spread the Word
 ### Contribute to the Kickstarter
-#### Snag that tote bag you’ve been eyeing and help us bring this space to Roanoke! The campaign goes live on October 24, 2024, and we’re hosting a launch party at Golden Cactus brewing to kick it off!
+Snag that tote bag you’ve been eyeing and help us bring this space to Roanoke! The campaign goes live on October 24, 2024, and we’re hosting a launch party at Golden Cactus brewing to kick it off!
 
 ![](/assets/images/Kickstarter.png)
 

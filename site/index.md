@@ -11,6 +11,8 @@ layout: home
 
 MAKE Roanoke has already raised nearly $10,000 from individual contributions, membership dues, class fees and more. We’re currently negotiating a lease for a location in the heart of Roanoke. We've also received some generous donations of equipment, but we need YOUR HELP to cross the finish line!
 
+![](/assets/images/Kickstarter.png)
+
 ## Campaign Overview
 
 We are launching this Kickstarter campaign on October 24th to fund equipment purchases for our space. We already have some amazing tools donated, including 3D printers, an industrial sewing machine, a mill, soldering & electronics equipment, and an embroidery machine. Our initial funding goal will round out our tool offerings so makers of all crafts can build their next project at MAKE Roanoke. This includes: 

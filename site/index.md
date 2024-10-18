@@ -20,7 +20,7 @@ Please RSVP so we know how much food to order!
 This party is in lieu of our normal community meeting! Dress is casual, and feel free to bring your own craft to work on!
 
 #### Meeting Location:
-[Golden Cactus Brewing](https://poamld.clicks.mlsend2.com/td/c/eyJ2Ijoie1wiYVwiOjgyOTUxNyxcImxcIjoxMzU1NDg1MDMyNTQzNjk1NDksXCJyXCI6MTM1NTQ4NTAzNDcyNDczOTczfSIsInMiOiIxODk1MmFhNWI2ODY4MTUzIn0)
+[Golden Cactus Brewing](https://www.google.com/maps/place/37%C2%B016'19.3%22N+79%C2%B056'59.1%22W/@37.27202,-79.94975,17z/data=!3m1!4b1!4m4!3m3!8m2!3d37.27202!4d-79.94975?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D)
 
 214 5th Street SW · Roanoke, VA
 

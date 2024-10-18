@@ -9,6 +9,28 @@ layout: home
 #  a makerspace in Roanoke, VA.
 ---
 
+Our kickstarter campaign goes live on October 24, 2024, and we’re hosting a launch party at Golden Cactus brewing to kick it off!
+
+
+
+Please RSVP so we know how much food to order!
+
+[https://www.meetup.com/make-roanoke/events/303904240/](https://www.meetup.com/make-roanoke/events/303904240/)
+
+This party is in lieu of our normal community meeting! Dress is casual, and feel free to bring your own craft to work on!
+
+#### Meeting Location:
+[Golden Cactus Brewing](https://poamld.clicks.mlsend2.com/td/c/eyJ2Ijoie1wiYVwiOjgyOTUxNyxcImxcIjoxMzU1NDg1MDMyNTQzNjk1NDksXCJyXCI6MTM1NTQ4NTAzNDcyNDczOTczfSIsInMiOiIxODk1MmFhNWI2ODY4MTUzIn0)
+
+214 5th Street SW · Roanoke, VA
+
+
+#### Meeting Time:
+
+Thursday, October 24, 2024
+6:30 PM to 9:00 PM EDT
+
+
 ### MAKE Roanoke is launching a Kickstarter campaign to open a Makerspace in Roanoke, VA
 MAKE Roanoke has already raised nearly $10,000 from individual contributions, membership dues, class fees and more. We’re currently negotiating a lease for a location in the heart of Roanoke. We've also received some generous donations of equipment, but we need YOUR HELP to cross the finish line!
 

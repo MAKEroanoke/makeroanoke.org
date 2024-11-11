@@ -9,8 +9,10 @@ layout: home
 #  a makerspace in Roanoke, VA.
 ---
 
-### MAKE Roanoke is launching a Kickstarter campaign to open a Makerspace in Roanoke, VA
-MAKE Roanoke has already raised nearly $10,000 from individual contributions, membership dues, class fees and more. We’re currently negotiating a lease for a location in the heart of Roanoke. We've also received some generous donations of equipment, but we need YOUR HELP to cross the finish line!
+### MAKE Roanoke is raising funds on Kickstarter to open a Makerspace in Roanoke, VA
+MAKE Roanoke has already raised nearly $10,000 from individual contributions, membership dues, class fees and more, and we’re currently negotiating a lease for a location in the heart of Roanoke. We've also received some generous donations of equipment, but we need YOUR HELP to cross the finish line!
+
+We reached our initial funding goal of $5,000 on Kickstarter in under 18 hours, but we're not done yet! We're raising money through November 24 to buy bigger and better tools for our space. The more money we raise, the better offerings we'll have on opening day. Our first stretch goal is for a CNC router, and our next will be for an upgraded laser cutter!
 
 #### Kickstarter:
 
@@ -18,13 +20,14 @@ MAKE Roanoke has already raised nearly $10,000 from individual contributions, me
 
 ## Campaign Overview
 
-We are launching this Kickstarter campaign on **October 24th** to fund equipment purchases for our space. We already have some amazing tools donated, including 3D printers, an industrial sewing machine, a mill, soldering & electronics equipment, and an embroidery machine. Our initial funding goal will round out our tool offerings so makers of all crafts can build their next project at MAKE Roanoke. This includes: 
-* **Woodshop:** basic woodworking equipment including a circular saw, router, hand tools, miter saw, power drill, and a shop vacuum
-* **Metal shop:** basic machining equipment such as lathe, mill, dial indicators, test indicators & indicator stands
-* **Laser Cutter and Papercrafts:**  A basic tabletop laser cutter, a Cricut and accessories
-* **3D Printing:** 3 FDM (filament) printers and 1 resin printer
-* **Electronics Equipment:**  Oscilloscope, power supply, soldering irons and accessories
-* **Fabric Arts:** 2 basic sewing machines, 1 embroidery machine, 1 industrial/heavy duty sewing machine, and basic sewing, knitting/crocheting and crafting materials
+We are using this Kickstarter campaign to fund equipment purchases for our space. We already have some amazing tools donated, including 3D printers, an industrial sewing machine, a mill, soldering & electronics equipment, and an embroidery machine. Our initial funding goal will rounds out our tool offerings so makers of all crafts can build their next project at MAKE Roanoke. This includes: 
+* **Woodshop**: basic woodworking equipment including a circular saw, router, hand tools, miter saw, power drill, and a shop vacuum
+* **Metal shop**: basic machining equipment such as lathe, mill, dial indicators, test indicators & indicator stands
+* **Laser Cutter and Papercrafts**:  A basic tabletop laser cutter, a Cricut and accessories
+* **3D Printing**: 3 FDM (filament) printers and 1 resin printer
+* **Electronics Equipment**:  Oscilloscope, power supply, soldering irons and accessories
+* **Fabric Arts**: 2 basic sewing machines, 1 embroidery machine, 1 industrial/heavy duty sewing machine, and basic sewing, knitting/crocheting and crafting materials
+
 
 Any money we raise beyond our initial goal will help us purchase more equipment to expand the capability of these shop areas.  You can view our complete Wishlist [here](https://docs.google.com/document/d/1rpxGDL9YX55xHcfo7G_rz2gTV6zZtfnp93o3o_Vh__E/edit?usp=sharing)!
 
@@ -61,9 +64,7 @@ MAKE Roanoke exists to promote knowledge, skill, and creativity in science, tech
 
 ## Ways to Get Involved and Spread the Word
 ### Contribute to the Kickstarter
-Snag that tote bag you’ve been eyeing and help us bring this space to Roanoke! The campaign goes live on **October 24, 2024**, and we’re hosting a launch party at Golden Cactus brewing to kick it off!
-
-![https://meetup.com/make-roanoke](/assets/images/20241017_launch_party.png)
+Snag that tote bag you’ve been eyeing and help us bring this space to Roanoke! Share the campaign with anyone you think would love a community workshop in the Roanoke Valley.
 
 ### Become a Member
 

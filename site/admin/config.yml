@@ -1,0 +1,74 @@
+# config.yml
+
+local_backend: true
+
+backend:
+  branch: main # optional, defaults to master
+  base_url: https://sveltia-cms-auth.makeroa.workers.dev/
+  name: github # remote name
+  repo:  MAKEroanoke/makeroanoke.org
+publish_mode: editorial_workflow # in local use simple
+media_folder: 'assets/images'
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/_posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Categories', name: 'categories', widget: 'list'}
+      - { label: 'Permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Excerpt Separator', name: 'excerpt_separator', widget: 'string'}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'events'
+    label: 'Events'
+    folder: 'content/_events'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'event' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Event Date', name: 'date', widget: 'datetime' }
+      - { label: 'Start Time', name: 'event_time_start', widget: 'string'}
+      - { label: 'End Time', name: 'event_time_end', widget: 'string'}
+      - { label: 'Location', name: 'location', widget: 'string'}
+      - { label: 'Categories', name: 'categories', widget: 'list'}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "about"
+        label: "About Page"
+        editor:
+          preview: false
+        file: "about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "string"}
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "config"
+        label: "General Settings"
+        editor:
+          preview: false
+        file: "_config.yml"
+        fields:
+        - { label: "Title", name: "title", widget: "string" }
+      - name: "theme"
+        label: "Theme Settings"
+        editor:
+          preview: false
+        file: "_data/theme.yml"
+        fields:
+        - { label: "Navigation", name: "navigation_pages", widget: "list", hint: "List of filenames of the pages to show in the hamburger menu separated by a comma and space." }
+        - { label: "Show Posts on Homepage", name: "posts_on_home_page", widget: "boolean", hint: "Turn the posts on the homepage on and off. The post pages will still exist, but will not be listed on the homepage" }

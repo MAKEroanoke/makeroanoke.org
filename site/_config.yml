@@ -23,7 +23,8 @@ header_pages:
 
 show_excerpts: true
 
-remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+# remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+remote_theme: "MAKEroanoke/jekyll-theme-basically-make-roanoke"
 
 lang: en-US
 title: MAKE Roanoke

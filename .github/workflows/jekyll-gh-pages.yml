@@ -39,10 +39,7 @@ jobs:
           source: ./site
           destination: ./_site
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          path: ./_site/
-          name: github-pages
+        uses: actions/upload-pages-artifact@v3
 
   # Deployment job
   deploy:

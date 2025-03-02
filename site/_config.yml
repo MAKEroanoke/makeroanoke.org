@@ -1,72 +1,45 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-header_pages:
-  - about.markdown
-
-show_excerpts: true
-
-# remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
-remote_theme: "MAKEroanoke/jekyll-theme-basically-make-roanoke"
-
-lang: en-US
-title: MAKE Roanoke
-email: info@makeroanoke.org
-description: >- # this means to ignore newlines until "baseurl:"
-  A maker initiative in Roanoke, Virginia.
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: "https://makeroanoke.org" # the base hostname & protocol for your site, e.g. http://example.com
-author:
-  name: aaronm
-twitter_username:
-github_username:
-logo: "/assets/images/WhiteMakeRoanokeShadow.png" # path of site logo, e.g. "/assets/images/logo.png"
-search: true # true, false (default)
-search_full_content: false # true, false (default)
-search_provider: lunr # lunr (default), algolia
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
-
-# Build settings
-markdown: kramdown
-plugins: # previsously gems
+search_full_content: false
+plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-feed:
-  path: atom.xml
-
-# SASS/SCSS (CSS) settings
+twitter_username: null
+future: true
+collections_dir: content
+include:
+  - content
+search: true
+search_provider: lunr
+author:
+  name: aaronm
+logo: /assets/images/WhiteMakeRoanokeShadow.png
+paginate_path: /page:num/
 sass:
   sass_dir: _sass
-
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
-
-collections_dir: content
+lang: en-US
+markdown: kramdown
+url: https://makeroanoke.org
+remote_theme: MAKEroanoke/jekyll-theme-basically-make-roanoke
+algolia:
+  ? application_id
+  ? index_name
+  ? search_only_api_key
+  ? powered_by
+github_username: null
+defaults:
+  - values:
+      mermaid: false
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: post
+      read_time: true
+header_pages:
+  - about.markdown
+show_excerpts: true
 collections:
   posts:
     output: true
@@ -74,8 +47,9 @@ collections:
   events:
     output: true
     permalink: /event/:year/:month/:day/:title
-
-# Exclude from processing.
+paginate: 10
+title: MAKE Roanoke
+timezone: America/New_York
 exclude:
   - .asset-cache
   - .bundle
@@ -96,22 +70,10 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - /docs # ignore Basically Basic sample site
-  - /example # ignore Basically Basic dev site
-
-include:
-  - content
-future: true
-timezone: America/New_York
-
-# Front Matter Defaults
-defaults:
-  # _posts
-  - values:
-      mermaid: false
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      read_time: true
+  - /docs
+  - /example
+description: A maker initiative in Roanoke, Virginia.
+email: info@makeroanoke.org
+baseurl: null
+feed:
+  path: atom.xml

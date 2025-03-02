@@ -44,26 +44,61 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      - name: "home"
+        label: "Homepage"
+        editor:
+          preview: false
+        file: "site/index.html"
+        fields:
+          - { label: "Title", name: "alt_title", widget: "string" }
+          - { label: "Subtitle", name: "sub_title", widget: "string" }
+          - { label: "Banner", name: "image", widget: "image" }
+          - { label: 'Intro', name: 'introduction', widget: 'markdown' }
       - name: "about"
         label: "About Page"
         editor:
           preview: false
-        file: "about.md"
+        file: "site/about.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "string" }
-          - { label: "Layout", name: "layout", widget: "string"}
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - name: "makerspace"
+        label: "Makerspace"
+        editor:
+          preview: false
+        file: "site/makerspace.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - name: "newsletter"
+        label: "Newsletter"
+        editor:
+          preview: false
+        file: "site/newsletter.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: 'Body', name: 'body', widget: 'markdown', hint: "{% include newsletter.html %} adds the newsletter signup form." }
+      - name: "events"
+        label: "Events"
+        editor:
+          preview: false
+        file: "site/events.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
           - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "settings"
     label: "Site Settings"
     files:
       - name: "config"
-        label: "General Settings"
+        label: "Website Settings"
         editor:
           preview: false
         file: "site/_config.yml"
         fields:
-        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Title", name: "title", widget: "string", hint: "HTML page title." }
+        - { label: "Description", name: "description", widget: "string", hint: "This is added to the page title." }
+        - { label: "Email", name: "email", widget: "string", hint: "Used fro the email link in the menu." }
+        - { label: "Logo", name: "logo", widget: "image", hint: "Page logo, top left." }
       - name: "theme"
         label: "Theme Settings"
         editor:

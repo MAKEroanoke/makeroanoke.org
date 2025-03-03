@@ -1,20 +1,18 @@
 ---
-layout: event
-title: June Virtual Community Meeting
+layout: post
+event_time_end: 20:00
+date: 2024-06-10T18:00:00.000Z
+categories: Events
+published: true
 event_date: 2024-06-10
-event_time_start: "18:00"
-event_time_end: "20:00"
+event_time_start: 18:00
+title: June Virtual Community Meeting
 location: https://meet.google.com/ckf-jaic-knt
-categories: community
-excerpt_separator: <!--more-->
 ---
 
 ![](/assets/images/Virtual Meeting Discord Event.png)
 
-
 ## Calling All Makers! Join MAKE Roanoke for a Virtual Community Meeting in June!
-
-<!--more-->
 
 Mark your calendars, Roanoke makers! MAKE Roanoke, the Makerspace, is hosting a
 virtual community meetup in June, and you won't want to miss it!

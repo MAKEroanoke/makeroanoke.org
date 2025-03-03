@@ -13,7 +13,7 @@ include:
 search: true
 search_provider: lunr
 author:
-  name: aaronm
+  name: MAKE Roanoke
 logo: /assets/images/WhiteMakeRoanokeShadow.png
 paginate_path: /page:num/
 sass:

@@ -1,19 +1,18 @@
 ---
-layout: event
-title: May Community Meeting
+layout: post
+event_time_end: 20:00
+date: 2024-05-23T18:00:00.000Z
+categories: Events
+published: true
 event_date: 2024-05-23
-event_time_start: "18:00"
-event_time_end: "20:00"
+event_time_start: 18:00
+title: May Community Meeting
 location: Vinton Library
-categories: community
-excerpt_separator: <!--more-->
 ---
 
 ![](/assets/images/May23CommunityMeetingDiscordEvent.png)
 
 ### Calling All Makers: Join MAKE Roanoke at the Vinton Library!
-
-<!--more-->
 
 Hey Roanoke makers! Mark your calendars for **Thursday, May 23rd** because MAKE
 Roanoke is hosting a community meeting at the **[Vinton Library](https://maps.app.goo.gl/bzzZ2FWPaRaGiPMD7)** from **6:00 PM 

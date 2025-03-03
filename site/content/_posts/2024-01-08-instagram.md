@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Announcing Our Instagram Account"
-date:   2024-01-08 19:56:08 -0400
-categories: instagram
+title: Announcing Our Instagram Account
+date: 2024-01-08 19:56:08 -0400
+categories: Posts
 permalink: /instagram/2024/01/08/instagram.html
+published: true
 ---
 
 Roanoke, there's a storm brewing...a storm of creativity, that is. It's sweeping

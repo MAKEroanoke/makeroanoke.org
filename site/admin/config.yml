@@ -8,39 +8,43 @@ backend:
   name: github # remote name
   repo:  MAKEroanoke/makeroanoke.org
 publish_mode: editorial_workflow # in local use simple
-media_folder: 'assets/images'
+media_folder: 'site/assets/images'
+public_folder: '/assets/images'
 collections:
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'posts'
+    label: 'Posts and Events'
     folder: 'site/content/_posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
+    sortable_fields: ['date', 'title', 'author' ]
+    view_filters:
+      - label: "Posts"
+        field: categories
+        pattern: 'Posts'
+      - label: "Events"
+        field: categories
+        pattern: 'Events'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Categories', name: 'categories', widget: 'list'}
-      - { label: 'Permalink', name: 'permalink', widget: 'string'}
-      - { label: 'Excerpt Separator', name: 'excerpt_separator', widget: 'string'}
+      - { label: 'Date', name: 'date', widget: 'datetime', hint: "Publish date if it's a post, the event date if it's en event." }
+      - { label: 'Categories', name: 'categories', widget: 'list', hint: "Use Events for classes and events, use Posts for everything else." , required: true, default: 'Post'}
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false, hint: "Use for shop names and event types."}
+      - { label: 'Excerpt', name: 'excerpt', required: false, widget: 'text', hint: "Summary of the post to be shown on the homepage instead of showing the start of the post."}
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'events'
-    label: 'Events'
-    folder: 'site/content/_events'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'event' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Event Date', name: 'date', widget: 'datetime' }
-      - { label: 'Start Time', name: 'event_time_start', widget: 'string'}
-      - { label: 'End Time', name: 'event_time_end', widget: 'string'}
-      - { label: 'Location', name: 'location', widget: 'string'}
-      - { label: 'Categories', name: 'categories', widget: 'list'}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Image'
+        name: 'image'
+        required: false
+        widget: object
+        fields:
+          - { label: 'Hero Image', name: 'path', required: false, widget: 'image' }
+          - { label: 'Post Image', name: 'thumbnail', required: false, widget: 'image' }
+      - { label: 'Event Location', name: 'location', required: false, widget: 'string', default: "128 Albemarle Ave SE, Roanoke, VA 24013" }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', required: false, hint: "Do not edit the permalink unless you know what you are doing."}
+      - { label: 'Published', name: 'published', widget: 'boolean', default: 'true', hint: "Hide posts instead of deleting them with this setting." }
+
   - name: "pages"
     label: "Pages"
     files:
@@ -107,3 +111,8 @@ collections:
         fields:
         - { label: "Navigation", name: "navigation_pages", widget: "list", hint: "List of filenames of the pages to show in the hamburger menu separated by a comma and space." }
         - { label: "Show Posts on Homepage", name: "posts_on_home_page", widget: "boolean", hint: "Turn the posts on the homepage on and off. The post pages will still exist, but will not be listed on the homepage" }
+        - label: 'Theme Settings'
+          name: 't'
+          widget: object
+          fields:
+          - { label: "Homepage Posts Section Title", name: "posts", widget: "string", hint: "Title of the section that lists all posts and events." }

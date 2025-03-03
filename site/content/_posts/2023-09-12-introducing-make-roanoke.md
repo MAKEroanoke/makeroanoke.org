@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Introducing MAKE Roanoke!"
-date:   2023-09-12 19:56:08 -0400
-categories: identity
+title: Introducing MAKE Roanoke!
+date: 2023-09-12 19:56:08 -0400
+categories: Posts
 permalink: /identity/2023/09/12/introducing-make-roanoke.html
+published: true
 ---
 
 I'd like to introduce our official name! 

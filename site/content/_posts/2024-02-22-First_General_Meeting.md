@@ -1,11 +1,13 @@
 ---
-layout: event
-title:  "First General Meeting"
-event_date:   2024-02-22
-event_time_start: "18:00"
-event_time_end: "20:00"
+layout: post
+event_time_end: 20:00
+date: 2024-02-22T10:00:00.000Z
+categories: Events
+published: true
+event_date: 2024-02-22
+event_time_start: 18:00
+title: First General Meeting
 location: South County Library - https://maps.app.goo.gl/wRVtCgkj5tPcuC4a7
-categories: community
 ---
 
 Attention, Roanoke Makers! Calling all tinkererers, creators, and DIY dreamers!

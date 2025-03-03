@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Mission Statement"
-date:   2023-09-25 12:00:00 -0400
-categories: policy purpose bylaws
+title: Mission Statement
+date: 2023-09-25 12:00:00 -0400
+categories: Posts
 permalink: /policy/purpose/bylaws/2023/09/25/mission-statement.html
+published: true
 ---
 
 Our fledgling group put our heads together, and brainstormed a set of values.

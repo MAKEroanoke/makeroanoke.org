@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Board Election Announcement"
+title: Board Election Announcement
 date: 2024-04-03T11:53:05.442Z
-categories: governance
+categories: Posts
+published: true
 ---
 
 The planning committee has decided it is time to take an important step and

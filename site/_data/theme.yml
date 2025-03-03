@@ -1,10 +1,6 @@
-# Theme Skin
-skin: makeroanoke # default, night, plum, sea, soft, steel
-
+skin: makeroanoke
 site_nav:
-  # this specifies the icon class when used on a dark surface.
   icon_color: icon-dark
-#Theme text
 t:
   site_search: Site Search
   cv_location: Location

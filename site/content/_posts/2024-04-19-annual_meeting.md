@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Annual Meeting Announcement"
+title: Annual Meeting Announcement
 date: 2024-04-19T08:53:05.442Z
-categories: governance
-excerpt_separator: <!--more-->
+categories: Posts
+published: true
 ---
 
 ## Annual Meeting Announcement
@@ -15,7 +15,6 @@ ST112](https://maps.app.goo.gl/ep8knYLpJytfM6MK6?g_st=ic)
 This meeting will be similar to our normal community the meetings (progress
 updates and project show and tell), but with the addition of elections for our
 first board of directors!  Information on the elections below.
-<!--more-->
 
 ## Elections
 4 Candidates have declared their intent to run for the board. We will still take

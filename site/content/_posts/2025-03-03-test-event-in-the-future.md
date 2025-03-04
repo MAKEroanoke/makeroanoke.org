@@ -8,3 +8,5 @@ location: 128 Albemarle Ave SE, Roanoke, VA 24013
 published: false
 ---
 This is a test event to see what happens.
+
+![](/assets/images/20241017_kickstarter_website_banner.png)

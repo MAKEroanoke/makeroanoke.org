@@ -9,10 +9,12 @@ tags:
   - 3d-modeling
   - ""
 image:
-  path: /assets/images/blender-discord.png
+  path: ""
 location: South County Library, 6303 Merriman Rd, Roanoke VA 24018
 published: "true"
 ---
+![](/assets/images/blender-discord.png)
+
 **Attendees MUST register on the MeetUp!** <https://www.meetup.com/make-roanoke/events/305097793/> 
 
 This class encompasses basics of Blender and low poly mesh modeling. It will cover what low poly mesh modeling is, and contrast it to CAD Design modeling. Additionally, techniques to bring in models from tools such as Fusion 360 will be presented, as well as fixing meshes and models.

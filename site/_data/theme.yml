@@ -46,5 +46,5 @@ navigation_pages:
   - about.md
   - makerspace.md
   - newsletter.md
-  - events.md
+  - calendar.md
 posts_on_home_page: false

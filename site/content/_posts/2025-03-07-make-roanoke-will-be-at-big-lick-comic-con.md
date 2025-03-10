@@ -6,6 +6,9 @@ categories:
   - Event
 tags:
   - community-event
+excerpt: MAKE Roanoke is excited to be attending Big Lick Comic Con at the
+  Berglund Center on February 1-2! We'll have a table and need volunteers to
+  help staff it. No experience necessary, and passes will be provided for you.
 location: Berglund Center, Roanoke VA
 published: "true"
 ---

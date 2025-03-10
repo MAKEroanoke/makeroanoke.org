@@ -6,6 +6,9 @@ categories:
   - Event
 tags:
   - community-meeting
+excerpt: MAKE Roanoke hosts Virtual Community Meetings on the Second Monday of
+  each month at 6 pm on Google Meet! No sign-in is required to
+  participate! https://meet.google.com/ckf-jaic-knt
 location: Google Meet
 published: "true"
 ---

@@ -6,6 +6,8 @@ categories:
   - Event
 tags:
   - community-meeting
+excerpt: "MAKE Roanoke hosts a community meeting on the fourth Thursday of each
+  month at our location: 128 Albemarle Ave SE in Roanoke!"
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

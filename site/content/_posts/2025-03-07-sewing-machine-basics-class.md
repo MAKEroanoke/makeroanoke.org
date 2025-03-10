@@ -7,6 +7,9 @@ categories:
 tags:
   - fiber-arts
   - class
+excerpt: Come learn how to use your sewing machine (or learn on one of ours!) at
+  our Sewing Machine Basics class on February 15 and March 1! We'll be making a
+  dog toy, all materials are provided!
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

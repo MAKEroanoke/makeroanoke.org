@@ -4,6 +4,9 @@ title: March Virtual Community Meeting
 date: 2025-03-10T18:00:00.000Z
 categories:
   - Event
+excerpt: MAKE Roanoke hosts Virtual Community Meetings on the Second Monday of
+  each month at 6 pm on Google Meet! No sign-in is required to
+  participate! https://meet.google.com/ckf-jaic-knt
 location: Google Meet
 published: "true"
 ---

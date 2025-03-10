@@ -5,6 +5,10 @@ date: 2025-02-24T14:56:00.000Z
 categories: Post
 tags:
   - community-event
+excerpt: MAKE Roanoke is excited to participate in the Daisy Art Parade again
+  this year! We had so much fun with our Maker-Bot puppet last year, and have
+  decided on a Maker Octopus theme for this year! We'll need your help in the
+  planning and building of this large puppet, though!
 location: 128 Albemarle Ave SE, Roanoke, VA 24013
 published: "true"
 ---

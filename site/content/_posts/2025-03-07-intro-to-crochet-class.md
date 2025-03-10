@@ -7,6 +7,7 @@ categories:
 tags:
   - fiber-arts
   - class
+excerpt: "Come learn how to crochet in this fundamentals class for absolute beginners! "
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

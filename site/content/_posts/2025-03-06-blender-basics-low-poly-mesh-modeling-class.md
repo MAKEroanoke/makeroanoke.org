@@ -8,6 +8,8 @@ tags:
   - class
   - 3d-modeling
   - ""
+excerpt: Come learn a more sculptural type of 3D Modeling in our Low Poly Mesh
+  Blender Basics Class on January 18!
 image:
   path: ""
 location: South County Library, 6303 Merriman Rd, Roanoke VA 24018

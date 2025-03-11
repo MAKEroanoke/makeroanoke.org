@@ -5,7 +5,7 @@ date: 2025-03-08T12:00:00.000Z
 categories:
   - Events
 tags:
-  - space-improvement
+  - Space Improvement
 excerpt: >-
   MAKE Roanoke is hosting Space Improvement Days at least once per month!
 
@@ -13,7 +13,7 @@ excerpt: >-
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---
-![](/assets/images/space-improvement-day-discord-880-x-352-px-.png)
+![Space Improvement Day March 8 MAKE Roanoke](/assets/images/space-improvement-day-discord-880-x-352-px-.png)
 
 MAKE Roanoke is hosting Space Improvement Days at least once per month!
 

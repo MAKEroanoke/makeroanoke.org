@@ -5,7 +5,7 @@ date: 2025-03-30T11:00:00.000Z
 categories:
   - Event
 tags:
-  - community-event
+  - Community Event
 excerpt: "MAKE Roanoke is heading to the Lynchburg Maker Faire on Sunday, March
   30th, and we want YOU to be a part of it. We need community members to help
   staff our table and tell people about MAKE Roanoke as they come up to it.
@@ -14,7 +14,7 @@ excerpt: "MAKE Roanoke is heading to the Lynchburg Maker Faire on Sunday, March
 location: Randolph College, Lynchburg VA
 published: "true"
 ---
-![](/assets/images/copy-of-calling-all-makers-make-roanoke-is-preparing-for-the-daisy-art-parade-come-help-us-plan-and-build-a-large-maker-octopus-puppet-1200-x-675-px-880-x-352-px-.png)
+![MAKE Roanoke at Lynchburg Maker Faire](/assets/images/copy-of-calling-all-makers-make-roanoke-is-preparing-for-the-daisy-art-parade-come-help-us-plan-and-build-a-large-maker-octopus-puppet-1200-x-675-px-880-x-352-px-.png)
 
 MAKE Roanoke is heading to the Lynchburg Maker Faire on Sunday, March 30th, and we want YOU to be a part of it.
 
@@ -30,4 +30,4 @@ We're searching for eye-catching, easily transportable creations to display at o
 
 We need community members to help staff our table and tell people about MAKE Roanoke as they come up to it. We'll train you on the engraving machine and other interactive exhibits we have. 
 
-Sign up here: <https://mkroa.org/lynchburg-maker-faire>
+[Sign up to staff out table!](https://mkroa.org/lynchburg-maker-faire)

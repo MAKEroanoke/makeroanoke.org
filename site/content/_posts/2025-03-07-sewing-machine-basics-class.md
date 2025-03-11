@@ -5,17 +5,19 @@ date: 2025-02-15T13:00:00.000Z
 categories:
   - Event
 tags:
-  - fiber-arts
-  - class
+  - Fiber Arts
+  - Class
 excerpt: Come learn how to use your sewing machine (or learn on one of ours!) at
   our Sewing Machine Basics class on February 15 and March 1! We'll be making a
   dog toy, all materials are provided!
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---
-![](/assets/images/sewing-machine-class-flyer-discord.png)
+![MAKE Roanoke Sewing Machine Basics class graphic](/assets/images/sewing-machine-class-flyer-discord.png)
 
-**Attendees MUST register on the MeetUp!** Feb 15: <https://www.meetup.com/make-roanoke/events/305795001/> | March 1: <https://www.meetup.com/make-roanoke/events/305849941>
+**Attendees MUST register on MeetUp!**
+**[Feb 15 Class Registration](https://www.meetup.com/make-roanoke/events/305795001/)**
+**[March 1 Class Registration](https://www.meetup.com/make-roanoke/events/305849941)**
 
 Come learn how to use a sewing machine at MAKE Roanoke! This class will teach how to use a sewing machine, sewing basics including straight and curved seams, and how to assemble simple items.
 

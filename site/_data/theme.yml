@@ -47,4 +47,4 @@ navigation_pages:
   - makerspace.md
   - newsletter.md
   - events.md
-posts_on_home_page: false
+posts_on_home_page: true

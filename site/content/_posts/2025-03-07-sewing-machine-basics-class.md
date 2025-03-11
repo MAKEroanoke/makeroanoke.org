@@ -16,8 +16,8 @@ published: "true"
 ![MAKE Roanoke Sewing Machine Basics class graphic](/assets/images/sewing-machine-class-flyer-discord.png)
 
 **Attendees MUST register on MeetUp!**
-**[Feb 15 Class Registration](https://www.meetup.com/make-roanoke/events/305795001/)**
-**[March 1 Class Registration](https://www.meetup.com/make-roanoke/events/305849941)**
+- **[Feb 15 Class Registration](https://www.meetup.com/make-roanoke/events/305795001/)**
+- **[March 1 Class Registration](https://www.meetup.com/make-roanoke/events/305849941)**
 
 Come learn how to use a sewing machine at MAKE Roanoke! This class will teach how to use a sewing machine, sewing basics including straight and curved seams, and how to assemble simple items.
 

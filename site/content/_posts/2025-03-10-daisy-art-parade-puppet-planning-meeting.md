@@ -16,7 +16,7 @@ published: "true"
 ---
 ![MAKE Roanoke Daisy Art Parade graphic with maker octopus](/assets/images/calling-all-makers-make-roanoke-is-preparing-for-the-daisy-art-parade-come-help-us-plan-and-build-a-large-maker-octopus-puppet-1200-x-675-px-880-x-352-px-.png)
 
-MAKE Roanoke is thrilled to be participating in the Daisy Art Parade again this year! For those who don't know, the Daisy Art Parade is a parade through downtown Roanoke of giant puppets that people in our community make! All puppets must be man-powered (IE no cars towing them!) and using recycled material is highly encouraged. This year the parade is on May 10! [You can learn more about the parade here.](https://daisyartparade.com/about/)
+MAKE Roanoke is thrilled to be participating in the Daisy Art Parade again this year! For those who don't know, the Daisy Art Parade is a parade through downtown Roanoke of giant puppets that people in our community make! All puppets must be man-powered (IE no cars towing them!) and using recycled material is highly encouraged. This year the parade is on May 10! [Learn more about the parade](https://daisyartparade.com/about/).
 
 MAKE Roanoke has settled on a "Maker Octopus" theme for this year, with each tentacle using a different tool.
 

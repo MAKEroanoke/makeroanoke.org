@@ -9,8 +9,6 @@ tags:
   - 3D Modeling
 excerpt: Come learn a more sculptural type of 3D Modeling in our Low Poly Mesh
   Blender Basics Class on January 18!
-image:
-  path: ""
 location: South County Library, 6303 Merriman Rd, Roanoke VA 24018
 published: "true"
 ---
@@ -22,6 +20,6 @@ This class will be taught by Amanda Kelly, Ettelie Lovern, and Harley Dishon. Th
 
 We can also provide laptops through the South Country Library, in order to use one you will just need to have a Library Card. If you do not have a library card and need one, please bring photo id, so that you may create one before the class. If you plan on borrowing a laptop, please bring a 3 button mouse (left, right, clickable scroll wheel, or 3 regular buttons), it will make moving around within Blender much easier.
 
-This class is recommended for ages 16 and up. Attendees under the age of 18 must be accompanied by an adult. Space is limited, [so sign up now](https://www.meetup.com/make-roanoke/events/305097793/)!
+This class is recommended for ages 16 and up. Attendees under the age of 18 must be accompanied by an adult. Space is limited, so [sign up now](https://www.meetup.com/make-roanoke/events/305097793/)!
 
 [Download the class reference sheet](https://drive.google.com/file/d/1uTgORoArW2m4OvkFr093GBCogXfdYpdQ/view?usp=drive_link)

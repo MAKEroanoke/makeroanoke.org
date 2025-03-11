@@ -26,8 +26,6 @@ Here's how you can get involved:
 
 We're searching for eye-catching, easily transportable creations to display at our booth. This is your chance to put your craftsmanship on center stage and inspire fellow makers!  Think small sculptures, intricate wood carvings, 3D printed marvels, or any other amazing creation that fits the bill. 
 
-**Volunteer to staff our table!**
+**[Volunteer to staff our table!](https://mkroa.org/lynchburg-maker-faire)**
 
-We need community members to help staff our table and tell people about MAKE Roanoke as they come up to it. We'll train you on the engraving machine and other interactive exhibits we have. 
-
-[Sign up to staff out table!](https://mkroa.org/lynchburg-maker-faire)
+We need community members to [help staff our table](https://mkroa.org/lynchburg-maker-faire) and tell people about MAKE Roanoke as they come up to it. We'll train you on the engraving machine and other interactive exhibits we have.

@@ -8,8 +8,6 @@ tags:
   - Fundraiser
 excerpt: "MAKE Roanoke is hosting a fundraiser at the Towers Chipotle on January
   8 from 5-9 pm! "
-image:
-  thumbnail: ""
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

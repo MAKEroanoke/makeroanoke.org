@@ -1,13 +1,13 @@
 # config.yml
 
-# local_backend: true
+local_backend: true
 
 backend:
   branch: main # optional, defaults to master
   base_url: https://sveltia-cms-auth.makeroa.workers.dev/
   name: github # remote name
   repo:  MAKEroanoke/makeroanoke.org
-publish_mode: editorial_workflow # in local use simple
+publish_mode: simple #editorial_workflow # in local use simple
 media_folder: 'site/assets/images'
 public_folder: '/assets/images'
 collections:
@@ -17,7 +17,7 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: false
+      preview: true
     sortable_fields: ['date', 'title', 'author' ]
     view_filters:
       - label: "Posts"
@@ -34,13 +34,8 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list', required: false, hint: "Use for shop names and event types."}
       - { label: 'Excerpt', name: 'excerpt', required: false, widget: 'text', hint: "Summary of the post to be shown on the homepage instead of showing the start of the post."}
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Image'
-        name: 'image'
-        required: false
-        widget: object
-        fields:
-          - { label: 'Hero Image', name: 'path', required: false, widget: 'image' }
-          - { label: 'Post Image', name: 'thumbnail', required: false, widget: 'image' }
+      - { label: 'Hero Image', name: 'image', required: false, widget: 'image' }
+      - { label: 'Feed Image', name: 'thumbnail', required: false, widget: 'image' }
       - { label: 'Event Location', name: 'location', required: false, widget: 'string', default: "128 Albemarle Ave SE, Roanoke, VA 24013" }
       - { label: 'Permalink', name: 'permalink', widget: 'string', required: false, hint: "Do not edit the permalink unless you know what you are doing."}
       - { label: 'Published', name: 'published', widget: 'boolean', default: 'true', hint: "Hide posts instead of deleting them with this setting." }
@@ -51,7 +46,7 @@ collections:
       - name: "home"
         label: "Homepage"
         editor:
-          preview: false
+          preview: true
         file: "site/index.html"
         fields:
           - { label: "Title", name: "alt_title", widget: "string" }
@@ -61,7 +56,7 @@ collections:
       - name: "about"
         label: "About Page"
         editor:
-          preview: false
+          preview: true
         file: "site/about.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
@@ -69,7 +64,7 @@ collections:
       - name: "makerspace"
         label: "Makerspace"
         editor:
-          preview: false
+          preview: true
         file: "site/makerspace.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
@@ -77,7 +72,7 @@ collections:
       - name: "newsletter"
         label: "Newsletter"
         editor:
-          preview: false
+          preview: true
         file: "site/newsletter.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
@@ -85,11 +80,13 @@ collections:
       - name: "events"
         label: "Events"
         editor:
-          preview: false
+          preview: true
         file: "site/events.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Category Name', name: 'taxonomy', widget: 'string', required: true, default: 'Event', hint: 'Show posts form this category, when then layout is changed to "category".'}
+          - { label: 'Page Layout', name: 'layout', widget: 'string', required: true, default: 'page', hint: 'Set this to "page" to show only the content. Set it to "category" to display all posts form the specified category.'}
   - name: "settings"
     label: "Site Settings"
     files:

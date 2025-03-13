@@ -3,6 +3,7 @@ layout: post
 title: "Soft Opening Date: April 5!"
 date: 2025-03-13T12:51:00.000Z
 categories: Post
+excerpt: "MAKE Roanoke is pleased to announce a Soft Open date of April 5! "
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

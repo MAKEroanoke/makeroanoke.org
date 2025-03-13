@@ -36,7 +36,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Hero Image', name: 'image', required: false, widget: 'image' }
       - { label: 'Feed Image', name: 'thumbnail', required: false, widget: 'image' }
-      - { label: 'Event Location', name: 'location', required: false, widget: 'string', default: "128 Albemarle Ave SE, Roanoke, VA 24013" }
+      - { label: 'Event Location', name: 'location', required: false, widget: 'string', default: "128 Albemarle Ave SE Unit B, Roanoke, VA 24013" }
       - { label: 'Permalink', name: 'permalink', widget: 'string', required: false, hint: "Do not edit the permalink unless you know what you are doing."}
       - { label: 'Published', name: 'published', widget: 'boolean', default: 'true', hint: "Hide posts instead of deleting them with this setting." }
 

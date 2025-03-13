@@ -1,13 +1,13 @@
 # config.yml
 
-local_backend: true
+# local_backend: true
 
 backend:
   branch: main # optional, defaults to master
   base_url: https://sveltia-cms-auth.makeroa.workers.dev/
   name: github # remote name
   repo:  MAKEroanoke/makeroanoke.org
-publish_mode: simple #editorial_workflow # in local use simple
+publish_mode: editorial_workflow # in local use simple
 media_folder: 'site/assets/images'
 public_folder: '/assets/images'
 collections:

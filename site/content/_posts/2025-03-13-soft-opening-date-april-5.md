@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Soft Opening Date: April 5!"
+date: 2025-03-13T12:48:00.000Z
+categories: Post
+location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
+published: "true"
+---
+![Graphic with MAKE Roanoke logo followed by the text: Soft Opening: April 5, March 22-Space Improvement Day, March 27-Community Meeting and General Orientation, April 5-General Orientation](/assets/images/2025-3-10-soft-opening-april-5.png)
+
+Big news from our virtual community meeting on Monday, we are pleased to announce a Soft Opening Date of April 5! 
+
+At that point we'll have a list of all the equipment that's ready for people to use (some pieces still need to get up and running, some need some ventilation installed, etc) and will be accepting memberships. Memberships will cost $50/mo and get you access to the space via a keyfob for all the equipment that you're trained on. 
+
+In order to be a member, you'll have to attend a General Orientation. We'll be having the first at our Community Meeting on March 27 and another on April 5 (time tbd). More General Orientations will be scheduled at a future date.

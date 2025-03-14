@@ -6,6 +6,8 @@ categories: Post
 excerpt: "MAKE Roanoke is pleased to announce a Soft Open date of April 5! "
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
+tags:
+    - pinned
 ---
 ![Graphic with MAKE Roanoke logo followed by the text: Soft Opening: April 5, March 22-Space Improvement Day, March 27-Community Meeting and General Orientation, April 5-General Orientation](/assets/images/2025-3-10-soft-opening-april-5.png)
 

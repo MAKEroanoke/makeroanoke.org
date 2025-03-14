@@ -85,8 +85,8 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-          - { label: 'Category Name', name: 'taxonomy', widget: 'string', required: true, default: 'Event', hint: 'Show posts form this category, when then layout is changed to "category".'}
-          - { label: 'Page Layout', name: 'layout', widget: 'string', required: true, default: 'page', hint: 'Set this to "page" to show only the content. Set it to "category" to display all posts form the specified category.'}
+          - { label: 'Minimum Amount of Events to Show', name: 'min_event_qty', widget: 'string', required: true, default: 4, hint: 'Minimum amount of events to show. This ensures this page is never empty. Future events are always shown. Default is 4.'}
+          - { label: 'Page Layout', name: 'layout', widget: 'string', required: true, default: 'page', hint: 'Set this to "page" to show only the content. Set it to "events-recent" to display all upcoming events plus recent events until the "Minimum Amount of Events to Show" is displayed.'}
   - name: "settings"
     label: "Site Settings"
     files:

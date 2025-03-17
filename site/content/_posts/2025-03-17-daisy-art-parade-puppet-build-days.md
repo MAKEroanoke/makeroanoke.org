@@ -7,15 +7,18 @@ categories:
 tags:
   - meeting
   - daisy-art-parade
-excerpt: Join us as we start to build our octopus puppet for the Daisy Art
-  Parade! You do not need to be a MAKE Roanoke Member to be a part of our Daisy
-  Art Parade Krewe! All crafts and experience levels welcome!
+excerpt: >-
+  Join us as we start to build our octopus puppet for the Daisy Art Parade! You
+  do not need to be a MAKE Roanoke Member to be a part of our Daisy Art Parade
+  Krewe! All crafts and experience levels welcome!
+
+  We will be having build days on March 29 from 4:30-9 pm and April 12 from 1-8 pm
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---
 ![](/assets/images/calling-all-makers-make-roanoke-is-preparing-for-the-daisy-art-parade-come-help-us-plan-and-build-a-large-maker-octopus-puppet-1200-x-675-px-880-x-352-px-.png)
 
-Join us as we start to build our octopus puppet for the Daisy Art Parade! More discussion about our puppet build can be found in our [Discord](https://mkroa.org/discord) in the event-planning channel.
+Join us as we start to build our octopus puppet for the Daisy Art Parade! More discussion about our puppet build can be found in our [Discord](https://mkroa.org/discord) in the event-planning channel. We will be having build days on March 29 from 4:30-9 pm and April 12 from 1-8 pm
 
 MAKE Roanoke is thrilled to be participating in the Daisy Art Parade again this year! For those who don't know, the Daisy Art Parade is a parade through downtown Roanoke of giant puppets that people in our community make! All puppets must be man-powered (IE no cars towing them!) and using recycled material is highly encouraged. This year the parade is on May 10! [You can learn more about the parade here.](https://daisyartparade.com/about/)
 

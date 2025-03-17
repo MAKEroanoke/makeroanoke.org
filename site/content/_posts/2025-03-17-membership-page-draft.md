@@ -28,7 +28,7 @@ You do *not* need to be a Member to:
 
 To become a Member you must either:
 
-* Be sponsored by an existing Member or
+* Be sponsored by an existing Member *or*
 * Go through a probationary period of 60 days
 
   * Probationary Members may not:

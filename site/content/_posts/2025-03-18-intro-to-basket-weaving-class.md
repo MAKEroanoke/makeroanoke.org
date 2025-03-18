@@ -17,7 +17,6 @@ published: "true"
 
 [Attendees MUST register on the MeetUp](https://www.meetup.com/make-roanoke/events/306789442/)!
 
-
 Spring is just around the corner!
 Learn to weave an Egg Basket, just in time for Easter! These baskets are well designed for gathering eggs. (Because the eggs won’t roll around in the curved bottom, they’re less likely to break.) Of course, they can be made in various sizes and proportions and are useful for holding many things.
 
@@ -28,7 +27,8 @@ Handy tools to bring along if you have them (But no worries! We will share if yo
 * Awl or Small Flathead Screwdriver
 * Clothespins
 * Towel to keep your lap dry
-* StringNeedle nose pliers
+* String
+* Needle nose pliers
 * Flexible Measuring Tape
 
 The class is taught by Sarah Starkey. This class is recommended for ages 12 and up. Attendees under the age of 16 must be accompanied by an adult. Attendees under the age of 18 must have a waiver signed by a parent or legal guardian.

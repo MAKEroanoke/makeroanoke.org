@@ -12,7 +12,7 @@ Membership costs $50 a month per person, and gets you the following perks:
 
 * 24/7 access to all the tools you're certified by MAKE Roanoke to use
 
-  * Tools are categorized in to 3 levels: Green, Yellow, Red based on their involvement and risk.
+  * Tools are categorized into 3 levels: Green, Yellow, Red based on their involvement and risk.
 
     * Green Tools are unlocked after General Orientation, which is required for all Members
     * Yellow Tools are unlocked after shop-specific orientation (i.e. the Wood Shop's Yellow Tools are unlocked after completing the Wood Shop's Orientation)

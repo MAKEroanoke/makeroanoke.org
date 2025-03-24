@@ -10,9 +10,16 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
 
 Membership costs $50 a month per person, and gets you the following perks:
 
-* 24/7 access to all the tools you're trained on
+* 24/7 access to all the tools you're certified by MAKE Roanoke to use
 
-  * Learn more about tool training (link to a post explaining it)
+  * Tools are categorized in to 3 levels: Green, Yellow, Red based on their involvement and risk.
+
+    * Green Tools are unlocked after General Orientation, which is required for all Members
+    * Yellow Tools are unlocked after shop-specific orientation (i.e. the Wood Shop's Yellow Tools are unlocked after completing the Wood Shop's Orientation)
+    * Red Tools are unlocked after tool-specific training (i.e. the Table Saw is unlocked after completing the Table Saw Training.)
+  * Tool Trainings are designed to ensure you can operate the equipment without injuring yourself or the equipment. 
+  * Even if you know how to use a piece of equipment, you *must* pass our tool certification before using MAKE Roanoke equipment. 
+  * Tool training is included in your membership fee
 * The ability to serve on the Board
 * Voting rights on Board positions, By-Laws amendments, and other non-regular business for MAKE Roanoke
 * The ability to reserve our classroom once a month
@@ -24,16 +31,24 @@ Membership costs $50 a month per person, and gets you the following perks:
 You do *not* need to be a Member to:
 
 * Attend or teach a class through MAKE Roanoke
-* Attend a Community Meeting
+* Attend Community Meetings
 
-To become a Member you must either:
+To become a Member you must:
 
-* Be sponsored by an existing Member *or*
-* Go through a probationary period of 60 days
+* Complete the membership application \[Link]
+* Pay the monthly membership fee (via PayPal, link below)
+* Sign and Abide by the [Member Handbook and Code of Conduct](https://mkroa.org/handbook) 
+* Complete the General Orientation
+* New members must also
 
-  * Probationary Members may not:
+  * Be sponsored by an existing Member ***or***
+  * Go through a probationary period of 60 days
 
-    * Vote
-    * Serve on the Board
-    * Sponsor a new Member
-  * Probationary Membership can be terminated by a simple majority vote of the Board
+    * Probationary Members may not:
+
+      * Vote
+      * Serve on the Board
+      * Sponsor a new Member
+    * Probationary Membership can be terminated by a simple majority vote of the Board
+
+All membership applications must be approved by the Board or their designees.

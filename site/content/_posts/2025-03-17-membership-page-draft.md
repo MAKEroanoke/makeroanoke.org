@@ -60,7 +60,7 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
 
 All membership applications must be approved by the Board or their designees. 
 
-### Pay Here:
+### Pay Here Once Application is Approved:
 
 #### Individual Membership: $50/month
 
@@ -86,7 +86,7 @@ All membership applications must be approved by the Board or their designees.
   }).render('#paypal-button-container-P-8DL36684LB373883NM4ZFLWA'); // Renders the PayPal button
 </script>
 
-#### Couple's Membership: $90/month 
+#### Couple's Membership: $90/month
 
 <div id="paypal-button-container-P-3UR0656703021874WM7Q77TA"></div>
 <script src="<https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription>" data-sdk-integration-source="button-factory"></script>

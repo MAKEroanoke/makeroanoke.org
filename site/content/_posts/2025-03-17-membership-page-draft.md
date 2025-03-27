@@ -26,7 +26,6 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
     * Red Tools are unlocked after tool-specific training (i.e. the Table Saw is unlocked after completing the Table Saw Training.)
   * Tool Trainings are designed to ensure you can operate the equipment without injuring yourself or the equipment. 
   * Even if you know how to use a piece of equipment, you *must* pass our tool certification before using MAKE Roanoke equipment. 
-  * Tool training is included in your membership fee
 * The ability to serve on the Board
 * Voting rights on Board positions, By-Laws amendments, and other non-regular business for MAKE Roanoke
 * The ability to reserve our classroom once a month

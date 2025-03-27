@@ -8,7 +8,14 @@ published: "true"
 ---
 MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to pay our bills and don't keep frequent open hours to the public. 
 
-Membership costs $50 a month per person, and gets you the following perks:
+### Membership Rates (price is per month):
+
+* $50–Individual Membership
+* $90–Couple Membership 
+* $35–Student Membership (Active School ID must be provided)
+* $25–Youth-Access Add-On (per child), for Minor Children of Members. Restrictions are spelled out in the handbook, in Section 1.3
+
+### Membership Perks:
 
 * 24/7 access to all the tools you're certified by MAKE Roanoke to use
 
@@ -28,16 +35,16 @@ Membership costs $50 a month per person, and gets you the following perks:
 * Storage of a reasonable amount of project supplies at MAKE Roanoke
 * The ability to sponsor a new member
 
-You do *not* need to be a Member to:
+### You do *not* need to be a Member to:
 
 * Attend or teach a class through MAKE Roanoke
 * Attend Community Meetings
 
-To become a Member you must:
+### To become a Member you must:
 
-* Complete the membership application \[Link]
+* [Complete the membership application ](https://mkroa.org/membership-app)
 * Pay the monthly membership fee (via PayPal, link below)
-* Sign and Abide by the [Member Handbook and Code of Conduct](https://mkroa.org/handbook) 
+* Abide by the [Member Handbook and Code of Conduct](https://mkroa.org/handbook) 
 * Complete the General Orientation
 * New members must also
 
@@ -51,10 +58,14 @@ To become a Member you must:
       * Sponsor a new Member
     * Probationary Membership can be terminated by a simple majority vote of the Board
 
-All membership applications must be approved by the Board or their designees.
+All membership applications must be approved by the Board or their designees. 
 
-<div id="paypal-button-container-P-4AY37020GX411563JMYQGVBA"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+### Pay Here:
+
+#### Individual Membership: $50/month
+
+<div id="paypal-button-container-P-8DL36684LB373883NM4ZFLWA"></div>
+<script src="<https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription>" data-sdk-integration-source="button-factory"></script>
 <script>
   paypal.Buttons({
       style: {
@@ -66,11 +77,83 @@ All membership applications must be approved by the Board or their designees.
       createSubscription: function(data, actions) {
         return actions.subscription.create({
           /* Creates the subscription */
-          plan_id: 'P-4AY37020GX411563JMYQGVBA'
+          plan_id: 'P-8DL36684LB373883NM4ZFLWA'
         });
       },
       onApprove: function(data, actions) {
-        //alert(data.subscriptionID); // You can add optional success message for the subscriber here
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
       }
-  }).render('#paypal-button-container-P-4AY37020GX411563JMYQGVBA'); // Renders the PayPal button
+  }).render('#paypal-button-container-P-8DL36684LB373883NM4ZFLWA'); // Renders the PayPal button
+</script>
+
+#### Couple's Membership: $90/month 
+
+<div id="paypal-button-container-P-3UR0656703021874WM7Q77TA"></div>
+<script src="<https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription>" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-3UR0656703021874WM7Q77TA'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-3UR0656703021874WM7Q77TA'); // Renders the PayPal button
+</script>
+
+#### Student Membership: $35/month
+
+<div id="paypal-button-container-P-5X01392073983083EM4ZFM3A"></div>
+<script src="<https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription>" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-5X01392073983083EM4ZFM3A'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-5X01392073983083EM4ZFM3A'); // Renders the PayPal button
+</script>
+
+#### Youth Access: $25/month per child
+
+<div id="paypal-button-container-P-1MN91315A16861834M7RACXQ"></div>
+<script src="<https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription>" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-1MN91315A16861834M7RACXQ'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-1MN91315A16861834M7RACXQ'); // Renders the PayPal button
 </script>

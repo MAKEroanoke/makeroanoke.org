@@ -1,16 +1,18 @@
 ---
 layout: post
-title: Annual Meeting!
+title: Annual Meeting
 date: 2025-04-24T18:00:00.000Z
 categories:
   - Event
 tags:
   - community-meeting
 excerpt: ""
+image: ""
+thumbnail: ""
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---
-![](/assets/images/2025-04-24-community-meeting-flyer.png)
+![April 24 Annual Meeting Graphic: April 24 Thursday 6-8 PM, Annual Meeting, MAKE Roanoke 128 Albemarle Ave SE Unit B Roanoke VA](/assets/images/2025-04-24-community-meeting-website-1200-x-300-px-.png)
 
 MAKE Roanoke hosts a community meeting on the fourth Thursday of each month at our location: 128 Albemarle Ave SE, Unit B in Roanoke!
 

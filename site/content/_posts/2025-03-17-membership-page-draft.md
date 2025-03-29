@@ -64,7 +64,7 @@ All membership applications must be approved by the Board or their designees.
 #### Individual Membership: $50/month
 
 <div id="paypal-button-container-P-8DL36684LB373883NM4ZFLWA"></div>
-<script src="<https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription>" data-sdk-integration-source="button-factory"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
 <script>
   paypal.Buttons({
       style: {
@@ -88,7 +88,6 @@ All membership applications must be approved by the Board or their designees.
 #### Couple's Membership: $90/month
 
 <div id="paypal-button-container-P-3UR0656703021874WM7Q77TA"></div>
-<script src="<https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription>" data-sdk-integration-source="button-factory"></script>
 <script>
   paypal.Buttons({
       style: {
@@ -112,7 +111,6 @@ All membership applications must be approved by the Board or their designees.
 #### Student Membership: $35/month
 
 <div id="paypal-button-container-P-5X01392073983083EM4ZFM3A"></div>
-<script src="<https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription>" data-sdk-integration-source="button-factory"></script>
 <script>
   paypal.Buttons({
       style: {
@@ -136,7 +134,6 @@ All membership applications must be approved by the Board or their designees.
 #### Youth Access: $25/month per child
 
 <div id="paypal-button-container-P-1MN91315A16861834M7RACXQ"></div>
-<script src="<https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription>" data-sdk-integration-source="button-factory"></script>
 <script>
   paypal.Buttons({
       style: {

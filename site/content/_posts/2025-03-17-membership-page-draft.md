@@ -63,7 +63,8 @@ All membership applications must be approved by the Board or their designees.
 
 #### Individual Membership: $50/month
 
-<div id="paypal-button-container-P-8DL36684LB373883NM4ZFLWA"></div>
+<div style="border-bottom: 1px solid #fff; margin-bottom: 40px;">
+<div style="max-width: 325px" id="paypal-button-container-P-8DL36684LB373883NM4ZFLWA"></div>
 <script src="https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
 <script>
   paypal.Buttons({
@@ -84,10 +85,12 @@ All membership applications must be approved by the Board or their designees.
       }
   }).render('#paypal-button-container-P-8DL36684LB373883NM4ZFLWA'); // Renders the PayPal button
 </script>
+</div>
 
 #### Couple's Membership: $90/month
 
-<div id="paypal-button-container-P-3UR0656703021874WM7Q77TA"></div>
+<div style="border-bottom: 1px solid #fff; margin-bottom: 40px;">
+<div style="max-width: 325px" id="paypal-button-container-P-3UR0656703021874WM7Q77TA"></div>
 <script>
   paypal.Buttons({
       style: {
@@ -107,10 +110,12 @@ All membership applications must be approved by the Board or their designees.
       }
   }).render('#paypal-button-container-P-3UR0656703021874WM7Q77TA'); // Renders the PayPal button
 </script>
+</div>
 
 #### Student Membership: $35/month
 
-<div id="paypal-button-container-P-5X01392073983083EM4ZFM3A"></div>
+<div style="border-bottom: 1px solid #fff; margin-bottom: 40px;">
+<div style="max-width: 325px" id="paypal-button-container-P-5X01392073983083EM4ZFM3A"></div>
 <script>
   paypal.Buttons({
       style: {
@@ -130,10 +135,13 @@ All membership applications must be approved by the Board or their designees.
       }
   }).render('#paypal-button-container-P-5X01392073983083EM4ZFM3A'); // Renders the PayPal button
 </script>
+</div>
+
 
 #### Youth Access: $25/month per child
 
-<div id="paypal-button-container-P-1MN91315A16861834M7RACXQ"></div>
+<div style="border-bottom: 1px solid #fff; margin-bottom: 40px;">
+<div style="max-width: 325px" id="paypal-button-container-P-1MN91315A16861834M7RACXQ"></div>
 <script>
   paypal.Buttons({
       style: {
@@ -153,3 +161,4 @@ All membership applications must be approved by the Board or their designees.
       }
   }).render('#paypal-button-container-P-1MN91315A16861834M7RACXQ'); // Renders the PayPal button
 </script>
+</div>

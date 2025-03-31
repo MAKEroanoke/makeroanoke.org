@@ -13,7 +13,7 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
 * $50–Individual Membership
 * $90–Couple Membership 
 * $35–Student Membership (Active School ID must be provided)
-* $25–Youth-Access Add-On (per child), for Minor Children of Members. Restrictions are spelled out in the handbook, in Section 1.3
+* $25–Youth-Access Add-On (per child), for Minor Children of Members. Restrictions are described in the handbook, in Section 1.3
 
 ### Membership Perks:
 
@@ -59,7 +59,7 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
 
 All membership applications must be approved by the Board or their designees. 
 
-### Pay Here Once Application is Approved:
+### Pay Here *Once Application is Approved*:
 
 #### Individual Membership: $50/month
 
@@ -136,7 +136,6 @@ All membership applications must be approved by the Board or their designees.
   }).render('#paypal-button-container-P-5X01392073983083EM4ZFM3A'); // Renders the PayPal button
 </script>
 </div>
-
 
 #### Youth Access: $25/month per child
 

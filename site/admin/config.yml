@@ -69,6 +69,14 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+      - name: "membership"
+        label: "Membership"
+        editor:
+          preview: true
+        file: "site/membership.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
       - name: "newsletter"
         label: "Newsletter"
         editor:

@@ -9,6 +9,9 @@ tags:
   - training
   - electronics
   - 3d-printing
+excerpt: The first round of Shop and Tool Orientations are already being
+  announced on MeetUp! Learn how to get access to more tools included in your
+  membership
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

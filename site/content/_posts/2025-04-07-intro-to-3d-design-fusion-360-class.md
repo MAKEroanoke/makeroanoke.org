@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Intro to 3D Design: Fusion 360 Class"
-date: 2025-04-19T15:21:00.000Z
+date: 2025-04-19T13:00:00.000Z
 categories:
   - events
 tags:

@@ -18,8 +18,8 @@ Attendees MUST be registered on the individual MeetUp Events (linked below)
 
 **Electronics Shop Orientation**
 
-* Tuesday, April 8 from 6-9 pm: <https://www.meetup.com/make-roanoke/events/307163038>
-* Thursday, April 10: <https://www.meetup.com/make-roanoke/events/307163086>
+* [Tuesday, April 8 from 6-9 pm](< https://www.meetup.com/make-roanoke/events/307163038>)
+* Thursday, April 10 from 6-9 pm: <https://www.meetup.com/make-roanoke/events/307163086>
 * Friday, April 11: <https://www.meetup.com/make-roanoke/events/307163186>
 
 **3D Printer Orientation: Bambu Lab X1C**

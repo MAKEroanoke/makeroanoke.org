@@ -3,8 +3,7 @@ layout: post
 title: General Orientations on April 5
 date: 2025-04-05T13:00:00.000Z
 categories: Post
-tags:
-  - pinned
+tags: []
 excerpt: >
   We will be hosting 5 General Orientations on Saturday, April 5, at the top of
   every hour, with the first one at 1:00 PM and the last one starting at 5:00

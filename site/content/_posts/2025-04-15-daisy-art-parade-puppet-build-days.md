@@ -18,7 +18,7 @@ published: "true"
 ---
 ![](/assets/images/calling-all-makers-make-roanoke-is-preparing-for-the-daisy-art-parade-come-help-us-plan-and-build-a-large-maker-octopus-puppet-1200-x-675-px-880-x-352-px-.png)
 
-Join us as we start to build our octopus puppet for the Daisy Art Parade! More discussion about our puppet build can be found in our [Discord](https://mkroa.org/discord) in the event-planning channel. We will be having build days on April 19 from Noon-7 pm and May 3 from 1-8 pm
+Join us as we build our octopus puppet for the Daisy Art Parade! More discussion about our puppet build can be found in our [Discord](https://mkroa.org/discord) in the event-planning channel. We will be having build days on April 19 from Noon-7 pm and May 3 from 1-8 pm
 
 MAKE Roanoke is thrilled to be participating in the Daisy Art Parade again this year! For those who don't know, the Daisy Art Parade is a parade through downtown Roanoke of giant puppets that people in our community make! All puppets must be man-powered (IE no cars towing them!) and using recycled material is highly encouraged. This year the parade is on May 10! [You can learn more about the parade here.](https://daisyartparade.com/about/)
 

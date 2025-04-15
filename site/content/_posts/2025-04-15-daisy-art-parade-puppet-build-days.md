@@ -8,9 +8,9 @@ tags:
   - meeting
   - daisy-art-parade
 excerpt: >-
-  Join us as we start to build our octopus puppet for the Daisy Art Parade! You
-  do not need to be a MAKE Roanoke Member to be a part of our Daisy Art Parade
-  Krewe! All crafts and experience levels welcome!
+  Join us as we build our octopus puppet for the Daisy Art Parade! You do not
+  need to be a MAKE Roanoke Member to be a part of our Daisy Art Parade Krewe!
+  All crafts and experience levels welcome!
 
   We will be having build days on April 19 from Noon-7 pm and May 3 from 1-8 pm
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013

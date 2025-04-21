@@ -19,6 +19,8 @@ published: "true"
 ---
 ![Applied Electronics: Make an Open Source Hardware Mixer (Deej)](/assets/images/2025-5-3-deej-website.png)
 
+**[Attendees MUST register on the MeetUp Event](https://www.meetup.com/make-roanoke/events/307342971/?eventOrigin=group_events_list)**
+
 We are excited to offer a class in applied electronics! Students will get to do hands-on soldering, microprocessor programming and flashing, and learn about what open source hardware is. At the end of the class, students will build a physical mixer, which can be plugged into a computer and uses knobs to seamlessly control the volumes of different apps.
 
 Due to the complexity of this project and time constraints, we recommend attendees to have experience with basic soldering or some programming experience (any kind of experience is okay).

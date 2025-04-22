@@ -11,6 +11,7 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
 * $90–Couple Membership 
 * $35–Student Membership (Active School ID must be provided)
 * $25–Youth-Access Add-On (per child), for Minor Children of Members. Restrictions are described in the handbook, in Section 1.3
+* Locker Rental: $5 a month--This reserves a Red Locker for your belongings. You must label the locker with your name and contact information, you may not store weapons or flammables in these lockers, and you must use a lock provided by MAKE Roanoke. The Board reserves the right to inspect lockers at any time.
 
 ### Membership Perks:
 
@@ -156,7 +157,7 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
 </script>
 </div>
 
-### Locker Rental: $5/month
+#### Locker Rental: $5/month
 
 <div style="border-bottom: 1px solid #fff; margin-bottom: 40px;">
 <div style="max-width: 325px" id="paypal-button-container-P-0NN55550NH531804RNACCJFY"></div>

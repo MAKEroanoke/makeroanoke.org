@@ -17,7 +17,7 @@ Come volunteer your time to improve our community makerspace. Space Improvement 
 
 Volunteers must have a signed waiver on file, and anyone under the age of 18 must be accompanied by an adult, and their waiver must be signed by a parent or legal guardian.
 
-A list will be updated [on the MeetUp Event](https://www.meetup.com/make-roanoke/events/307181853/?eventOrigin=group_calendar) when we have agenda items for this Space Improvement Day!
+Agenda items can be found [on the MeetUp Event](https://www.meetup.com/make-roanoke/events/307181853/?eventOrigin=group_calendar) !
 
 **Please note that MAKE Roanoke is an active workshop:**
 

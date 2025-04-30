@@ -5,7 +5,6 @@ date: 2025-04-08T15:39:00.000Z
 categories:
   - Events
 tags:
-  - pinned
   - training
   - electronics
   - 3d-printing

@@ -11,6 +11,7 @@ excerpt: We have announced 2 new Electronics Shop Orientation Sessions for our
   Members. The first is May 1 from 6-8 PM and the second is May 3 from 10 AM -
   Noon. Please RSVP on the MeetUp Events and comment the time you will be
   arriving as we can only train 5 people at a time.
+thumbnail: /assets/images/electronics-orientation-website-2.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

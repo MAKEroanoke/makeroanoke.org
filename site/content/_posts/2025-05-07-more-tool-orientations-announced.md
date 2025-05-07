@@ -13,7 +13,8 @@ excerpt: "New Tool-Level Orientations have been announced for 3D Printing: Bambu
   Labs X1C, Biqu B1, and the Resin Printers: Elegoo Mars 1 and Saturn 3 as well
   as the wash & cure stations. Fiber Arts will be hosting Cricut Orientations as
   part of the Cricut Office Hours"
-image: /assets/images/copy-of-electronics-orientation-website.png
+image: ""
+thumbnail: /assets/images/copy-of-electronics-orientation-website.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

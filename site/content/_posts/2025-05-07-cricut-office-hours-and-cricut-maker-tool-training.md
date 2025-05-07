@@ -17,7 +17,8 @@ excerpt: "We're trying something new with Office Hours at MAKE Roanoke! Designed
   very thin balsa wood and people who can help bring your project to life.
   Members can also come to get trained on our Cricut Maker so they can use it
   whenever they want! "
-image: /assets/images/cricut-office-hours-website.png
+image: ""
+thumbnail: /assets/images/cricut-office-hours-website.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

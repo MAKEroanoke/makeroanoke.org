@@ -21,7 +21,7 @@ published: "true"
 MAKE Roanoke is pleased to announce more tool trainings for its members! Please RSVP on the linked MeetUp Events and comment there what time you'll be attending. More details can be found on those MeetUp Events as well
 
 * [Friday May 16 from 3-6 PM: 3D Printing Orientations on the Biqu B1 FDM Printer](https://www.meetup.com/make-roanoke/events/307696809/?eventOrigin=group_calendar)
-* [Saturday May 17 from 1-4 PM: 3D Printing Orientations on the Bambu X1C FDM Printer](https://www.meetup.com/make-roanoke/events/307696862/?eventOrigin=group_calendar)
+* [Saturday May 17 from 2-4 PM: 3D Printing Orientations on the Bambu X1C FDM Printer](https://www.meetup.com/make-roanoke/events/307696862/?eventOrigin=group_calendar)
 * [Tuesday May 20 from 6-8 PM: Cricut Maker Training as part of Cricut Office Hours](https://www.meetup.com/make-roanoke/events/307683099/?eventOrigin=group_calendar)
 * [Friday May 23 from 3-6 PM: 3D Printing Orientations on the Resin Printers](https://www.meetup.com/make-roanoke/events/307696946/?slug=make-roanoke&eventId=307696946)
 * [Saturday May 24 from 1-4 PM: 3D Printing Orientations on the Biqu B1 FDM Printer](https://www.meetup.com/make-roanoke/events/307696823/?eventOrigin=group_calendar)

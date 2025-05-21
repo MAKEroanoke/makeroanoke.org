@@ -8,7 +8,6 @@ tags:
   - shop-orientation
   - 3d-printing
   - fiber-arts
-  - pinned
 excerpt: "New Tool-Level Orientations have been announced for 3D Printing: Bambu
   Labs X1C, Biqu B1, and the Resin Printers: Elegoo Mars 1 and Saturn 3 as well
   as the wash & cure stations. Fiber Arts will be hosting Cricut Orientations as

@@ -6,7 +6,6 @@ categories: Post
 tags:
   - shop-orientations
   - wood-shop
-  - pinned
 excerpt: Our first wood shop orientations have been announced! This orientation
   will get you access to yellow-level tools in the wood shop and is required for
   any future red-level tool trainings.

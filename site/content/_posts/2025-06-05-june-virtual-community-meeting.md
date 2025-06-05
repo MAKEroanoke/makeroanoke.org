@@ -1,6 +1,6 @@
 ---
 layout: post
-title: June Virtual Community Meeting
+title: "June 9: Virtual Community Meeting"
 date: 2025-06-09T18:00:00.000Z
 categories:
   - Event

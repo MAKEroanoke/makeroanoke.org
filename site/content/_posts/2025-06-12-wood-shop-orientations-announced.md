@@ -1,14 +1,16 @@
 ---
 layout: post
-title: Wood Shop Orientations Announced
-date: 2025-05-24T14:00:00.000Z
-categories: Post
+title: More Wood Shop Orientations Announced
+date: 2025-06-15T16:00:00.000Z
+categories:
+  - events
 tags:
   - shop-orientations
   - wood-shop
-excerpt: Our first wood shop orientations have been announced! This orientation
-  will get you access to yellow-level tools in the wood shop and is required for
-  any future red-level tool trainings.
+excerpt: "More wood shop orientations have been announced! The 4 pm orientation
+  on Sunday, June 15 will get you access to yellow wood-shop tools, and the 5 pm
+  orientation on the same day will get you access to some red-level shop tools.
+  "
 thumbnail: /assets/images/wood-shop-orientation-website.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"

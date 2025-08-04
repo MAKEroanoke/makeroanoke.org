@@ -9,6 +9,7 @@ tags:
 excerpt: MAKE Roanoke is helping our local United Way by rebuilding their mascot
   costume! The current white glove costume is quite old, hot, and has the old
   logo.
+thumbnail: /assets/images/community-project-website.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

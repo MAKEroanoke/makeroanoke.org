@@ -5,6 +5,7 @@ date: 2025-08-05T11:14:00.000-04:00
 categories: Post
 tags:
   - survey
+  - pinned
 excerpt: MAKE Roanoke needs YOUR feedback! This survey is for members and
   non-members alike, and we want your honest feedback! After filling out the
   survey, you can enter to win a prize!

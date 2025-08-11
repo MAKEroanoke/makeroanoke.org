@@ -18,4 +18,4 @@ Join fellow cosplayers for a collaborative day to work on projects together. All
 We will provide basic tools (needle, thread, scissors, glue, etc.), but feel free to bring your own specialty tools to work on your project.
 Use of MAKE Roanoke equipment (sewing machines, 3D printers, etc.) requires membership and prior tool certification.
 
-[RSVP on the MeetUp Event here.](https://www.meetup.com/make-roanoke/events/309283389/?isFirstPublish=true)
+[RSVP on the MeetUp Event here.](https://www.meetup.com/make-roanoke/events/310471787)

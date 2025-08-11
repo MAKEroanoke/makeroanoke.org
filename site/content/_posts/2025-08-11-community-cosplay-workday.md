@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Community Cosplay Workday
+title: Community Cosplay Workday on August 24
 date: 2025-08-24T16:00:00.000-04:00
 categories:
   - Event

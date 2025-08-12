@@ -46,7 +46,7 @@ MAKE Roanoke Members get 24/7 access to the space and all the tools they’re ce
 
 ### Fiber Arts
 
-MAKE Roanoke’s Fiber Arts Studio features several sewing machines, a light-industrial Sailrite machine, a serger, patcher machine, Cricut Maker, and more. It has large cutting mats for cutting out projects and knitting needles and crochet hooks in various sizes. Find out more specific information on our Fiber Arts Studio on our [Wiki](https://wiki.makeroanoke.org/doku.php?id=fiber_arts).
+MAKE Roanoke’s Fiber Arts Studio features several sewing machines, a light-industrial Sailrite machine, a serger, patcher machine, Cricut Maker, and more. It has large cutting mats for cutting out projects and knitting needles and crochet hooks in various sizes. Find out more specific information on our Fiber Arts Studio on its [Wiki](https://wiki.makeroanoke.org/doku.php?id=fiber_arts).
 
 ### 3D Printing
 

@@ -54,12 +54,12 @@ MAKE Roanoke's 3D Printing Lab provides a variety of tools for members, includin
 
 ### Wood Shop
 
-Our Wood Shop has a SawStop table saw with a large outfeed table, a CNC machine, jointer, planer, router table, drum sander, miter saw, bandsaw, drill press and more! For information on our specific tools click here.
+Our Wood Shop has a SawStop table saw with a large outfeed table, a CNC machine, jointer, planer, router table, drum sander, miter saw, bandsaw, drill press and more! For information on our specific tools visit our [Wood Shop Wiki](https://wiki.makeroanoke.org/doku.php?id=wood_shop).
 
 ### Metal Shop
 
-MAKE Roanoke’s Metal Shop has a Bridgeport milling machine and a small lathe for precision metal working, as well as a horizontal bandsaw for material handling. For measuring things, there are calipers and micrometers, as well as a large precision surface plate and myriad other metrology instruments. We've also got some welding equipment, which will be available soon! 
+MAKE Roanoke’s Metal Shop has a Bridgeport milling machine and a small lathe for precision metal working, as well as a horizontal bandsaw for material handling. For measuring things, there are calipers and micrometers, as well as a large precision surface plate and myriad other metrology instruments. We've also got some welding equipment, which will be available soon! Find out more about our Metal Shop on [its Wiki](https://wiki.makeroanoke.org/doku.php?id=metal_shop).
 
 ### Electronics
 
-The Electronics lab features soldering and repair equipment, a reflow oven, test and measure equipment (including oscilloscopes), and a component library for members.
+The Electronics lab features soldering and repair equipment, a reflow oven, test and measure equipment (including oscilloscopes), and a component library for members. More information about our Electronics offerings can be found on our [Electronics Wiki](https://wiki.makeroanoke.org/doku.php?id=electronics_lab).

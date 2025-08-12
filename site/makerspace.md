@@ -7,6 +7,8 @@ A makerspace is a community-oriented workspace where people can come together to
 
 MAKE Roanoke is open to people of all skill levels, from beginners to experienced makers. Our community has a strong focus on collaboration and sharing knowledge. Makerspaces like MAKE Roanoke are a great place to learn new skills, work on projects, and meet other people who are interested in making.
 
+![MAKE Roanoke as seen from the entrance showcasing the classroom area](/assets/images/2025-4-29-classroom.jpg)
+
 ## What can you do at MAKE Roanoke?
 
 The possibilities are endless! Here are just a few examples:
@@ -23,6 +25,8 @@ The possibilities are endless! Here are just a few examples:
 ## Who uses MAKE Roanoke?
 
 MAKE Roanoke has more than 60 members, as of August 2025, and our community is even larger, with over 300 people in our Discord server and many people involved through classes, volunteering, and more. Our community is made up of students, entrepreneurs, hobbyists, and professionals alike. MAKE Roanoke is a great place to learn new skills, work on projects, and meet other people who are interested in making. Our community meetings, usually on the fourth Thursday of the month, feature a Maker Show and Tell where anyone can show off the cool project they’ve been working on. They are open to the public and are a great way to get a feel for our community.
+
+![MAKE Roanoke's Lab, home of the 3D Printers, Electronics Station, and Laser Cutter](/assets/images/2025-4-29-lab.jpg)
 
 ## Benefits of using a makerspace
 
@@ -46,20 +50,30 @@ MAKE Roanoke Members get 24/7 access to the space and all the tools they’re ce
 
 ### Fiber Arts
 
+![Two of MAKE Roanoke's sewing machines](/assets/images/2025-4-29-fiber-arts.jpg)
+
 MAKE Roanoke’s Fiber Arts Studio features several sewing machines, a light-industrial Sailrite machine, a serger, patcher machine, Cricut Maker, and more. It has large cutting mats for cutting out projects and knitting needles and crochet hooks in various sizes. Find out more specific information on our Fiber Arts Studio on its [Wiki](https://wiki.makeroanoke.org/doku.php?id=fiber_arts).
 
 ### 3D Printing
+
+![MAKE Roanoke's FDM 3D Printers](/assets/images/2025-4-29-3d-printing.jpg)
 
 MAKE Roanoke's 3D Printing Lab provides a variety of tools for members, including a Bambu Lab X1C with AMS, FDM and resin printers, wash & cure stations, heat insert press, filament driers, and community materials. The lab offers a well-equipped space for rapid prototyping and artistic projects. Our [3D Printing Lab Wiki ](https://wiki.makeroanoke.org/doku.php?id=3d_printing)has lots of in-depth information about our offerings and policies. 
 
 ### Wood Shop
 
+![MAKE Roanoke's Wood shop](/assets/images/2025-4-29-woodshop.jpg)
+
 Our Wood Shop has a SawStop table saw with a large outfeed table, a CNC machine, jointer, planer, router table, drum sander, miter saw, bandsaw, drill press and more! For information on our specific tools visit our [Wood Shop Wiki](https://wiki.makeroanoke.org/doku.php?id=wood_shop).
 
 ### Metal Shop
 
+![MAKE Roanoke's Metal Shop, including a mill and mini lathe](/assets/images/2025-4-29-metal-shop.jpg)
+
 MAKE Roanoke’s Metal Shop has a Bridgeport milling machine and a small lathe for precision metal working, as well as a horizontal bandsaw for material handling. For measuring things, there are calipers and micrometers, as well as a large precision surface plate and myriad other metrology instruments. We've also got some welding equipment, which will be available soon! Find out more about our Metal Shop on [its Wiki](https://wiki.makeroanoke.org/doku.php?id=metal_shop).
 
 ### Electronics
+
+![MAKE Roanoke's Soldering equipment in the Electronics lab](/assets/images/2025-4-29-electronics.jpg)
 
 The Electronics lab features soldering and repair equipment, a reflow oven, test and measure equipment (including oscilloscopes), and a component library for members. More information about our Electronics offerings can be found on our [Electronics Wiki](https://wiki.makeroanoke.org/doku.php?id=electronics_lab).

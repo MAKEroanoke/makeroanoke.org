@@ -46,11 +46,11 @@ MAKE Roanoke Members get 24/7 access to the space and all the tools they’re ce
 
 ### Fiber Arts
 
-MAKE Roanoke’s Fiber Arts Studio features several sewing machines, a light-industrial Sailrite machine, a serger, patcher machine, Cricut Maker, and more. It has large cutting mats for cutting out projects and knitting needles and crochet hooks in various sizes. Find out more specific information on our Fiber Arts Studio on our Wiki.
+MAKE Roanoke’s Fiber Arts Studio features several sewing machines, a light-industrial Sailrite machine, a serger, patcher machine, Cricut Maker, and more. It has large cutting mats for cutting out projects and knitting needles and crochet hooks in various sizes. Find out more specific information on our Fiber Arts Studio on our [Wiki](https://wiki.makeroanoke.org/doku.php?id=fiber_arts).
 
 ### 3D Printing
 
-MAKE Roanoke's 3D Printing Lab provides a variety of tools for members, including a Bambu Lab X1C with AMS, FDM and resin printers, wash & cure stations, heat insert press, filament driers, and community materials. The lab offers a well-equipped space for rapid prototyping and artistic projects. 
+MAKE Roanoke's 3D Printing Lab provides a variety of tools for members, including a Bambu Lab X1C with AMS, FDM and resin printers, wash & cure stations, heat insert press, filament driers, and community materials. The lab offers a well-equipped space for rapid prototyping and artistic projects. Our [3D Printing Lab Wiki ](https://wiki.makeroanoke.org/doku.php?id=3d_printing)has lots of in-depth information about our offerings and policies. 
 
 ### Wood Shop
 

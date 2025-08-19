@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Community Meeting on July 24
-date: 2025-06-26T18:00:00.000Z
+date: 2025-07-24T18:00:00.000-04:00
 categories:
   - Event
 tags:

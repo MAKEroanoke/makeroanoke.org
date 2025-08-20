@@ -15,16 +15,16 @@ Meetup is a platform for companies and groups to schedule and manage events. Gro
 
 # How to Sign-Up for the free version of Meetup: 
 
-Go to [meetup.com](http://meetup.com/) and click the “sign up” button in the upper right corner. You can sign up with Google, Apple, Facebook or a traditional email and password. 
+1. Go to [meetup.com](http://meetup.com/) and click the “sign up” button in the upper right corner. You can sign up with Google, Apple, Facebook or a traditional email and password. 
 
-![](/assets/images/meetup-signup-1.png)
+![Click Sign up on the Meetup homepage](/assets/images/meetup-signup-1.png "Meetup homepage")
 
-Pick a few interests (you have to select at least 3)
+2. Pick a few interests (you have to select at least 3)
 
-Enter your date of birth (it won’t be public)
+3. Enter your date of birth (it won’t be public)
 
-Select your gender, if you want to
+4. Select your gender, if you want to
 
-Select groups you’d like to join. If MAKE Roanoke isn’t a suggested group for you, you can find it here [[https://www.meetup.com/make-roanoke/](https://www.meetup.com/make-roanoke/?eventOrigin=home_groups_you_organize)] after the sign up process is complete. 
+5. Select groups you’d like to join. If MAKE Roanoke isn’t a suggested group for you, you can find it here [[https://www.meetup.com/make-roanoke/](https://www.meetup.com/make-roanoke/?eventOrigin=home_groups_you_organize)] after the sign up process is complete. 
 
-You’ll get a pop-up advertising Meetup+, towards the top of the pop-up is a link “continue with free plan”, select that if you don’t want to pay for Meetup
+6. You’ll get a pop-up advertising Meetup+, towards the top of the pop-up is a link “continue with free plan”, select that if you don’t want to pay for Meetup

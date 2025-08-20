@@ -30,4 +30,11 @@ You’re all set! Keep reading to find out how to use MeetUp to attend MAKE Roan
 
 ## Finding MAKE Roanoke Events on Meetup
 
-Your homepage on Meetup will have events listed in chronological order for all the groups that you join, as well as some suggested local groups. If you scroll down below the calendar, you’ll see a section for “Your groups” and should see MAKE Roanoke listed there. If you don’t, you can [click here] (https://www.meetup.com/make-roanoke/) to add MAKE Roanoke to your groups! Click MAKE Roanoke and you’ll see our Meetup page. 
+Your homepage on Meetup will have events listed in chronological order for all the groups that you join, as well as some suggested local groups. If you scroll down below the calendar, you’ll see a section for “Your groups” and should see MAKE Roanoke listed there. If you don’t, you can [click here](https://www.meetup.com/make-roanoke/) to add MAKE Roanoke to your groups! Click MAKE Roanoke and you’ll see our Meetup page.
+
+
+Under our logo, you’ll see 5 buttons, and below that a brief bio of MAKE Roanoke and our next 4 events. That’s not all of our events though! Click “Events” under our logo to see a list of all of our scheduled events.
+
+
+
+![Click on "Events" under the Make Roanoke logo.](/assets/images/meetup-events-3.png "Events tab on Meetup")

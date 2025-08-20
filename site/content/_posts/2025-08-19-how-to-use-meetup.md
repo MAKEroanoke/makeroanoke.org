@@ -13,7 +13,7 @@ published: "true"
 
 Meetup is a platform for companies and groups to schedule and manage events. Groups like MAKE Roanoke pay a fee, and individuals can use the platform for free. Meetup+ is their paid subscription for individuals, but it is **not required** to use Meetup to attend MAKE Roanoke events. You must be 18+ to use Meetup, per their policies.
 
-# How to Sign-Up for the free version of Meetup: 
+## How to Sign-Up for the free version of Meetup: 
 
 1. Go to [meetup.com](http://meetup.com/) and click the “sign up” button in the upper right corner. You can sign up with Google, Apple, Facebook or a traditional email and password. 
 
@@ -26,4 +26,8 @@ Meetup is a platform for companies and groups to schedule and manage events. Gro
 
 ![Choose "continue with free plan".](/assets/images/meetup-free-plan-2.png "Meetup signup popup")
 
-![]()
+You’re all set! Keep reading to find out how to use MeetUp to attend MAKE Roanoke events.
+
+## Finding MAKE Roanoke Events on Meetup
+
+Your homepage on Meetup will have events listed in chronological order for all the groups that you join, as well as some suggested local groups. If you scroll down below the calendar, you’ll see a section for “Your groups” and should see MAKE Roanoke listed there. If you don’t, you can [click here] (https://www.meetup.com/make-roanoke/) to add MAKE Roanoke to your groups! Click MAKE Roanoke and you’ll see our Meetup page. 

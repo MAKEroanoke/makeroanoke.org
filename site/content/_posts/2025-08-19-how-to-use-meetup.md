@@ -17,8 +17,7 @@ Meetup is a platform for companies and groups to schedule and manage events. Gro
 
 1. Go to [meetup.com](http://meetup.com/) and click the “sign up” button in the upper right corner. You can sign up with Google, Apple, Facebook or a traditional email and password. 
 
-![Click Sign up on the Meetup homepage](/assets/images/meetup-signup-1.png "Meetup homepage")
-
+   ![Sign up link on Meetup homepage](/assets/images/meetup-signup-1.png "Sign up on Meetup")
 2. Pick a few interests (you have to select at least 3)
 3. Enter your date of birth (it won’t be public)
 4. Select your gender, if you want to
@@ -26,3 +25,5 @@ Meetup is a platform for companies and groups to schedule and manage events. Gro
 6. You’ll get a pop-up advertising Meetup+, towards the top of the pop-up is a link “continue with free plan”, select that if you don’t want to pay for Meetup
 
 ![Choose "continue with free plan".](/assets/images/meetup-free-plan-2.png "Meetup signup popup")
+
+![]()

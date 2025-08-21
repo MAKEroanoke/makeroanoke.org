@@ -51,3 +51,12 @@ While MAKE Roanoke puts all of our events on Meetup, we only enforce the RSVPs f
 
 To RSVP for an event, simply click the red “Attend” button in the lower right corner. Depending on the event, you might be asked a question to help us plan better, or to confirm that you will pay for the event. Once you RSVP for an event, it will show up on your Meetup homepage under “Your next events” below the calendar.
 
+![RSVP and pay organizer dierctly screen.](/assets/images/meetup-rsvp-2.png "RSVP screen")
+
+## Change of plans? Change your RSVP to free up a spot
+
+If you decide you can’t make an event after all, we ask that you please edit your RSVP to reflect this. To do so, navigate to the event page again, and click “Edit RSVP” on the bottom right. In the pop-up, you can select “Not Going” to change your RSVP. This really helps us out when we have limited seating as it frees up a seat for another person.
+
+## Waitlist
+
+Meetup also has waitlists for when a limited-attendance event is fully booked. You can join the waitlist, and if someone changes their RSVP to “Not Going” then the first person on the waitlist will automatically be confirmed as going. Meetup will send you an email confirming this as well. The waitlist order is chronological, but Meetup+ users do get priority (MAKE Roanoke is unable to change that functionality). 

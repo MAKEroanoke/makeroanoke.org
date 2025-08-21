@@ -42,3 +42,12 @@ Once there, you can also click “Calendar” to see the events in a calendar fo
 ![Click on "Calendar" to see events in a calendar format.](/assets/images/meetup-calendar-3.5.png "Caendar view selection")
 
 ![View event in a calendar.](/assets/images/meetup-calendar-4.png "Calendar view")
+
+## RSVPing on Meetup
+
+While MAKE Roanoke puts all of our events on Meetup, we only enforce the RSVPs for our classes, which have limited seating. You might be surprised to come to a Community Meeting that only has 3 RSVPs to find 30+ people in attendance! 
+
+### RSVP to save your spot
+
+To RSVP for an event, simply click the red “Attend” button in the lower right corner. Depending on the event, you might be asked a question to help us plan better, or to confirm that you will pay for the event. Once you RSVP for an event, it will show up on your Meetup homepage under “Your next events” below the calendar.
+

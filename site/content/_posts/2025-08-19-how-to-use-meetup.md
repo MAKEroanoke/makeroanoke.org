@@ -57,6 +57,10 @@ To RSVP for an event, simply click the red “Attend” button in the lower righ
 
 If you decide you can’t make an event after all, we ask that you please edit your RSVP to reflect this. To do so, navigate to the event page again, and click “Edit RSVP” on the bottom right. In the pop-up, you can select “Not Going” to change your RSVP. This really helps us out when we have limited seating as it frees up a seat for another person.
 
+![Click "Edit RSVP" on the event page.](/assets/images/meetup-unrsvp-1.png "Edit RSVP")
+
+![Choose "Not Going" to free your spot for someone else.](/assets/images/meetup-unrsvp-2.png "Choose Not Going")
+
 ## Waitlist
 
-Meetup also has waitlists for when a limited-attendance event is fully booked. You can join the waitlist, and if someone changes their RSVP to “Not Going” then the first person on the waitlist will automatically be confirmed as going. Meetup will send you an email confirming this as well. The waitlist order is chronological, but Meetup+ users do get priority (MAKE Roanoke is unable to change that functionality). 
+Meetup also has waitlists for when a limited-attendance event is fully booked. You can join the waitlist, and if someone changes their RSVP to “Not Going” then the first person on the waitlist will automatically be confirmed as going. Meetup will send you an email confirming this as well. The waitlist order is chronological, but Meetup+ users do get priority (MAKE Roanoke is unable to change that functionality).

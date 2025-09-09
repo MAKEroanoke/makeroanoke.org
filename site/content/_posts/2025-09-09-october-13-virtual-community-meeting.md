@@ -1,7 +1,7 @@
 ---
 layout: post
 title: October 13 Virtual Community Meeting
-date: 2025-09-08T18:00:00.000-04:00
+date: 2025-10-13T18:00:00.000-04:00
 categories:
   - Event
 tags:

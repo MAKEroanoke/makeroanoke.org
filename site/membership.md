@@ -48,12 +48,13 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
 
   * Be sponsored by an existing Member ***or***
   * Go through a probationary period of 60 days
-         *Probationary Members may not:*
-           Vote
-           *Serve on the Board*
-           Sponsor a new Member
-        * Probationary Membership can be terminated by a simple majority vote of the Board
-    All membership applications must be approved by the Board or their designees. 
+  * *Probationary Members may not:*
+    * Vote
+    * *Serve on the Board*
+    * Sponsor a new Member
+    * Probationary Membership can be terminated by a simple majority vote of the Board
+
+All membership applications must be approved by the Board or their designees. 
 
 ### Pay Here *Once Application is Approved*:
 

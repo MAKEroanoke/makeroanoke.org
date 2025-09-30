@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to use Meetup
+title: How to use Meetup [Needs Rework due to New Meetup Site]
 date: 2025-08-19T16:21:00.000-04:00
 categories: Post
 excerpt: Meetup is a platform for companies and groups to schedule and manage

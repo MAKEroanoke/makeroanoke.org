@@ -9,7 +9,8 @@ tags:
   - fiber-arts
   - leather
 excerpt: MAKE Roanoke is pleased to offer another session in our series of FREE
-  short classes we're calling Maker Minis! This one is a Leather Carving class.
+  short classes we're calling Maker Minis! This one is a Leather Carving class
+  on October 11 at 1 PM.
 thumbnail: /assets/images/2025-10-11-leather-maker-mini.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"

@@ -12,11 +12,11 @@ excerpt: >-
   October 16 from 8 AM-8 PM!
 
   MAKE Roanoke has raised over $500 thanks to these restaurant charities so far! We appreciate all of the support! 
-thumbnail: /assets/images/bite-size-charity-panda.png
-location: "Panda Express Tanglewood: 4458 Electric Rd, Roanoke VA 24018"
+thumbnail: /assets/images/panera.png
+location: Panera, 4202 Electric Rd, Roanoke VA 24018
 published: "true"
 ---
-![](/assets/images/bite-size-charity-panda.png)
+![](/assets/images/panera.png)
 
 MAKE Roanoke is hosting a fundraiser at the Tanglewood Panera on Thursday, October 16 from 8 AM-8 PM!
 
@@ -26,4 +26,4 @@ Panera will donate 20% of the proceeds to MAKE Roanoke!
 
 MAKE Roanoke has raised over $500 thanks to these restaurant charities so far! We appreciate all of the support! 
 
-![](/assets/images/2025-09-10-panda.png)
+![](/assets/images/panera-flyer_full-color.png)

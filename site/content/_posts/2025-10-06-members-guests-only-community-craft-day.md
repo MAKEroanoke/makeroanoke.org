@@ -13,7 +13,7 @@ published: "true"
 ---
 ![](/assets/images/community-craft-day-website-1200-x-300-px-.png)
 
-This event was so fun last month we decided to make it a monthly event!
+This event was so fun last month we decided to make it a monthly event! Community Craft Day will be on the second Saturday of every month from 4-8 pm. 
 
 Come work on whatever project you want and enjoy the company of fellow MAKE Roanoke Members! Carve out some time to create for the sake of creating! From coloring to making hats to restoring machinery, this is a social night of crafting of all kinds for makers of all kinds!
 

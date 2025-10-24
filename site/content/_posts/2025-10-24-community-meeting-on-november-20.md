@@ -16,7 +16,7 @@ published: "true"
 ---
 ![](/assets/images/2.png)
 
-MAKE Roanoke hosts a community meeting on the fourth Thursday of each month at our location: 128 Albemarle Ave SE, Unit B in Roanoke!
+MAKE Roanoke's Community Meeting for November and December will be held on the THIRD Thursday to accommodate the holidays (instead of the usual fourth thursday). They will still be at our location: 128 Albemarle Ave SE, Unit B in Roanoke!
 
 Come hang out with makers of all crafts from our community, get updates from Roanoke's own non-profit community makerspace, and bring that cool project you're working on for maker show and tell!
 

@@ -10,7 +10,8 @@ tags:
 excerpt: MAKE Roanoke is pleased to offer another session in our series of FREE
   short classes we're calling Maker Minis! This one is about joinery jigs for
   wood working and will take place on Wednesday, Nov 5 at 6 pm!
-image: /assets/images/joinery-jig-website-1200-x-300-px-.png
+image: ""
+thumbnail: /assets/images/joinery-jig-website-1200-x-300-px-.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

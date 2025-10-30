@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Intro to Hand Embroidery Class
-date: 2025-11-05T18:00:00.000-05:00
+date: 2025-11-12T18:00:00.000-05:00
 categories:
   - event
 tags:

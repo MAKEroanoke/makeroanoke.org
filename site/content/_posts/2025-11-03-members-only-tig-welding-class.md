@@ -10,9 +10,12 @@ tags:
 excerpt: Come learn the basics of TIG Welding at MAKE Roanoke! Students will
   learn about safety and terminology, basic posture and technique, and some TIG
   Technique Demonstration and Practice
+thumbnail: /assets/images/tig-welding-website.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---
+![](/assets/images/tig-welding-website.png)
+
 **This event is for Full MAKE Roanoke Members ONLY.** You must have completed registration and General Orientation[ ](http://makeroanoke.org/membership)[Find out more about MAKE Roanoke Membership here.](makeroanoke.org/membership)
 
 **PLEASE READ ENTIRE DESCRIPTION FOR PPE REQUIREMENTS**
@@ -35,3 +38,5 @@ This class is for ages 18 and up, and is suitable for people with no to minimal 
 * Full Length Pants
 * Safety Glasses
 * Leather working gloves or gauntlets
+
+[Students MUST RSVP on the Meetup Event](https://www.meetup.com/make-roanoke/events/311843115/?eventOrigin=group_calendar)

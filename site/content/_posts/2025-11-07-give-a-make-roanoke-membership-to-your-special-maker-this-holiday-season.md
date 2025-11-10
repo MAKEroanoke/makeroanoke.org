@@ -9,7 +9,7 @@ excerpt: MAKE Roanoke is now offering Gift Memberships! Don't get that crafty
   person in your life a new tool for the holidays. Get them a whole workshop
   complete with a community of maker friends!
 thumbnail: /assets/images/the-perfect-gift-1200-x-300-px-.png
-location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
+location: mkroa.org/gift-member
 published: "true"
 ---
 ![](/assets/images/the-perfect-gift-1200-x-300-px-.png)

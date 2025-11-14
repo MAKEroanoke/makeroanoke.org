@@ -22,4 +22,4 @@ This Maker Mini will cover voltage, current, and resistance as it applies to a c
 
 This class is suitable for beginners, and is recommended for ages 12 and up. All minors must be accompanied by an adult.
 
-Seating is limited, so please RSVP to save your seat!
+Seating is limited, so please [RSVP to save your seat on the Meetup Event](https://www.meetup.com/make-roanoke/events/311992716/?eventOrigin=attendee_list)!

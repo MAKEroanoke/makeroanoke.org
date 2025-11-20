@@ -39,9 +39,11 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
 
 ### To become a Member you must:
 
-* [Complete the membership application ](<https://us.services.docusign.net/webforms-ux/v1.0/forms/bb9feed9431452a54e1e97815adfbdac >) and the [Youth-Access Application](https://us.services.docusign.net/webforms-ux/v1.0/forms/c11be0a054f68b217955c5ac19cac080), if applicable
+* [Complete the membership application ](https://mkroa.org/membership-app)
 * Make an account at [members.makeroanoke.org ](<members.makeroanoke.org >)and get a key fob from a Board Member
-* Pay the monthly membership fee (via PayPal, link below)
+* Pay the monthly membership fee on Member Matters
+
+  * Youth Access and Locker Rental Payments are still done through PayPal below
 * Abide by the [Member Handbook and Code of Conduct](https://mkroa.org/handbook) 
 * Complete the General Orientation
 * New members must also
@@ -49,6 +51,7 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
   * Be sponsored by an existing Member ***or***
   * Go through a probationary period of 60 days
   * *Probationary Members may not:*
+
     * Vote
     * *Serve on the Board*
     * Sponsor a new Member
@@ -56,83 +59,7 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
 
 All membership applications must be approved by the Board or their designees. 
 
-### Pay Here *Once Application is Approved*:
-
-#### Individual Membership: $50/month
-
-<div style="border-bottom: 1px solid #fff; margin-bottom: 40px;">
-<div style="max-width: 325px" id="paypal-button-container-P-8DL36684LB373883NM4ZFLWA"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'rect',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'subscribe'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          /* Creates the subscription */
-          plan_id: 'P-8DL36684LB373883NM4ZFLWA'
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID); // You can add optional success message for the subscriber here
-      }
-  }).render('#paypal-button-container-P-8DL36684LB373883NM4ZFLWA'); // Renders the PayPal button
-</script>
-</div>
-
-#### Couple's Membership: $90/month
-
-<div style="border-bottom: 1px solid #fff; margin-bottom: 40px;">
-<div style="max-width: 325px" id="paypal-button-container-P-3UR0656703021874WM7Q77TA"></div>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'rect',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'subscribe'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          /* Creates the subscription */
-          plan_id: 'P-3UR0656703021874WM7Q77TA'
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID); // You can add optional success message for the subscriber here
-      }
-  }).render('#paypal-button-container-P-3UR0656703021874WM7Q77TA'); // Renders the PayPal button
-</script>
-</div>
-
-#### Student Membership: $35/month
-
-<div style="border-bottom: 1px solid #fff; margin-bottom: 40px;">
-<div style="max-width: 325px" id="paypal-button-container-P-5X01392073983083EM4ZFM3A"></div>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'rect',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'subscribe'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          /* Creates the subscription */
-          plan_id: 'P-5X01392073983083EM4ZFM3A'
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID); // You can add optional success message for the subscriber here
-      }
-  }).render('#paypal-button-container-P-5X01392073983083EM4ZFM3A'); // Renders the PayPal button
-</script>
-</div>
+### Pay Here after completing the rest of the onboarding process:
 
 #### Youth Access: $25/month per child
 

@@ -11,9 +11,12 @@ excerpt: >-
 
 
   Come craft a memory and get a tour of the space!
+thumbnail: /assets/images/jingle-and-mingle-holiday-party-website.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---
+![](/assets/images/jingle-and-mingle-holiday-party-website.png)
+
 MAKE Roanoke is hosting our second "Jingle & Mingle" Holiday Social at our makerspace near downtown Roanoke on Sunday, December 7 from 1-5 pm. 
 
 Swing by any time in that period to enjoy some hot cocoa and cookies, and make an ornament or a card while you're there. 

@@ -68,6 +68,7 @@ Individual, Couple, and Student/Reduced-Rate memberships are now paid through Me
 
 <div style="border-bottom: 1px solid #fff; margin-bottom: 40px;">
 <div style="max-width: 325px" id="paypal-button-container-P-1MN91315A16861834M7RACXQ"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AQW23-9eYnJlE8qYmH7NSlhuTA_rXxNtZGGeOiCIEjuAyHCTHe3fH4TEspdUAGNdk2F8-xZULbthoGZP&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
 <script>
   paypal.Buttons({
       style: {

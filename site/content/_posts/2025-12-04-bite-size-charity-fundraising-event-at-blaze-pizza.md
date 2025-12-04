@@ -15,7 +15,7 @@ excerpt: >-
 
 
   Blaze Pizza will donate 20% of the proceeds to MAKE Roanoke!
-thumbnail: /assets/images/2025-06-19-blaze-pizza.png
+thumbnail: /assets/images/blaze-pizza-2.png
 location: Blaze Pizza, 4464 Electric Rd, Unit C, Roanoke VA 24018
 published: "true"
 ---

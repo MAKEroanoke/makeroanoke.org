@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Quarter Classes and Maker Minis of 2026 announced!
-date: 2025-12-04T10:44:00.000-05:00
+date: 2025-12-14T10:44:00.000-05:00
 categories: Post
 tags:
   - classes
@@ -9,9 +9,12 @@ excerpt: Our first quarter of classes and Maker Minis at MAKE Roanoke has been
   planned. Signups for these events will be announced on Meetup roughly one
   month before each class date. Read on to find out what you can learn at MAKE
   Roanoke in early 2026!
+thumbnail: /assets/images/classes-committee-website.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---
+![](/assets/images/classes-committee-website.png)
+
 Our first quarter of classes and Maker Minis at MAKE Roanoke has been planned. Signups for these events will be announced on Meetup roughly one month before each class date. To get notified as soon as a class is available for sign up, go to [our Meetup Page](https://mkroa.org/meetup) and click "Join this Group" and Meetup will notify you as soon as a class is published! Classes often sell out quickly, but please use the waitlist, as it lets us know how many people want the class to be offered but didn't get the chance to take it. 
 
 Read on to find out what you can learn at MAKE Roanoke in early 2026! Maker Minis are free to attend, and Classes will have a fee to cover our expenses.

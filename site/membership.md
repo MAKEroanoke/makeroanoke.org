@@ -41,7 +41,7 @@ MAKE Roanoke is a Membership-Based Makerspace, meaning we rely on memberships to
 ### To become a Member you must:
 
 * [Complete the membership application ](https://mkroa.org/membership-app)
-* Make an account at [members.makeroanoke.org ](<members.makeroanoke.org >)and get a key fob from a Board Member
+* Make an account at [members.makeroanoke.org ](<https://members.makeroanoke.org >)and get a key fob from a Board Member
 * Pay the monthly membership fee on Member Matters
 
   * Youth Access and Locker Rental Payments are still done through PayPal below

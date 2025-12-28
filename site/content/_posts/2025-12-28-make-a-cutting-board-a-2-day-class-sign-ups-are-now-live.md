@@ -10,7 +10,8 @@ tags:
 excerpt: Join us at MAKE Roanoke to craft your own cutting board while learning
   how to use several tools in our wood shop! This class spans two days, and
   students must attend both days.
-image: /assets/images/1-cutting-board-class-website.png
+image: ""
+thumbnail: /assets/images/1-cutting-board-class-website.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---

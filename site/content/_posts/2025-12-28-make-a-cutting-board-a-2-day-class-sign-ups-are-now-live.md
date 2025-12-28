@@ -20,8 +20,8 @@ published: "true"
 
 Join us at MAKE Roanoke to craft your own cutting board while learning how to use several tools in our wood shop! **This class spans two days, and students must attend both days.**
 
-* Day 1: Saturday July 19 from 1-4 PM
-* Day 2: Sunday July 20 from 1-4 PM
+* Day 1: Saturday January 24 from 1-4 PM
+* Day 2: Sunday January 25 from 1-4 PM
 
 This class, taught by Matt Brown and Michelle Donohoe, will teach students how to utilize the jointer, planer, table saw, miter saw, router, and drum sander to make their own one of a kind cutting board.
 

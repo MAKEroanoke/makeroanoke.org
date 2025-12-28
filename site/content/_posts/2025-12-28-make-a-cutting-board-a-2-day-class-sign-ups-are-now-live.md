@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Make a Cutting Board: A 2-Day Class Sign-ups are now live!"
-date: 2025-01-24T13:00:00.000-05:00
+date: 2026-01-24T13:00:00.000-05:00
 categories:
   - events
 tags:

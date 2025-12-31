@@ -3,8 +3,7 @@ layout: post
 title: Give a MAKE Roanoke Membership to your special maker this holiday season!
 date: 2025-11-07T10:44:00.000-05:00
 categories: Post
-tags:
-  - pinned
+tags: []
 excerpt: MAKE Roanoke is now offering Gift Memberships! Don't get that crafty
   person in your life a new tool for the holidays. Get them a whole workshop
   complete with a community of maker friends!

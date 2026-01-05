@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bite-Size Charity at Tanglewood Panda Express
+title: Bite-Size Charity at Valley View Panda Express
 date: 2026-01-16T10:00:00.000-05:00
 categories:
   - Event

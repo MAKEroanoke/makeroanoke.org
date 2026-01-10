@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lightsaber Class starts on February 5, Sign up and Pay now!
+title: Members-Only Lightsaber Class starts on February 5, Sign up and Pay now!
 date: 2026-02-05T18:00:00.000-05:00
 categories:
   - Event
@@ -8,7 +8,7 @@ tags:
   - metal-shop
   - class
 excerpt: "Make your very own lightsaber and learn how to use the metal lathe in
-  this class! "
+  this Members-Only class! "
 thumbnail: /assets/images/lightsaber-website-1-.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"

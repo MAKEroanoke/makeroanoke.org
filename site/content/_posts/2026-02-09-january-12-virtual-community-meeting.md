@@ -1,6 +1,6 @@
 ---
 layout: post
-title: January 12 Virtual Community Meeting
+title: February 9 Virtual Community Meeting
 date: 2026-02-09T18:00:00.000-05:00
 categories:
   - Event

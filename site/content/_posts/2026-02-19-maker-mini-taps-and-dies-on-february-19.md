@@ -29,4 +29,4 @@ Taps and Dies are tools used to cut threads for nuts and bolts (or similar hardw
 
 This class is suitable for beginners, and is recommended for ages 8 and up. 
 
-Seats are limited, so RSVP to save your spot!
+Seats are limited, so [RSVP to save your spot](https://www.meetup.com/make-roanoke/events/312958610)!

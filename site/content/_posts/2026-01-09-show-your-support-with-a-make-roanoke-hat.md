@@ -20,4 +20,4 @@ Fill out the form at [https://mkroa.org/hats](mkroa.org/hats) to order your hat 
 
 Don't miss out on your chance to rep your favorite local non-profit makerspace! 
 
-(Also if you prefer shirts, we have an ongoing [t-shirt and sweatshirt fundraiser](mkroa.org/merch) with Bonfire!)
+(Also if you prefer shirts, we have an ongoing [t-shirt and sweatshirt fundraiser](https://mkroa.org/merch) with Bonfire!)

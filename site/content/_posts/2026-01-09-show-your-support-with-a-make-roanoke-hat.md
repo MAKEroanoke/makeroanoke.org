@@ -16,7 +16,7 @@ published: "true"
 
 MAKE Roanoke is holding a limited time hat fundraiser featuring locally embroidered hats! There are 4 styles of hats to choose from: A knit beanie, a dad hat, a 5-panel flat billed "Jockey" hat, and a Trucker hat! Each style has 2 different colors to choose from as well, so there's something for everyone's style! 
 
-Fill out the form at [mkroa.org/hats](mkroa.org/hats) to order your hat and support MAKE Roanoke! Your card will not be charged until we place the order for the hats in case of any order issues. We're placing our first batch of orders on February 5 and our final orders on March 10. 
+Fill out the form at [https://mkroa.org/hats](mkroa.org/hats) to order your hat and support MAKE Roanoke! Your card will not be charged until we place the order for the hats in case of any order issues. We're placing our first batch of orders on February 5 and our final orders on March 10. 
 
 Don't miss out on your chance to rep your favorite local non-profit makerspace! 
 

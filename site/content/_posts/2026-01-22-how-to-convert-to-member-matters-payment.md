@@ -22,10 +22,10 @@ MAKE Roanoke is now accepting payment through Member Matters, via Stripe. By sig
 3. With your PayPal subscription canceled, go to https://members.makeroanoke.org and select Membership > Membership Plan on the left-hand side: 
 
    ![](/assets/images/mm1.png)
-4. Then, select “Full Access” to sign up for your primary membership. If you have a youth access add-on, you’ll click “Youth Add-On” from the youth member’s account. 
+4. Then, select “Full Access” to sign up for your primary membership. If you have a youth access add-on, you’ll click “Youth Add-On” *from the youth member’s account* (You can also keep Youth Access Add-Ons on PayPal until we add the ability to do multiple membership types on one account). 
 
    ![](/assets/images/mm2.png)
-5. Then select the type of membership you are signing up for. This will give you the opportunity to switch to an annual membership.
+5. Then select the type of membership you are signing up for. This will give you the opportunity to switch to an annual membership. **NOTE**: Only one member needs to pay for Couple's Memberships!
 
    ![](/assets/images/mm3.png)
 6. Then type in your payment card information, click “SAVE CARD”, then click “CONTINUE”: 
@@ -40,3 +40,7 @@ MAKE Roanoke is now accepting payment through Member Matters, via Stripe. By sig
 
 8. You may be asked to confirm your access card number, in which case you should type in the number engraved on your RFID badge. If this screen appears, you will then be confirmed as a ‘member applicant’, you’re a full member, don’t worry about that. Most people will not receive this screen.
 9. You’re done! Thank you for transferring your membership to Member Matters!
+
+**Please note:** Locker Rentals are still being done solely through PayPal at this time.
+
+We are working on modifying Member Matters to be able to have more than one subscription type at a time. Once we do that, you will be able to pay for Locker Rentals and Youth Access Add-Ons through one account on Member Matters.

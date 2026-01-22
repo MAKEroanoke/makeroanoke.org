@@ -9,11 +9,11 @@ excerpt: "MAKE Roanoke is now accepting payment through Member Matters, via
   Stripe. By signing up on Member Matters, your payments will be collected just
   as before, but it will be less administrative work for the board, and you’ll
   have the option to pay annually! "
+thumbnail: /assets/images/member-matters.png
 location: 128 Albemarle Ave SE Unit B, Roanoke, VA 24013
 published: "true"
 ---
 MAKE Roanoke is now accepting payment through Member Matters, via Stripe. By signing up on Member Matters, your payments will be collected just as before, but it will be less administrative work for the board, and you’ll have the option to pay annually! Here’s how to switch:
-
 
 ## How-to Guide
 
@@ -36,5 +36,7 @@ MAKE Roanoke is now accepting payment through Member Matters, via Stripe. By sig
 7. Then you’ll click “PAY & CONTINUE”:
 
    ![](/assets/images/mm6.png)
+
+
 8. You may be asked to confirm your access card number, in which case you should type in the number engraved on your RFID badge. If this screen appears, you will then be confirmed as a ‘member applicant’, you’re a full member, don’t worry about that. Most people will not receive this screen.
 9. You’re done! Thank you for transferring your membership to Member Matters!

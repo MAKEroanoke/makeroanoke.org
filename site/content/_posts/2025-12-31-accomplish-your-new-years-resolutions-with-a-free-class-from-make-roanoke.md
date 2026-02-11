@@ -5,7 +5,6 @@ date: 2026-01-01T12:15:00.000-05:00
 categories: Post
 tags:
   - promotion
-  - pinned
 excerpt: "Sign up for a membership at MAKE Roanoke in January and get a free
   class* in our New Year's Resolutions promotion! "
 thumbnail: /assets/images/january-promo-website-1200-x-300-px-.png

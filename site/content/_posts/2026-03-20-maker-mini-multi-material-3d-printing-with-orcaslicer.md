@@ -23,14 +23,4 @@ This Maker Mini introduces the fundamentals of using OrcaSlicer for multi-materi
 
 This Maker Mini is FREE and open to the public, you do NOT need to be a MAKE Roanoke member to attend. It is recommended for ages 14 and up.
 
-**Please note that MAKE Roanoke is an active workshop:**
-
-* All participants must have a signed waiver on file. If the participant is a minor, the waiver must be signed by a parent or court-appointed legal guardian. Waivers can be filled out ahead of time at 
-
-  <https://mkroa.org/waiver>
-
-
-* Children who are not participating in the event are not permitted in the space.
-* Closed toed shoes are required in the space at all times by everyone, regardless of age or participation in an event. No sandals, crocs, or bare feet.
-* You may be asked to remove or tuck in dangling jewelry, lanyards, etc for safety.
-* Depending on the activity, other dress code rules may apply.
+[Seats are limited: RSVP on the Meetup now!](https://www.meetup.com/make-roanoke/events/313432308/?eventOrigin=group_calendar)
